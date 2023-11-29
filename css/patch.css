@@ -1,0 +1,11 @@
+.a42-edito ul li ol li{margin-left: 0;}
+.a42-edito ul li ol li::before {display: none;}
+.a42-text-highlight ul,.a42-text-highlight li{margin-bottom: 0 !important;padding-bottom: 0 !important;}
+.a42-list-reset li::before,
+.a42-text-highlight li::before{display: none !important;}
+.a42-text-highlight li{margin-left:0 !important;}
+.a42-edito ul ul, .a42-edito ul ol, .a42-edito ol ol, .a42-edito ol ul {margin-left: 0;padding-left: 1em;}
+.a42-picto-xl,
+.slide .a42-picto-xl {
+	max-width: 15.625rem; /* 250px */
+}

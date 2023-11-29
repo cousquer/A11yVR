@@ -1,0 +1,2474 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Sensibilisation accessibilité numérique&nbsp;: rendre vos documents numériques de cours accessibles - Le Cnam</title>
+		<meta charset="utf-8">
+		<meta name="robots" content="noindex, nofollow" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!--[if (IEMobile)]><meta http-equiv="cleartype" content="on" /><![endif]-->
+		<meta name="pinterest" content="nopin" />
+		<meta name="description" content="Support de cours de la formation Accessibilité : Rendre vos documents de cours accessibles et votre cours Moodle." />
+
+		<!-- JavaScript -->
+		<script src="js/Hammer.js"></script>
+		<script src="js/AccessReader-max.js"></script>
+		<script src="lang/lang_en.js"></script>
+		<script src="js/screenfull.js"></script>
+		<script src="highlight/highlight.pack.js"></script>
+		<script>hljs.initHighlightingOnLoad();</script>
+
+		<!-- CSS AccessSlide par défaut -->
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+
+		<!-- CSS du thème Le Cnam -->
+		<link rel="stylesheet" id="currentCSS" href="css/theme-a42.css" type="text/css" media="all" />
+		<!-- <link rel="stylesheet" href="css/cookies.min.css" type="text/css" media="screen" /> -->
+		
+		<!-- CSS du script Highlight -->
+		<link rel="stylesheet" href="highlight/styles/tomorrow-night-eighties.css" type="text/css" media="all" />
+
+		<!-- CSS print -->
+		<link rel="stylesheet" href="css/print.min.css" type="text/css" media="print" />
+		
+		<!-- Patch -->
+		<link rel="stylesheet" href="css/patch.css" type="text/css" media="all" />
+        <link type="text/css" rel="Stylesheet" href="css/ubicast-patch.css" />
+		
+
+		<!-- Favicons -->
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
+		
+
+		<!-- Opengraph & Twitter cards -->
+		<meta property="og:title" content="Sensibilisation accessibilité numérique : rendre vos documents numériques de cours accessibles - Le Cnam - Direction nationale des usages du numérique." />
+		<meta property="og:locale" content="en-US" />
+		<meta property="og:type" content="website" />
+		<meta property="og:description" content="Support de présentation de la sensibilisation accessibilité : Rendre vos documents numériques de cours accessibles lors de la réunion annuelle des référents LivingLab à Saint Brieuc en Novembre 2023." />
+		<meta property="og:url" content="" />
+		<meta property="og:site_name" content="Le Cnam - DN1" />
+		<meta property="article:tag" content="accessibilité" />
+		<meta property="article:tag" content="a11y" />
+		<meta property="og:image" content="https://cousquer.github.io/formation_accessibilite/twitter.jpg" />
+		<meta property="og:image:secure_url" content="" />
+		<meta property="og:image:width" content="1350" />
+		<meta property="og:image:height" content="675" />
+		<meta name="twitter:title" content="Sensibilisation accessibilité numérique : rendre vos documents numériques de cours accessibles - Le Cnam - Direction nationale des usages du numérique." />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:description" content="Sensibilisation accessibilité numérique : rendre vos documents numériques de cours accessibles - Le Cnam - Direction nationale des usages du numérique." />
+		<meta name="twitter:site" content="@prairycat" />
+		<meta name="twitter:image" content="https://cousquer.github.io/formation_accessibilite/twitter.jpg" />
+		<meta name="twitter:creator" content="@prairycat" />
+	</head>
+	<body>
+		<div id="load"><img src="img_slide/load.gif" alt="Loading" /></div>
+		
+
+		<div id="screen" class="modeplan" data-effect="Eno">
+		
+			<div id="wrapper">
+		
+				<a href="#main" id="skip-link">Content</a>
+				<div id="prev-next"></div>
+				<div id="volet"></div>
+			
+				<header id="banner" role="banner" class="main-header clearfix">
+					
+						<img src="img_slide/ilargia-inc_v2.png" class="a42-icon a42-icon-couv" alt="Ilargia Inc." style="background-color: #fff !important; float: right;background-color: #fff;padding: 2px;z-index: 0;" />
+					
+				</header>
+			
+				<nav role="navigation" aria-label="table of contents" id="sommaire" class="tool-block tool-block-summary" tabindex="-1"></nav>
+				<div id="breadcrumb" class="breadcrumb"></div>
+			
+				<main role="main" id="main" class="a42-main a42-edito">
+	
+					<!-- COUVERTURE	 -->
+					<section class="slide a42-page-full a42-border-c7 a42-bgcolor-c4 a42-couv a42-couv-start" tabindex="0" id="D1" data-breadcrumb="1">
+						<div class="a42-page-half-vertical">
+							<div class="inside a42-align-right " style="background-image: url(img_slide/Image1.png); background-size:contain;background-position: right;z-index: 1;">
+								<div class="a42-block">
+							<img src="img_slide/Image2.png" class="a42-icon a42-icon-couv1" alt="A women of the NASA is wearing a virtual reality headset in the early eighties." style="left: 0;z-index: 0;float: right; max-width: 25%;  position: absolute;margin-top: 0px;bottom: 0;" />
+							<img src="img_slide/vr_baner11.png" class="a42-icon a42-icon-couv1" alt="A11yVR Mascott" style="left: 30%;z-index: 0;float: right; max-width: 17%;  position: absolute;padding-top: -60px;bottom: 160px;" />
+							<img src="img_slide/Image4.jpg" class="a42-icon a42-icon-couv1" alt="CAP'VR" style="left: 30%;z-index: 0;float: right; max-width: 17%;  position: absolute;padding-top: -60px;bottom: 90px;" />
+							<img src="img_slide/Image3.jpg" class="a42-icon a42-icon-couv1" alt="Le Cnam" style="left: 30%;z-index: 0;float: right; max-width: 17%;  position: absolute;margin-top: 0px;bottom: 0;" />
+							<img src="img_slide/21_060_logo_jenii_bleufoncé_sans_acronyme_sans_filet_Plan de travail 1.png" class="a42-icon a42-icon-couv1" alt="JENII Logo" style="max-width: 200px; max-height:200px; left: 65%;z-index: 0;float: right;  position: absolute;margin-top: 0px;bottom: 0;" />
+									</div>
+								</div>
+						</div>
+						<div class="">
+							<div class="inside a42-align-left ">
+								<div class="a42-block a42-bgcolor-c7" style="z-index: 9;
+								position: relative; max-width: 55vw;min-width: 27rem;border: thin solid #e90000;">
+									<h1 class="a42-couv" style="z-index: 1000;text-transform:initial">
+										<span class="a42-item-block a42-bgcolor-c7">Challenges in implementing Accessibility in a Digital Twin in <abbr title=""Virtual Reality>VR</abbr> of&nbsp;a&nbsp;Chemistry&nbsp;Lab</span>
+									</h1>
+									
+									<p class="logo a42-sep">
+										<p class="a42-text-great a42-bgcolor-c7" style="z-index: 1000;">Christian Cousquer<br><img src="img_slide/ilargia-inc_v2.png" class="a42-icon a42-icon-couv1" alt="ilargia inc." style="vertical-align: top;width:100px; height:100px; display: inline-block; background-color: #fff !important; margin: 0rem; padding: .5rem;z-index: 1000;" /> Ilargia Inc.</p>
+										
+										<cite>“An accessible Digitial Twin in VR: it's like sending astronauts to the Moon and creating a lunar base...”</cite>
+									</p>
+									<p class="a42-bgcolor-c7" style="z-index: 1000;">A11yVR - December&nbsp;2023</p>
+									
+								</div>
+							</div>
+						</div>
+						
+					</section>
+					
+					<section class="slide a42-page-full a42-bgcolor-c6 a42-page-border a42-border-c2" tabindex="0" id="D2" data-breadcrumb="2">
+						<div class="inside a42-align-center center">
+							<div class="a42-block">
+								<h2 class="a42-title-statement">
+									<b class="a42-fancy-under"><span lang="en">Slides</span></strong>
+								</h2>
+								<p class="a42-text-ultra a42-font-geomed a42-text-micro"><a href="https://cousquer.github.io/A11yVR/">cousquer.github.io/A11yVR</a></p>
+							</div>
+						</div>
+					</section> 
+
+					<!--
+					<section class="slide a42-page-full a42-bgcolor-c6 a42-page-border a42-border-c2">
+						<div class="inside a42-align-center center">
+							<div class="a42-block">
+								<h2 class="a42-title-statement">
+									<b class="a42-fancy-under">Transcription</strong>
+								</h2>
+								<p class="a42-text-mega a42-font-geomed"><a href="#">url (docx,  ko)</a></p>
+							</div>
+						</div>
+					</section>-->
+
+					<section class="slide a42-page-full" tabindex="0" id="D4" data-breadcrumb="4">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-align-center center a42-bgcolor-c2" style="background: url(img_slide/Média1.gif); background-size:cover;">
+								<div class="a42-block" >
+									<h2 class=" a42-bgcolor-c2" style="padding: 2rem;">Agenda</h2>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center">
+								<div class="a42-block">
+									<p>In this Presentation, I do hope you will learn:</p>
+									<ol>
+										<li><strong>Strategies for designing and managing digital twins fo teaching in Virtual Reality (VR),</strong></li>
+										<li><strong>Strategies for pedagogically scripting VR Content, and adressing XR Accessibility Challenges,</strong></li>
+										<li><strong>Discover a VR digital twin of a Chemistry Lab: from CAP'VR and JENII Projects to Mimbus Chemistry,</strong></li>
+										<li><strong>Learn when to use VR content in your teaching.</strong></li>
+										<li><strong>Improve your skills in Frenglish.</strong></li>
+									</ol>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!-- Présentation -->
+					<section class="slide a42-page-full a42-page-border a42-border-c9 " tabindex="0" id="D5" data-breadcrumb="15" style="opacity: 1;">
+						<div class="inside" style="background-image: url(img_slide/jfk.webp); background-size: contain;">
+							<div class="a42-block a42-bgcolor-c5" style="display: inline-block">
+								<h2 class="a42-title-chapter">Introduction</h2>
+							</div>
+						</div>
+					</section>
+
+
+					<section class="slide a42-page-full a42-bgcolor-c7" tabindex="0" id="D6" data-breadcrumb="3">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-align-center-y">
+								<div class="a42-block">
+									<h3 class="a42-font-geomed">Christian Cousquer</h3>
+									<ul>
+										<li class="a42-text-great"><strong>More than 17 years in the field of Digital Accessibility</strong></li>
+										<li><ul>
+											<li><img src="img_slide/ilargia-inc_v2.png" alt="Ilargia Inc." style="display:inline-block; width: 10em; height: 10em;"></li>
+											<li><strong>A11y &amp; XR Consultant - <a href="https://ilargia.eu/index-en.html">Ilargia Inc.</a></strong></li>
+										
+										</ul></li>
+										<li><ul>
+											<li><img src="img_slide/Image4.jpg" alt="Le Cnam"></li>
+											<li><strong>National Direction of digital uses (<a href="https://direction-numerique.cnam.fr/direction-nationale-des-usages-du-numerique/la-direction-nationale-des-usages-du-numerique-856291.kjsp" aria-label="Le knam - DN1" >Le Cnam - DN1</a>)</strong>.</li>
+										<li>ICT Expert, <abbr lang="en-US" title="extended reality">XR</abbr> Projects&nbsp;Manager</li>
+										<li>XR Specialist, A11y Specialist.</li>
+										</ul></li>
+										<li>formerly Comedian.</li>
+										<li>Email&nbsp;: <a href="mailto:christian.cousquer@ilargia.eu" class="a42-font-geomed">christian.cousquer@ilargia.eu</a></li>
+										<li>Twitter&nbsp;: <a href="https://twitter.com/prairycat" title="@prairycat : Christian Cousquer on Twitter" class="a42-font-geomed">@prairycat</a></li>
+									
+									</ul>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-bgcolor-c2 a42-bgimg-center" style="background-image:url(img_slide/christian.jpg);  background-size: 65%; background-position-y: 50%; background-repeat: no-repeat;">
+								<div class="a42-block">
+								<img src="img_slide/Image6.png" style="max-width: 50%; max-height: 50%; aspect-ratio:16/9 ; border: #fff 4px solid;" alt="a photo of Christian Cousquer smilling">
+							</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full"  tabindex="0" id="D7" data-breadcrumb="11">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-bgcolor-c5 a42-align-center">
+								<div class="a42-block center">
+									<h3>The National Conservatory of Arts and Crafts <span lang="fr">(Le Cnam)</span></h3>
+									<ul style="display: flex; align-items: center; -webkit-justify-content: center; /* Safari */ justify-content: center;"><li style="padding: 10px "><img src="img_slide/Lecnam.png" alt="The library of Le Cnam in Paris" height="200px" style="width: 100%; height: auto; display: block;;"></li>
+									<li style="padding: 10px "><img src="img_slide/vulcan-rocket.png" alt="The library of Le Cnam in Paris" style="width: 100%; height: auto; display: block;"></li>
+									</ul>
+									<p>Major public higher education institution specializing in lifelong higher vocational training. <br>Founded by Grégoire Abbot in 1794</p>
+									<cite>“We must enlighten the ignorance that doesn't know and the poverty that doesn't have the means to know.”</cite>
+									
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center">
+								<div class="a42-block">
+									<div class="a42-gallery">
+										<img src="./img_slide/omnesdocetubique.png" alt="Omnes docet ubique" dir="ltr" lang="la" style="position: relative; top: -20px;">
+									</div>
+									<cite class="a42-color-c2 a42-font-geomed" style="z-index: 10000;position: relative;">The Cnam motto is in Latin: “Teaching everyone everywhere”</p>
+									<p class="a42-color-c5 a42-font-geomed">This is the very heart of our institution. We're going to insist on these two terms “everyone” and “everywhere”...</p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c5" tabindex="0" id="D8" data-breadcrumb="28" style="opacity: 1;">
+						<div class="a42-page-half-horizontal">
+							<div class="a42-page-half-horizontal_col a42-bgcolor-c5 a42-align-center">
+								<div class="a42-block center">
+									<h4 class="a42-font-geomed a42-text-h3">What is a Virtual Reality Digital Twin for teaching?</h4>
+								</div>
+							</div>
+							<div class="a42-page-half-horizontal_col a42-align-center a42-bgcolor-c0">
+								<div class="a42-block center">
+									<img src="img_slide/lego.jpg" alt="A Saturn 5 Rocket in Lego" >
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-page-border a42-border-c9" tabindex="0" id="D9" data-breadcrumb="5">
+						<div class="inside center">
+							<div class="a42-block">
+								<iframe id="iframe1" title="Mimbus Chemistry" aria-describedby="alt-vid-change" style="width: 85%; aspect-ratio: 16/9;"  src="https://mediaserver.lecnam.net/permalink/v1264123de02bhsrs4wq/iframe/?notabs#autopilot=no&autoplay" allowfullscreen="allowfullscreen" allow="autoplay"></iframe></iframe>
+							</div>
+								
+							<div class="toggle-gp-article toggle-gp a42-toggle-box a42-text-tiny">
+								<button class="a42-btn a42-btn-toggle" aria-expanded="false" aria-controls="alt-vid-change">View the video alternative text</button>
+								<div id="alt-vid-change" class="content-to-toggle is-hidden a42-text-small a42-text-reset">
+									<p lang="en">todo</p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c7" tabindex="0" id="D10" data-breadcrumb="32" style="opacity: 1;">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c9">
+								<div class="a42-block center">
+									<h3 class="a42-font-geomed a42-text-h3">Virtual Reality: a powerful teaching medium</h3>
+									<p style="text-align: left;">VR can offer a far more visceral experience than traditional screen-based media. It can appeal to the user's spatial memory, give them a sense of scale and, in many cases, serve as an emotional amplifier and memory of the experience.
+									</p>
+									<p style="text-align: left;">interactive component has its advantages and disadvantages. Striking a balance between immersion, ease of use, accessibility and experience is the main challenge of VR design.</p>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c7">
+								<div class="a42-block center">
+									<img src="img_slide/studentVR.jpg" alt="" class="a42-asset-free a42-asset-shrink-h" lang="en" />
+									<div class="toggle-gp-article toggle-gp a42-toggle-box a42-text-tiny">
+										<button class="a42-btn a42-btn-toggle" aria-expanded="false" aria-controls="alt-img-change">View the Image Alternantive</button>
+										<div id="alt-img-change" class="content-to-toggle is-hidden a42-text-small a42-text-reset">
+											<p lang="en">"todo"</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full " tabindex="0" id="D11" style="opacity: 1;"data-breadcrumb="6">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-align-center center">
+								<div class="a42-block">
+									<img src="img_slide/ecranvert.jpg" alt="">
+									
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-bgcolor-c3 a42-align-center-y">
+								<div class="a42-block">
+									<h3>Immersive practical courses</h3>
+									
+									<p>We need to differentiate between virtual and immersive practical sessions. A virtual practical session can be a 3D animation on a screen.</p>
+										<p>An immersive practical session uses a virtual reality headset.</p>
+										<p>Active teaching: Spect-actor </p>
+										<p>The virtual reality headset creates the sensation of being transported to another world.</p>
+								</div>
+							</div>
+							
+						</div>
+					</section>
+
+
+					<section class="slide a42-page-full a42-page-border a42-border-c9  a42-bgcolor-c5" tabindex="0" id="D12" data-breadcrumb="5">
+						<div class="inside center">
+							<div class="a42-block">
+								<h3>Did you say Immersive Learning?</h3>
+								<img src="img_slide/diagram.png" style="aspect-ratio: 1 / 1;" alt="">
+							</div>
+								
+							<div class="toggle-gp-article toggle-gp a42-toggle-box a42-text-tiny">
+								<button class="a42-btn a42-btn-toggle" aria-expanded="false" aria-controls="alt-1-change">View the Image alternative text</button>
+								<div id="alt-1-change" class="content-to-toggle is-hidden a42-text-small a42-text-reset">
+									<p lang="en">todo</p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-page-border a42-border-c7 " tabindex="0" id="D13" data-breadcrumb="15" style="opacity: 1;">
+						<div class="inside a42-align-center center" style="background-image: url(img_slide/plan.jpg); background-size: contain;">
+							<div class="a42-block a42-bgcolor-c9">
+								<h2 class="a42-title-chapter">How to design?</h2>
+								<p>Focus on your plan.</p>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-page-border a42-border-c9 " tabindex="0" id="D14" data-breadcrumb="15" style="opacity: 1;">
+						<div class="inside a42-align-center center" style="background-image: url(img_slide/strategie.jpg); background-size: cover;">
+							<div class="a42-block a42-bgcolor-c1">
+								<h3 class="a42-title-chapter">Defining a strategy</h3>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full"  tabindex="0" id="D15" data-breadcrumb="12">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-bgcolor-c9 a42-align-center">
+								<div class="a42-block center">
+									<img src="img_slide/saturn5.png" alt="Plan of Saturn 5 Rocket" style="height: 100%; width: auto;max-height: 80vh;">
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center">
+								<div class="a42-block">
+									<h3>VR module Design Strategy</h3>
+									
+									<p class="a42-color-c5 a42-font-geomed"><strong>A baby step-by-step strategy.</strong></p>
+									<p>Each stage of the <s>rocket</s> project must benefit from the previous stages of the <s>rocket</s> project, both from an educational and a project management point of view.</p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					
+
+					<section class="slide a42-page-full a42-bgcolor-c5 " tabindex="0" id="D16" data-breadcrumb="7" style="opacity: 1;">
+						<div class="inside a42-bgcolor-c7">
+						<div class="a42-block a42-bgcolor-c7" style="padding: 1rem;">
+							<h3>Overview by way of example: CAP'VR project phases for the Chemistry laboratory</h3>
+							<p class="a42-text-unlimit a42-align-center-y">Two Cnam partners on CAP'VR project:</p>	
+							<ul>
+								<li>Mimbus for the development,</li>
+								<li>i2L for teacher acculturation to VR.</li>
+							</ul>
+					   
+					   		<img src="img_slide/phases.png" alt="Mimbus Chemistry project Phases">
+					   		<div class="toggle-gp-article toggle-gp a42-toggle-box a42-text-tiny">
+							<button class="a42-btn a42-btn-toggle center" aria-expanded="false" aria-controls="alt-3-change" style="margin: 0 auto;">View the Image alternative text</button>
+							<div id="alt-3-change" class="content-to-toggle is-hidden a42-text-small a42-text-reset center">
+								<p lang="en">todo</p>
+							</div>
+						</div>
+					</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-page-border a42-border-c9 " tabindex="0" id="D17" data-breadcrumb="15" style="opacity: 1;">
+						<div class="inside a42-align-center center" style="background-image: url(img_slide/cadrage.jpg); background-size: cover;">
+							<div class="a42-block a42-bgcolor-c5">
+								<h3 class="a42-title-chapter">Request scoping phase</h3>
+							</div>
+						</div>
+					</section>
+
+
+					<section class="slide a42-page-full"  tabindex="0" id="D18" data-breadcrumb="11">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-bgcolor-c4 a42-align-center">
+								<div class="a42-block center">
+									<h3>Each Digital Twin has its own pedagogical objectives and specificities.</h3>
+									<p style="text-align: left;">And therefore their own techniques and management phases...</p>
+									<p style="text-align: left;">The CAP'VR Chemistry Laboratory focuses on the learning of professional skills.</p>
+									<div class="a42-gallery">
+										<img src="./img_slide/hand.png" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center">
+								<div class="a42-block">
+									<div class="a42-gallery">
+										<img src="./img_slide/hand2.png" alt="">
+									</div>
+									<h4>Specifications</h4>
+									<ul>
+										<li>Tutorial for learning how to use controllers</li>
+										<li><strong>Learn the skills gestures and processes involved in chemistry</strong>,</li>
+										<li><strong>Focus on the teaching scenario</strong>, the technique will follow. The interactivity component is fundamental.</li>
+										<li>Realistic environment,</li>
+										<li>Full internationalization (i18n) in French, English (and Spanish),</li>
+										<li>Focus on usability and accessibility (a11y) wherever possible.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-page-border a42-border-c9 " tabindex="0" id="D19" data-breadcrumb="15" style="opacity: 1;">
+						<div class="inside" style="background-image: url(img_slide/progression.png); background-size: contain;">
+							<div class="a42-block a42-bgcolor-c8" style="display: inline-block">
+								<h3 class="" style="">A multi-stage Rocket</h3>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full"  tabindex="0" id="D20" data-breadcrumb="14">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-bgcolor-c2 a42-align-center">
+								<div class="a42-block ">
+									<h3>Organizational aspects: Let's organize ourselves into "Teams of Teams"</h3>
+									<p><strong>Collective intelligence</strong></p>
+									<ul>
+										<li>Perception of the whole / Holoptism,</li>
+										<li>A shared identity (feeling of belonging to a group),</li>
+										<li>A social contract,</li>
+										<li>Rituals,</li>
+										<li>Common goals,</li>
+										<li>Gift economy ("I don't keep things for myself" - idea of sharing),</li>
+										<li>Circulating object-links (something in motion within and between members) </li>
+										<li>Learning organization</li>
+									</ul>
+									<p>ref.: jean Noubel</p>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center">
+								<div class="a42-block">
+									<img src="img_slide/teamsofteams.jpg" alt="" style="max-height: 90vh;"/>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-page-border a42-border-c9 " tabindex="0" id="D21" data-breadcrumb="15" style="opacity: 1;">
+						<div class="inside" style="background-image: url(img_slide/acculturation.jpg); background-size: cover;">
+							<div class="a42-block a42-bgcolor-c8" style="display: inline-block">
+								<h2 class="a42-title-chapter">VR Acculturation Phase</h2>
+							</div>
+						</div>
+					</section>
+
+					
+
+					<section class="slide a42-page-full"  tabindex="0" id="D22" data-breadcrumb="14">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-bgcolor-c5 a42-align-center">
+								<div class="a42-block ">
+									<h3>A VR project is first and foremost a writing process</h3>
+									<ul>
+										<li>A content expert, a teacher, no matter how talented, if he or she doesn't know virtual reality, if he or she isn't acculturated to it, won't be able to produce anything in VR.</li>
+										<li>On the other hand, VR content producers often have no expertise in educational scripting, or in the progression of knowledge/skills acquisition.</li>
+										<li>In VR, everything must be formalized in writing: example: Cap'VR specifications => 300 pages</li>
+										<li>Scenario, scenography, storyboard, design-thinking...</li>
+									</ul>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center">
+								<div class="a42-block">
+									<img src="img_slide/dthinhk.png" alt="" />
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full"  tabindex="0" id="D23r" data-breadcrumb="14">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-align-center">
+								<div class="a42-block">
+									<img src="img_slide/Image1a.png" alt="" />
+									<img src="img_slide/Image1b.png" alt="" />
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-bgcolor-c2 a42-align-center">
+								<div class="a42-block ">
+									<h3>A content expert needs to know :</h3>
+									<ul>
+										<li>Identify the impact of XR, VR and AR in career guidance and training.</li>
+										<li>Understand the specific terminology of immersive learning.</li>
+										<li>Identify the processes required to implement an action using virtual reality.</li>
+										<li>Understand the nature of immersive mediums, and the physiological, psychological and cognitive mechanisms on which they are based and which underpin their effectiveness.</li>
+									</ul>
+								</div>
+							</div>
+							
+						</div>
+					</section>
+
+
+					<section class="slide a42-page-full a42-page-border a42-border-c9 " tabindex="0" id="D24k" data-breadcrumb="15" style="opacity: 1;">
+						<div class="inside" style="background-image: url(img_slide/satVlaunch.jpg); background-size: cover;">
+							<div class="a42-block a42-bgcolor-c4" style="display: inline-block; margin-top:30%">
+								<h2 class="">Lift-off: <br>First stage of the rocket: <br>Defining the virtual environment</h2>
+							</div>
+						</div>
+					</section>
+
+					
+					
+
+					<section class="slide a42-page-full a42-bgcolor-c9" tabindex="0" id="D45j" data-breadcrumb="28" style="opacity: 1;">
+						<div class="a42-page-half-horizontal">
+							<div class="a42-page-half-horizontal_col a42-bgcolor-c5 a42-align-center">
+								<div class="a42-block center">
+									<h3 class="a42-font-geomed a42-text-h3">Create a first virtual tour module</h3>
+									<p>with tooltips and the dangers addressed by some equipments</p>
+								</div>
+							</div>
+							<div class="a42-page-half-horizontal_col a42-align-center a42-bgcolor-c0">
+								<div class="a42-block">
+									<div class="a42-margin-b15"  style="display: flex; flex-wrap: wrap;flex-direction: row;"><img src="img_slide/free1.png" alt="" style="" /><img src="img_slide/free2.png" alt="" /></div>
+									
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c3" tabindex="0" id="D45b" data-breadcrumb="28" style="opacity: 1;">
+						<div class="a42-page-half-horizontal">
+							<div class="a42-page-half-horizontal_col a42-bgcolor-c5 a42-align-center">
+								<div class="a42-block center">
+									<h3 class="a42-font-geomed a42-text-h3">Then, a module for the identification and characterization of the environmental equipments</h3>
+									<p>A kind of treasure Hunt, more difficult, pedagogical progression, the learner must now identify and characterize what he has discovered in the first module.</p>
+								</div>
+							</div>
+							<div class="a42-page-half-horizontal_col a42-align-center a42-bgcolor-c0">
+								<div class="a42-block">
+									<div class="a42-margin-b15"  style="display: flex; flex-wrap: wrap;flex-direction: row;"><img src="img_slide/free3.png" alt="" /></div>
+									
+								</div>
+							</div>
+						</div>
+					</section>
+
+
+					<section class="slide a42-page-full a42-page-border a42-border-c5 " tabindex="0" id="D24e" data-breadcrumb="15" style="opacity: 1;">
+						<div class="inside" style="background-image: url(img_slide/phase2.png); background-size: cover;">
+							<div class="a42-block a42-bgcolor-c4" style="display: inline-block; margin-top:10%">
+								<h2 class="">Second Stage of the Rocket:<br>Make small reusable modules</h2>
+							</div>
+						</div>
+					</section>
+
+
+					<section class="slide a42-page-full a42-bgcolor-c2dark"  tabindex="0" id="D29h" data-breadcrumb="12">
+						<div class="inside a42-bgcolor-c5 center">
+						<h3>Make small safety procedures Learning Modules with virtual endangerments</h3>
+						<div>
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-bgcolor-c9 a42-align-center">
+								<div class="a42-block center">
+									<img src="img_slide/fire1.png" alt="">
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-bgcolor-c7">
+								<div class="a42-block">
+									<p>One of the strengths of Virtual Reality is its ability to reproduce dangerous situations in complete safety.</p>
+									<p>Break down procedures into step-by-step scenarios with branches (over-accidents)</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					</div>
+					</section>
+
+					<section class="slide a42-page-full a42-page-border a42-border-c2 a42-bgcolor-c9" tabindex="0" id="D12f" data-breadcrumb="5">
+						<div class="inside center a42-bgcolor-c9">
+							<div class="a42-block a42-bgcolor-c9">
+								<h3>Finding a common language between technique, content expertise and pedagogy</h3>
+								<img src="img_slide/collective.png" style="aspect-ratio: 1 / 1;" alt="">
+							</div>
+								
+							<div class="toggle-gp-article toggle-gp a42-toggle-box a42-text-tiny">
+								<button class="a42-btn a42-btn-toggle" aria-expanded="false" aria-controls="alt-5-change">View the Image alternative text</button>
+								<div id="alt-5-change" class="content-to-toggle is-hidden a42-text-small a42-text-reset">
+									<p lang="en">todo</p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-page-border a42-border-c5 a42-bgcolor-c2dark " tabindex="0" id="D24b" data-breadcrumb="15" style="opacity: 1;">
+						<div class="inside" style="background-image: url(img_slide/phase3.png); background-size: contain;">
+							<div class="a42-block a42-bgcolor-c5" style="display: inline-block; margin-top:33%">
+								<h2 class="">Third stage of the rocket: </h2>
+								<p>make modules that can reuse previous modules</p>
+							</div>
+						</div>
+					</section>
+
+
+					<section class="slide a42-page-full a42-bgcolor-c5" tabindex="0" id="D45" data-breadcrumb="28a" style="opacity: 1;">
+						<div class="a42-page-half-horizontal">
+							<div class="a42-page-half-horizontal_col a42-bgcolor-c9 a42-align-center">
+								<div class="a42-block center">
+									<h3 class="a42-font-geomed a42-text-h3">Make more complex modules (Chemical&nbsp;Experiments) </h3>
+									<p>in which you can replay the small safety procedure modules at any time</p>
+								</div>
+							</div>
+							<div class="a42-page-half-horizontal_col a42-align-center a42-bgcolor-c0">
+								<div class="a42-block">
+									<div class="a42-margin-b15"  style="display: flex; flex-wrap: wrap;flex-direction: row;"><img src="img_slide/modules.png" alt="" style="" /></div>
+									
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-page-border a42-border-c5 a42-bgcolor-c2dark " tabindex="0" id="D24d" data-breadcrumb="15" style="opacity: 1;">
+						<div class="inside" style="background-image: url(img_slide/challenges.jpg); background-size: contain;">
+							<div class="a42-block a42-bgcolor-c5" style="display: inline-block; margin-top:33%">
+								<h2 class="">interactivity Challenges: </h2>
+								<p>Solving unexpected problems and addressing accessibility</p>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c7 a42-page-border a42-border-c1 " tabindex="0" id="D25g" data-breadcrumb="8">
+						<div class="inside a42-align-center center">
+							<div class="a42-block">
+								<h3>TODO</h3>
+								<p>todo</p>
+							</div>
+						</div>
+					</section>
+
+					
+<!--
+					<section class="slide a42-page-full a42-bgcolor-c7 a42-page-border a42-border-c1 " tabindex="0" id="D25" data-breadcrumb="8">
+						<div class="inside a42-align-center center">
+							<div class="a42-block">
+								<h3>Handicap&nbsp;: la définition légale française</h3>
+								<blockquote>
+									<p>«&nbsp;Constitue un handicap, au sens de la présente loi, toute limitation d’activité ou restriction de participation à la vie en société <strong>subie dans son environnement</strong> par une personne en raison d’une altération <strong>substantielle, durable ou définitive</strong> d’une ou plusieurs fonctions physiques, sensorielles, mentales, cognitives ou psychiques, d’un polyhandicap ou d’un trouble de santé invalidant.&nbsp;»</p>
+									<cite><a href="https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000006796446&amp;cidTexte=LEGITEXT000006074069&amp;dateTexte=20171025">Article L114 – loi n°2005-102</a></cite>
+								</blockquote>
+								<p class="a42-margin-t2 a42-text-small"><strong>Lire aussi&nbsp;:</strong><br> «&nbsp;L’accessibilité c’est avant tout pour les personnes handicapées&nbsp;»&nbsp;—&nbsp;<a href="https://access42.net/access-personnes-handicapees/">access42.net/access-personnes-handicapees/</a></p>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-page-border " tabindex="0" id="D26" data-breadcrumb="9" style="opacity: 1;">
+						<div class="inside a42-align-center">
+							<div class="a42-block">
+								<svg aria-hidden="true" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px" width="80" height="80" viewBox="0 0 463 463" style="enable-background:new 0 0 463 463;" xml:space="preserve">
+											<g>
+												<path d="M383.5,16H183v-0.5C183,6.953,176.047,0,167.5,0h-48C110.953,0,104,6.953,104,15.5V16H79.5C66.542,16,56,26.542,56,39.5
+												v400c0,12.958,10.542,23.5,23.5,23.5h304c12.958,0,23.5-10.542,23.5-23.5v-400C407,26.542,396.458,16,383.5,16z M119,15.5
+												c0-0.276,0.225-0.5,0.5-0.5h48c0.275,0,0.5,0.224,0.5,0.5v91.865l-21.146-10.573C145.799,96.264,144.649,96,143.5,96
+												s-2.299,0.264-3.354,0.792L119,107.365V15.5z M392,439.5c0,4.687-3.813,8.5-8.5,8.5h-304c-4.687,0-8.5-3.813-8.5-8.5v-400
+												c0-4.687,3.813-8.5,8.5-8.5H104v88.5c0,2.599,1.346,5.013,3.557,6.38c2.213,1.368,4.974,1.491,7.298,0.328l28.646-14.323
+												l28.646,14.323c1.059,0.529,2.208,0.792,3.354,0.792c1.371,0,2.738-0.376,3.943-1.12c2.211-1.367,3.557-3.781,3.557-6.38V31h200.5
+												c4.687,0,8.5,3.813,8.5,8.5V439.5z"></path>
+												<path d="M342.97,286.908c-0.005-0.07-0.007-0.141-0.014-0.21c-0.016-0.15-0.043-0.299-0.068-0.448
+												c-0.017-0.103-0.031-0.206-0.052-0.307c-0.021-0.099-0.051-0.198-0.076-0.297c-0.038-0.148-0.074-0.297-0.121-0.442
+												c-0.021-0.064-0.047-0.128-0.07-0.192c-0.062-0.176-0.126-0.35-0.2-0.519c-0.006-0.013-0.009-0.026-0.015-0.039L311,213.909V207
+												h8.5c4.143,0,7.5-3.358,7.5-7.5s-3.357-7.5-7.5-7.5H239v-10.234c9.29-3.138,16-11.93,16-22.266c0-12.958-10.542-23.5-23.5-23.5
+												S208,146.542,208,159.5c0,10.336,6.71,19.128,16,22.266V192h-80.5c-4.143,0-7.5,3.358-7.5,7.5s3.357,7.5,7.5,7.5h8.5v6.909
+												l-31.354,70.545c-0.006,0.013-0.01,0.027-0.015,0.04c-0.074,0.169-0.138,0.342-0.199,0.517c-0.023,0.064-0.05,0.128-0.071,0.193
+												c-0.047,0.145-0.083,0.293-0.121,0.442c-0.026,0.099-0.055,0.198-0.076,0.297c-0.021,0.101-0.034,0.205-0.052,0.307
+												c-0.025,0.149-0.052,0.298-0.068,0.448c-0.007,0.069-0.009,0.14-0.014,0.21c-0.015,0.183-0.027,0.366-0.028,0.549
+												c0,0.015-0.002,0.029-0.002,0.043c0,17.369,17.72,31.5,39.5,31.5s39.5-14.131,39.5-31.5c0-0.015-0.002-0.029-0.002-0.043
+												c-0.001-0.183-0.013-0.365-0.028-0.549c-0.005-0.07-0.007-0.141-0.014-0.21c-0.016-0.15-0.043-0.299-0.068-0.448
+												c-0.017-0.103-0.031-0.206-0.052-0.307c-0.021-0.099-0.051-0.198-0.076-0.297c-0.038-0.148-0.074-0.297-0.121-0.442
+												c-0.021-0.064-0.047-0.128-0.07-0.192c-0.062-0.176-0.126-0.35-0.2-0.519c-0.006-0.013-0.009-0.026-0.015-0.039L167,213.909V207h57
+												v66.234c-9.29,3.138-16,11.93-16,22.266V352h-16.5c-4.143,0-7.5,3.358-7.5,7.5s3.357,7.5,7.5,7.5h80c4.143,0,7.5-3.358,7.5-7.5
+												s-3.357-7.5-7.5-7.5H255v-56.5c0-10.336-6.71-19.128-16-22.266V207h57v6.909l-31.354,70.545c-0.006,0.013-0.01,0.027-0.015,0.04
+												c-0.074,0.169-0.138,0.342-0.199,0.517c-0.023,0.064-0.05,0.128-0.071,0.193c-0.047,0.145-0.083,0.293-0.121,0.442
+												c-0.026,0.099-0.055,0.198-0.076,0.297c-0.021,0.101-0.034,0.205-0.052,0.307c-0.025,0.149-0.052,0.298-0.068,0.448
+												c-0.007,0.069-0.009,0.14-0.014,0.21c-0.015,0.183-0.027,0.366-0.028,0.549c0,0.015-0.002,0.029-0.002,0.043
+												c0,17.369,17.72,31.5,39.5,31.5s39.5-14.131,39.5-31.5c0-0.015-0.002-0.029-0.002-0.043
+												C342.997,287.274,342.985,287.091,342.97,286.908z M231.5,151c4.687,0,8.5,3.813,8.5,8.5s-3.813,8.5-8.5,8.5s-8.5-3.813-8.5-8.5
+												S226.813,151,231.5,151z M159.5,233.967L179.959,280h-40.919L159.5,233.967z M159.5,304c-9.302,0-17.592-3.706-21.725-9h43.449
+												C177.092,300.294,168.802,304,159.5,304z M240,352h-17v-56.5c0-4.687,3.813-8.5,8.5-8.5s8.5,3.813,8.5,8.5V352z M303.5,233.967
+												L323.959,280h-40.919L303.5,233.967z M303.5,304c-9.302,0-17.592-3.706-21.725-9h43.449C321.092,300.294,312.802,304,303.5,304z"></path>
+											</g>
+										</svg>
+								<h3>Législation en France</h3>
+								
+								<p><strong>Loi de 2005 «&nbsp;sur l’égalité des chances, la participation et la&nbsp;citoyenneté des personnes handicapées&nbsp;»</strong><br>(mise à jour en 2016, en 2018 et 2023).</p><p>Sur le volet numérique&nbsp;:</p>
+								<ul>
+									<li><strong>obligation d’accessibilité pour les sites et applications</strong>, uniquement pour le secteur public initialement et désormais étendue aux délégataires de service public et à partie des sociétés privées ;</li>
+									<li>depuis fin 2023&nbsp;:
+									<ul>
+										<li><strong>sanctions financières de 20.000€</strong> en cas de défaut d’affichage de la déclaration d’accessibilité et de la <strong>publication de plans de mise en accessibilité</strong> (Schéma pluriannuel d’accessibilité numérique) sur 3 ans maximum&nbsp;;</li>
+										<li>mise en place d’un <strong>moyen de signalement</strong> à destination des utilisateurs.</li>
+										<li>Nouveauté 2023&nbsp;: <strong>sanctions financières des administrations </strong>qui ne respectent pas les obligations relatives à l’accessibilité de leurs sites et applications mobiles en introduisant une obligation de résultat, sous peine de <strong>sanction pouvant s’élever jusqu’à 50.000€,</strong> et en confiant le rôle de sanction à une autorité indépendante&nbsp;: l’Arcom. (loi DDADUE du 9 mars 2023)</li>
+									</ul>
+									</li>
+								</ul>
+								<p style="font-size: 1.2rem;">En savoir plus sur <a href="https://access42.net/transposition-directive-europeenne-ue-2019-882-accessibilite-produits-services/">access42.net/transposition-directive-europeenne-ue-2019-882-accessibilite-produits-services/</a>.</p>
+							</div>
+						</div>
+					</section>
+
+
+				-->					
+
+					
+
+					<!--
+					<section class="slide a42-page-full a42-bgcolor-c6"  tabindex="0" id="D27" data-breadcrumb="10">
+						<div class="inside a42-align-center center">
+							<div class="a42-block a42-block-super">
+								<h3 class="a42-title-shock">
+									<span class="a42-item-block">Handicap en France</span>
+									<strong class="a42-item-block">12 millions</strong> de personnes concernées
+								</h3>
+								<p class="a42-text-mega a42-text-important"><strong>= 1 personne sur 5</strong>.</p>
+								<p class="a42-gallery a42-gallery-pictos">
+									<svg role="img" aria-label="Handicaps visuels" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 150 150"><title>Handicaps visuels</title><path d="M150,74.38s-23.72-42.2-75.46-42.2c-1,0-1.92,0-2.86,0L67.16,11l-6.93,1.47,4.31,20.26C19.85,37.61,0,74.07,0,74.07A82.41,82.41,0,0,0,12.9,91.44l-3.62-17-.12-.2a50.54,50.54,0,0,1,4.42-6l6.34,29.79a86.42,86.42,0,0,0,8.62,6.46L19.5,62a79.57,79.57,0,0,1,6.12-5.23L36.8,109.3a79.65,79.65,0,0,0,8,3.46L31.93,52.4c2.1-1.31,4.34-2.57,6.74-3.76l14.18,66.64q3.65.93,7.57,1.53L55,91.44a26,26,0,0,0,9,7l4.08,19.18c1.69.1,3.41.16,5.17.16.7,0,1.4,0,2.1,0l-3.64-17.08a26.26,26.26,0,0,0,3.23.21,26,26,0,0,0,4-.3L87.16,139l6.93-1.47-4.52-21.25C129.85,108.59,150,74.38,150,74.38ZM50.06,68.12,45.3,45.74c2.24-.85,4.59-1.63,7-2.31l3.11,14.62A25.82,25.82,0,0,0,50.06,68.12ZM61.6,52.86l-2.34-11c2.26-.41,4.6-.74,7-1L68.22,50A25.68,25.68,0,0,0,61.6,52.86Zm13.68-3.73-1.84-8.62h1.16c1.69,0,3.34.05,5,.14a34.78,34.78,0,0,1,8,66.4l-1.81-8.53A25.87,25.87,0,0,0,75.27,49.13Zm30.46,53.75a42.16,42.16,0,0,0-.94-56.79c24.53,9.65,36,28.41,36,28.41A84.71,84.71,0,0,1,105.73,102.88Z"/></svg>
+									<svg role="img" aria-label="Handicaps auditifs" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 150 150"><title>Handicaps auditifs</title><path d="M105,16.18,121.18,0h26.45V26.45L127.89,45.79a46.05,46.05,0,0,0-13-21.32A50,50,0,0,0,105,16.18Zm-31.58-2a53.31,53.31,0,0,1,36.71,15,53.31,53.31,0,0,1,15,36.71,50,50,0,0,1-7.89,27.24c-13,20.92-5.13,56.84-43,56.84a34.87,34.87,0,0,1-24.87-10.26,35.59,35.59,0,0,1-3.55-3.95l8.68-8.29a27.66,27.66,0,0,0,3.16,3.95,25.06,25.06,0,0,0,16.58,6.71c26.05,0,19.74-30.39,32.76-51.32a38.38,38.38,0,0,0,6.32-20.92A41,41,0,0,0,101.84,37.5,41,41,0,0,0,73.42,26.05a40,40,0,0,0-28,11.45A43.12,43.12,0,0,0,33.95,61.18L23.29,54.47A50.07,50.07,0,0,1,37.11,29.21,52.35,52.35,0,0,1,73.42,14.21Zm-28,36.32A33.42,33.42,0,0,1,50.92,43a31.92,31.92,0,0,1,45.39,0,33.58,33.58,0,0,1,9.47,22.89c0,8.68-3.95,16.58-9.47,22.5l-5.13-5.13a24.79,24.79,0,0,0,7.11-17.37,25.75,25.75,0,0,0-7.11-17.76,25.75,25.75,0,0,0-17.76-7.11,24.79,24.79,0,0,0-17.37,7.11,32.67,32.67,0,0,0-4.34,5.92ZM75,98.68h0L28.82,144.87H2.37V118.82L42.24,78.95Z"/></svg>
+									<svg role="img" aria-label="Handicaps moteurs" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 150 150"><title>Handicaps moteurs</title><path d="M114.54,29.58a13.76,13.76,0,0,1-10.34-4.34,14.16,14.16,0,0,1-4.42-10.5,14.08,14.08,0,0,1,4.42-10.42A13.76,13.76,0,0,1,114.54,0,14.2,14.2,0,0,1,125,4.33a14.21,14.21,0,0,1,4.33,10.42A14.3,14.3,0,0,1,125,25.25,14.21,14.21,0,0,1,114.54,29.58Zm-29.92,52-.08-.08A29.49,29.49,0,0,0,63,72.58a29.55,29.55,0,0,0-17.92,5.67,42.44,42.44,0,0,0-3.92,3.33,28.69,28.69,0,0,0-3.33,4A30.6,30.6,0,0,0,41.21,125,29.77,29.77,0,0,0,63,134.08a29.16,29.16,0,0,0,17.67-5.67A38.14,38.14,0,0,0,84.62,125,44,44,0,0,0,88,121.16a29.3,29.3,0,0,0,5.67-17.75A29.77,29.77,0,0,0,84.62,81.58Zm39.09-16.34a8.93,8.93,0,0,1,6.58,2.67A9.16,9.16,0,0,1,133,74.5v47.25a9.31,9.31,0,0,1-15.83,6.67,9.41,9.41,0,0,1-2.67-6.67V83.83H104.21a45.65,45.65,0,0,1,4.5,20.25,43.84,43.84,0,0,1-13.5,32.41A44.2,44.2,0,0,1,62.79,150a44,44,0,0,1-32.41-13.5A44,44,0,0,1,17,104.08,44.34,44.34,0,0,1,30.38,71.67,43.9,43.9,0,0,1,51,59.75l25.5-25.5-11.33-6.5L51.79,41.08l-.25.09a8.71,8.71,0,0,1-6.42,2.59,8.84,8.84,0,0,1-6.5-2.67A9.41,9.41,0,0,1,36,34.42a9.13,9.13,0,0,1,2.5-6.33L57.38,9.17a8.88,8.88,0,0,1,6.17-2.33,9.14,9.14,0,0,1,3.83.83V7.58L109,31.5a8.91,8.91,0,0,1,4.34,8,9.16,9.16,0,0,1-1.75,5.5v.08L91.38,65.25h32.33Z"/></svg>
+									<svg role="img" aria-label="Handicaps mentaux, cognitifs et psychiques" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150"><title>Handicaps mentaux, cognitifs et psychiques</title><path d="M62.12,116.42l-5.49-2.36a75,75,0,0,1-9.38-4.53,19.82,19.82,0,0,1-5.74-4.81A8.76,8.76,0,0,1,40,96.24a4.2,4.2,0,0,1,4-3,15.39,15.39,0,0,1,6.23,1.13c3,1.13,6,2.37,9,3.56a41.53,41.53,0,0,0,6.89,2.3c.82.17,1.65.25,2.49.37-.07-.89-.15-1.67-.18-2.45-.19-5.66,2.85-10.75,9.31-11.93,1.12-.2,2.27-.24,3.42-.35a.75.75,0,0,0-.06-.17,64.29,64.29,0,0,1-5.1-13.38c-1.58-5.66-2.75-11.42-3.9-17.18-1.46-7.3-2.82-14.62-4.72-21.82a56.84,56.84,0,0,0-2.65-8.52c-1.17-2.66-2.5-5.25-3.69-7.91-.95-2.1-1.82-4.23-2.69-6.35a5.08,5.08,0,0,1,2-5.73,6,6,0,0,1,4.44-1,4.77,4.77,0,0,1,2.72,1.7,22.13,22.13,0,0,1,3.56,5.6,95.26,95.26,0,0,1,5.54,15.56A149.63,149.63,0,0,1,80,41.87c1.19,7,2.53,13.89,4.3,20.73A99.27,99.27,0,0,0,88,73.27a43.76,43.76,0,0,1,2.74,9.56c.29,2.06.39,4.14.56,6.22a1,1,0,0,1-.19.57,14.24,14.24,0,0,1-9.64,6.62c-.67.14-1.36.24-2,.36,0,.35,0,.71,0,1.06a25.54,25.54,0,0,1-.58,6.74,8.14,8.14,0,0,1-1.2,2.8,2.91,2.91,0,0,1-2.69,1.33,58.68,58.68,0,0,1-16.51-3.2l-5.68-1.93-.46-.14-.1.13a19.45,19.45,0,0,0,1.5,1.38,16.93,16.93,0,0,0,5.06,2.4c2.91.94,5.86,1.78,8.76,2.74,1.43.48,2.81,1.13,4.2,1.73a1,1,0,0,1,.46.52,10.19,10.19,0,0,1,0,6.74,21.79,21.79,0,0,1-2.55,5.18.69.69,0,0,0-.07.69,32.21,32.21,0,0,1,1.87,7.53A15.85,15.85,0,0,1,70,141.57a13.08,13.08,0,0,1-5.83,5.63,23.94,23.94,0,0,1-7.73,2.33,49.32,49.32,0,0,1-13.08,0,45.44,45.44,0,0,1-8.47-2,73.7,73.7,0,0,1-15.14-6.68,70.7,70.7,0,0,1-11.73-8.39,19.68,19.68,0,0,1-4.31-5.25A6.58,6.58,0,0,1,3,122.18c.45-1.65.83-1.92,2.52-2.1a10.51,10.51,0,0,1,7,1.87A35.91,35.91,0,0,1,17.33,126c1.57,1.47,3.1,3,4.79,4.33a38.83,38.83,0,0,0,7.72,4.38A56,56,0,0,0,42.76,139a32.38,32.38,0,0,0,12.58.22,21,21,0,0,0,5.75-2,.49.49,0,0,0,.31-.61c-.46-2.75-1-5.49-1.34-8.25a20.21,20.21,0,0,1,.28-8.22A11.49,11.49,0,0,1,62.12,116.42Z"/><path d="M136.37,89.32q-.14,1.56-.28,3.13a101.63,101.63,0,0,1-1.45,10.11,93,93,0,0,1-3,11.72c-2.65,8-6.27,15.43-11.74,21.89A38.24,38.24,0,0,1,104,147.64a36.26,36.26,0,0,1-9.83,2.14,60.63,60.63,0,0,1-9.55.06,27.85,27.85,0,0,1-9.34-2,10.38,10.38,0,0,1-1.86-1.07,4.7,4.7,0,0,1-1.9-5.71c.57-1.74.26-1.36,1.86-1.85a16.69,16.69,0,0,1,6.36-.53c2.39.21,4.77.53,7.15.83a27.41,27.41,0,0,0,23.06-7.42,38.39,38.39,0,0,0,8.39-11.81,74.24,74.24,0,0,0,5.65-17.5,114.2,114.2,0,0,0,1.89-13c.23-2.68.36-5.37.53-8.05a.89.89,0,0,1,.35-.7,8.07,8.07,0,0,1,5.58-1.8c.44,0,.88,0,1.37.07,0-.37-.09-.71-.12-1.07-.14-1.94-.34-3.88-.4-5.82a74.75,74.75,0,0,1,2.2-18.69c.29-1.29.59-2.58.91-3.86.08-.32,0-.44-.29-.55a9.11,9.11,0,0,0-3-.5c-1.29-.07-2.59-.12-3.88-.23a4.35,4.35,0,0,1-1.34-.38,2.09,2.09,0,0,1-1.36-1.94c-.25-4.46-.51-8.92-.83-13.38s-.62-8.7-1.08-13A56.33,56.33,0,0,0,121.5,6.35c-.28-.78-.63-1.53-.92-2.31a.55.55,0,0,1,0-.47A13.69,13.69,0,0,1,123.45,1c2.48-1.63,4.72-1.25,6.51,1.12a17.59,17.59,0,0,1,2.56,5.3,54.34,54.34,0,0,1,2,8.75,106.25,106.25,0,0,1,1.17,12.89c.08,2.76,0,5.52.05,8.28a.54.54,0,0,0,.26.4c1,.46,2.06.91,3.11,1.34,1.26.52,2.58.92,3.8,1.52,3.31,1.64,4.5,4.39,4.35,7.79a32.78,32.78,0,0,1-1.81,8.09,65.49,65.49,0,0,0-2.06,7.92,38.29,38.29,0,0,0-.47,6.64c0,2.55.08,5.11.07,7.66a22.58,22.58,0,0,1-.56,5.54,6.25,6.25,0,0,1-5.57,5l-.33.06Z"/><path d="M50,57.32a32.29,32.29,0,0,1-9.66-1.43,14.1,14.1,0,0,1-4.44-2.16.55.55,0,0,1-.24-.59,10.05,10.05,0,0,1,3.71-6.62,13.77,13.77,0,0,1,12.83-2.87,7.88,7.88,0,0,1,5.94,7.75,16.6,16.6,0,0,1-.53,4.38.68.68,0,0,1-.49.53,19.17,19.17,0,0,1-6.13,1ZM45.6,50.77c.42,0,.83,0,1.24,0,1.14,0,2.28.13,3.42.12a2.48,2.48,0,0,0,1-.42.3.3,0,0,0,0-.54A5.42,5.42,0,0,0,50,49.11,4.55,4.55,0,0,0,45.6,50.77Z"/><path d="M99.75,57.07a27.13,27.13,0,0,1-6.86-.61A9.82,9.82,0,0,1,89.42,55a1.66,1.66,0,0,1-.71-1.84,10.28,10.28,0,0,1,5-7.27A14,14,0,0,1,105.11,44a7.36,7.36,0,0,1,5.75,6.15,12.11,12.11,0,0,1-.31,5.16.53.53,0,0,1-.35.28c-1.38.33-2.75.74-4.15.94-2.08.3-4.19.46-6.29.68Zm-.56-6.3c.1.05.13.07.15.08,1.43,0,2.86,0,4.29,0,.1,0,.26-.18.27-.28a1.41,1.41,0,0,0-1.65-1.61,4.24,4.24,0,0,0-2.57,1.19A5.3,5.3,0,0,0,99.19,50.77Z"/><path d="M102.54,107.85a2.81,2.81,0,0,0,.76,2.08,2.85,2.85,0,0,1-.46,4A12.33,12.33,0,0,1,99,115.8a34.76,34.76,0,0,1-8.45,1.49,32.66,32.66,0,0,1-7.14-.26,13.12,13.12,0,0,1-4.48-1.39A4,4,0,0,1,76.71,113a2.73,2.73,0,0,1,1.17-3,7.92,7.92,0,0,1,3.68-1.27c1.94-.22,3.9-.43,5.85-.46,3.63-.06,7.26,0,10.88,0A15.93,15.93,0,0,0,102.54,107.85Z"/></svg>
+								</p>
+								<div class="a42-text-tiny">
+									<p class="a42-item-iblock a42-margin-b0">Sources&nbsp;:</p>
+									<ul class="a42-list-inline a42-list-inline-sep">
+										<li><a href="https://solidarites-sante.gouv.fr/IMG/pdf/Plaquette_CNH_chiffres_cles_VF-2.pdf">Chiffres du handicap 2014</a></li>
+										<li><a href="https://www.insee.fr/fr/statistiques/1281147">Enquête Vie quotidienne et santé 2009, INSEE</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					
+					<section class="slide a42-page-full"  tabindex="0" id="D28" data-breadcrumb="11">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-bgcolor-c5 a42-align-center">
+								<div class="a42-block center">
+									<h3>L’accessibilité au Cnam</h3>
+									<div class="a42-gallery">
+										<img src="./img_slide/omnesdocetubique.png" alt="Omnes docet ubique" dir="ltr" lang="la">
+									</div>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center">
+								<div class="a42-block">
+									<p class="a42-color-c2 a42-font-geomed a42-text-great">La devise du Cnam est en latin&nbsp;: «&nbsp;Enseigner à tous partout&nbsp;»</p>
+									<p class="a42-color-c5 a42-font-geomed">C’est le coeur même de notre institution. On va insister sur ces deux termes «&nbsp;à&nbsp;tous&nbsp;» et «&nbsp;partout&nbsp;»...</p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full"  tabindex="0" id="D29" data-breadcrumb="12">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-bgcolor-c9 a42-align-center">
+								<div class="a42-block center">
+									<h3>Une diversité de handicaps</h3>
+									<div class="a42-gallery">
+										<span><svg aria-hidden="true" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 150 150"  width="100"><path d="M114.54,29.58a13.76,13.76,0,0,1-10.34-4.34,14.16,14.16,0,0,1-4.42-10.5,14.08,14.08,0,0,1,4.42-10.42A13.76,13.76,0,0,1,114.54,0,14.2,14.2,0,0,1,125,4.33a14.21,14.21,0,0,1,4.33,10.42A14.3,14.3,0,0,1,125,25.25,14.21,14.21,0,0,1,114.54,29.58Zm-29.92,52-.08-.08A29.49,29.49,0,0,0,63,72.58a29.55,29.55,0,0,0-17.92,5.67,42.44,42.44,0,0,0-3.92,3.33,28.69,28.69,0,0,0-3.33,4A30.6,30.6,0,0,0,41.21,125,29.77,29.77,0,0,0,63,134.08a29.16,29.16,0,0,0,17.67-5.67A38.14,38.14,0,0,0,84.62,125,44,44,0,0,0,88,121.16a29.3,29.3,0,0,0,5.67-17.75A29.77,29.77,0,0,0,84.62,81.58Zm39.09-16.34a8.93,8.93,0,0,1,6.58,2.67A9.16,9.16,0,0,1,133,74.5v47.25a9.31,9.31,0,0,1-15.83,6.67,9.41,9.41,0,0,1-2.67-6.67V83.83H104.21a45.65,45.65,0,0,1,4.5,20.25,43.84,43.84,0,0,1-13.5,32.41A44.2,44.2,0,0,1,62.79,150a44,44,0,0,1-32.41-13.5A44,44,0,0,1,17,104.08,44.34,44.34,0,0,1,30.38,71.67,43.9,43.9,0,0,1,51,59.75l25.5-25.5-11.33-6.5L51.79,41.08l-.25.09a8.71,8.71,0,0,1-6.42,2.59,8.84,8.84,0,0,1-6.5-2.67A9.41,9.41,0,0,1,36,34.42a9.13,9.13,0,0,1,2.5-6.33L57.38,9.17a8.88,8.88,0,0,1,6.17-2.33,9.14,9.14,0,0,1,3.83.83V7.58L109,31.5a8.91,8.91,0,0,1,4.34,8,9.16,9.16,0,0,1-1.75,5.5v.08L91.38,65.25h32.33Z"></path></svg></span>
+										<span><svg aria-hidden="true" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 150 150" width="100"><path d="M105,16.18,121.18,0h26.45V26.45L127.89,45.79a46.05,46.05,0,0,0-13-21.32A50,50,0,0,0,105,16.18Zm-31.58-2a53.31,53.31,0,0,1,36.71,15,53.31,53.31,0,0,1,15,36.71,50,50,0,0,1-7.89,27.24c-13,20.92-5.13,56.84-43,56.84a34.87,34.87,0,0,1-24.87-10.26,35.59,35.59,0,0,1-3.55-3.95l8.68-8.29a27.66,27.66,0,0,0,3.16,3.95,25.06,25.06,0,0,0,16.58,6.71c26.05,0,19.74-30.39,32.76-51.32a38.38,38.38,0,0,0,6.32-20.92A41,41,0,0,0,101.84,37.5,41,41,0,0,0,73.42,26.05a40,40,0,0,0-28,11.45A43.12,43.12,0,0,0,33.95,61.18L23.29,54.47A50.07,50.07,0,0,1,37.11,29.21,52.35,52.35,0,0,1,73.42,14.21Zm-28,36.32A33.42,33.42,0,0,1,50.92,43a31.92,31.92,0,0,1,45.39,0,33.58,33.58,0,0,1,9.47,22.89c0,8.68-3.95,16.58-9.47,22.5l-5.13-5.13a24.79,24.79,0,0,0,7.11-17.37,25.75,25.75,0,0,0-7.11-17.76,25.75,25.75,0,0,0-17.76-7.11,24.79,24.79,0,0,0-17.37,7.11,32.67,32.67,0,0,0-4.34,5.92ZM75,98.68h0L28.82,144.87H2.37V118.82L42.24,78.95Z"></path></svg></span>
+									</div>
+									<div class="a42-gallery">
+										<span><svg aria-hidden="true" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 150 150" width="100"><path d="M150,74.38s-23.72-42.2-75.46-42.2c-1,0-1.92,0-2.86,0L67.16,11l-6.93,1.47,4.31,20.26C19.85,37.61,0,74.07,0,74.07A82.41,82.41,0,0,0,12.9,91.44l-3.62-17-.12-.2a50.54,50.54,0,0,1,4.42-6l6.34,29.79a86.42,86.42,0,0,0,8.62,6.46L19.5,62a79.57,79.57,0,0,1,6.12-5.23L36.8,109.3a79.65,79.65,0,0,0,8,3.46L31.93,52.4c2.1-1.31,4.34-2.57,6.74-3.76l14.18,66.64q3.65.93,7.57,1.53L55,91.44a26,26,0,0,0,9,7l4.08,19.18c1.69.1,3.41.16,5.17.16.7,0,1.4,0,2.1,0l-3.64-17.08a26.26,26.26,0,0,0,3.23.21,26,26,0,0,0,4-.3L87.16,139l6.93-1.47-4.52-21.25C129.85,108.59,150,74.38,150,74.38ZM50.06,68.12,45.3,45.74c2.24-.85,4.59-1.63,7-2.31l3.11,14.62A25.82,25.82,0,0,0,50.06,68.12ZM61.6,52.86l-2.34-11c2.26-.41,4.6-.74,7-1L68.22,50A25.68,25.68,0,0,0,61.6,52.86Zm13.68-3.73-1.84-8.62h1.16c1.69,0,3.34.05,5,.14a34.78,34.78,0,0,1,8,66.4l-1.81-8.53A25.87,25.87,0,0,0,75.27,49.13Zm30.46,53.75a42.16,42.16,0,0,0-.94-56.79c24.53,9.65,36,28.41,36,28.41A84.71,84.71,0,0,1,105.73,102.88Z"></path></svg></span>
+										<svg aria-hidden="true" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 150 150" width="100"><path d="M62.12,116.42l-5.49-2.36a75,75,0,0,1-9.38-4.53,19.82,19.82,0,0,1-5.74-4.81A8.76,8.76,0,0,1,40,96.24a4.2,4.2,0,0,1,4-3,15.39,15.39,0,0,1,6.23,1.13c3,1.13,6,2.37,9,3.56a41.53,41.53,0,0,0,6.89,2.3c.82.17,1.65.25,2.49.37-.07-.89-.15-1.67-.18-2.45-.19-5.66,2.85-10.75,9.31-11.93,1.12-.2,2.27-.24,3.42-.35a.75.75,0,0,0-.06-.17,64.29,64.29,0,0,1-5.1-13.38c-1.58-5.66-2.75-11.42-3.9-17.18-1.46-7.3-2.82-14.62-4.72-21.82a56.84,56.84,0,0,0-2.65-8.52c-1.17-2.66-2.5-5.25-3.69-7.91-.95-2.1-1.82-4.23-2.69-6.35a5.08,5.08,0,0,1,2-5.73,6,6,0,0,1,4.44-1,4.77,4.77,0,0,1,2.72,1.7,22.13,22.13,0,0,1,3.56,5.6,95.26,95.26,0,0,1,5.54,15.56A149.63,149.63,0,0,1,80,41.87c1.19,7,2.53,13.89,4.3,20.73A99.27,99.27,0,0,0,88,73.27a43.76,43.76,0,0,1,2.74,9.56c.29,2.06.39,4.14.56,6.22a1,1,0,0,1-.19.57,14.24,14.24,0,0,1-9.64,6.62c-.67.14-1.36.24-2,.36,0,.35,0,.71,0,1.06a25.54,25.54,0,0,1-.58,6.74,8.14,8.14,0,0,1-1.2,2.8,2.91,2.91,0,0,1-2.69,1.33,58.68,58.68,0,0,1-16.51-3.2l-5.68-1.93-.46-.14-.1.13a19.45,19.45,0,0,0,1.5,1.38,16.93,16.93,0,0,0,5.06,2.4c2.91.94,5.86,1.78,8.76,2.74,1.43.48,2.81,1.13,4.2,1.73a1,1,0,0,1,.46.52,10.19,10.19,0,0,1,0,6.74,21.79,21.79,0,0,1-2.55,5.18.69.69,0,0,0-.07.69,32.21,32.21,0,0,1,1.87,7.53A15.85,15.85,0,0,1,70,141.57a13.08,13.08,0,0,1-5.83,5.63,23.94,23.94,0,0,1-7.73,2.33,49.32,49.32,0,0,1-13.08,0,45.44,45.44,0,0,1-8.47-2,73.7,73.7,0,0,1-15.14-6.68,70.7,70.7,0,0,1-11.73-8.39,19.68,19.68,0,0,1-4.31-5.25A6.58,6.58,0,0,1,3,122.18c.45-1.65.83-1.92,2.52-2.1a10.51,10.51,0,0,1,7,1.87A35.91,35.91,0,0,1,17.33,126c1.57,1.47,3.1,3,4.79,4.33a38.83,38.83,0,0,0,7.72,4.38A56,56,0,0,0,42.76,139a32.38,32.38,0,0,0,12.58.22,21,21,0,0,0,5.75-2,.49.49,0,0,0,.31-.61c-.46-2.75-1-5.49-1.34-8.25a20.21,20.21,0,0,1,.28-8.22A11.49,11.49,0,0,1,62.12,116.42Z"></path><path d="M136.37,89.32q-.14,1.56-.28,3.13a101.63,101.63,0,0,1-1.45,10.11,93,93,0,0,1-3,11.72c-2.65,8-6.27,15.43-11.74,21.89A38.24,38.24,0,0,1,104,147.64a36.26,36.26,0,0,1-9.83,2.14,60.63,60.63,0,0,1-9.55.06,27.85,27.85,0,0,1-9.34-2,10.38,10.38,0,0,1-1.86-1.07,4.7,4.7,0,0,1-1.9-5.71c.57-1.74.26-1.36,1.86-1.85a16.69,16.69,0,0,1,6.36-.53c2.39.21,4.77.53,7.15.83a27.41,27.41,0,0,0,23.06-7.42,38.39,38.39,0,0,0,8.39-11.81,74.24,74.24,0,0,0,5.65-17.5,114.2,114.2,0,0,0,1.89-13c.23-2.68.36-5.37.53-8.05a.89.89,0,0,1,.35-.7,8.07,8.07,0,0,1,5.58-1.8c.44,0,.88,0,1.37.07,0-.37-.09-.71-.12-1.07-.14-1.94-.34-3.88-.4-5.82a74.75,74.75,0,0,1,2.2-18.69c.29-1.29.59-2.58.91-3.86.08-.32,0-.44-.29-.55a9.11,9.11,0,0,0-3-.5c-1.29-.07-2.59-.12-3.88-.23a4.35,4.35,0,0,1-1.34-.38,2.09,2.09,0,0,1-1.36-1.94c-.25-4.46-.51-8.92-.83-13.38s-.62-8.7-1.08-13A56.33,56.33,0,0,0,121.5,6.35c-.28-.78-.63-1.53-.92-2.31a.55.55,0,0,1,0-.47A13.69,13.69,0,0,1,123.45,1c2.48-1.63,4.72-1.25,6.51,1.12a17.59,17.59,0,0,1,2.56,5.3,54.34,54.34,0,0,1,2,8.75,106.25,106.25,0,0,1,1.17,12.89c.08,2.76,0,5.52.05,8.28a.54.54,0,0,0,.26.4c1,.46,2.06.91,3.11,1.34,1.26.52,2.58.92,3.8,1.52,3.31,1.64,4.5,4.39,4.35,7.79a32.78,32.78,0,0,1-1.81,8.09,65.49,65.49,0,0,0-2.06,7.92,38.29,38.29,0,0,0-.47,6.64c0,2.55.08,5.11.07,7.66a22.58,22.58,0,0,1-.56,5.54,6.25,6.25,0,0,1-5.57,5l-.33.06Z"></path><path d="M50,57.32a32.29,32.29,0,0,1-9.66-1.43,14.1,14.1,0,0,1-4.44-2.16.55.55,0,0,1-.24-.59,10.05,10.05,0,0,1,3.71-6.62,13.77,13.77,0,0,1,12.83-2.87,7.88,7.88,0,0,1,5.94,7.75,16.6,16.6,0,0,1-.53,4.38.68.68,0,0,1-.49.53,19.17,19.17,0,0,1-6.13,1ZM45.6,50.77c.42,0,.83,0,1.24,0,1.14,0,2.28.13,3.42.12a2.48,2.48,0,0,0,1-.42.3.3,0,0,0,0-.54A5.42,5.42,0,0,0,50,49.11,4.55,4.55,0,0,0,45.6,50.77Z"></path><path d="M99.75,57.07a27.13,27.13,0,0,1-6.86-.61A9.82,9.82,0,0,1,89.42,55a1.66,1.66,0,0,1-.71-1.84,10.28,10.28,0,0,1,5-7.27A14,14,0,0,1,105.11,44a7.36,7.36,0,0,1,5.75,6.15,12.11,12.11,0,0,1-.31,5.16.53.53,0,0,1-.35.28c-1.38.33-2.75.74-4.15.94-2.08.3-4.19.46-6.29.68Zm-.56-6.3c.1.05.13.07.15.08,1.43,0,2.86,0,4.29,0,.1,0,.26-.18.27-.28a1.41,1.41,0,0,0-1.65-1.61,4.24,4.24,0,0,0-2.57,1.19A5.3,5.3,0,0,0,99.19,50.77Z"></path><path d="M102.54,107.85a2.81,2.81,0,0,0,.76,2.08,2.85,2.85,0,0,1-.46,4A12.33,12.33,0,0,1,99,115.8a34.76,34.76,0,0,1-8.45,1.49,32.66,32.66,0,0,1-7.14-.26,13.12,13.12,0,0,1-4.48-1.39A4,4,0,0,1,76.71,113a2.73,2.73,0,0,1,1.17-3,7.92,7.92,0,0,1,3.68-1.27c1.94-.22,3.9-.43,5.85-.46,3.63-.06,7.26,0,10.88,0A15.93,15.93,0,0,0,102.54,107.85Z"></path></svg>
+									</div>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center">
+								<div class="a42-block">
+									<ul>
+										<li><strong>Handicaps physiques et sensoriels&nbsp;:</strong>
+											<ul>
+												<li>visuels,</li>
+												<li>auditifs,</li>
+												<li>moteurs.</li>
+											</ul>
+										</li>
+										<li><strong>Handicaps mentaux&nbsp;:</strong>
+											<ul>
+												<li>handicaps intellectuels,</li>
+												<li>handicaps cognitifs (troubles DYS),</li>
+												<li>handicaps psychiques.</li>
+											</ul>
+										</li>
+										<li><strong>Polyhandicap&nbsp;:</strong> un handicap moteur ou sensoriel + mental&nbsp;;</li>
+										<li><strong>Troubles de santé invalidants&nbsp;:</strong> cancer, douleurs chroniques, allergies&hellip;</li>
+									</ul>
+									<p class="a42-color-c5 a42-font-geomed">Chaque personne est différente.</p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c2 " tabindex="0" id="D30" data-breadcrumb="13" style="opacity: 1;">
+						<div class="inside a42-align-center">
+							<div class="a42-block">
+								<h3 class="center">
+									L’accessibilité numérique, ce n'est pas uniquement pour les personnes aveugles
+								</h3>
+								<div class="a42-cols">
+									<div class="col-1-2 a42-bgcolor-c2dark">
+										<h4 class="a42-font-geomed a42-margin-b0">
+											Handicaps visuels 
+											<svg class="a42-icon-title a42-color-c6" aria-hidden="true" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 150 150" width="100"><path d="M150,74.38s-23.72-42.2-75.46-42.2c-1,0-1.92,0-2.86,0L67.16,11l-6.93,1.47,4.31,20.26C19.85,37.61,0,74.07,0,74.07A82.41,82.41,0,0,0,12.9,91.44l-3.62-17-.12-.2a50.54,50.54,0,0,1,4.42-6l6.34,29.79a86.42,86.42,0,0,0,8.62,6.46L19.5,62a79.57,79.57,0,0,1,6.12-5.23L36.8,109.3a79.65,79.65,0,0,0,8,3.46L31.93,52.4c2.1-1.31,4.34-2.57,6.74-3.76l14.18,66.64q3.65.93,7.57,1.53L55,91.44a26,26,0,0,0,9,7l4.08,19.18c1.69.1,3.41.16,5.17.16.7,0,1.4,0,2.1,0l-3.64-17.08a26.26,26.26,0,0,0,3.23.21,26,26,0,0,0,4-.3L87.16,139l6.93-1.47-4.52-21.25C129.85,108.59,150,74.38,150,74.38ZM50.06,68.12,45.3,45.74c2.24-.85,4.59-1.63,7-2.31l3.11,14.62A25.82,25.82,0,0,0,50.06,68.12ZM61.6,52.86l-2.34-11c2.26-.41,4.6-.74,7-1L68.22,50A25.68,25.68,0,0,0,61.6,52.86Zm13.68-3.73-1.84-8.62h1.16c1.69,0,3.34.05,5,.14a34.78,34.78,0,0,1,8,66.4l-1.81-8.53A25.87,25.87,0,0,0,75.27,49.13Zm30.46,53.75a42.16,42.16,0,0,0-.94-56.79c24.53,9.65,36,28.41,36,28.41A84.71,84.71,0,0,1,105.73,102.88Z"></path></svg>
+										</h4>
+										<p class="a42-font-geobook">Les déficiences visuelles sont très diverses, et liées à de nombreuses pathologies de la vision.</p>
+										<ul class="a42-text-small">
+											<li>Difficulté de <strong>perception des couleurs</strong></li>
+											<li>Difficulté de <strong>perception des contrastes</strong></li>
+											<li><strong>Acuité visuelle réduite</strong></li>
+											<li>Perte de la <strong>vision périphérique</strong></li>
+											<li>Perte de la <strong>vision centrale</strong></li>
+											<li>Etc.</li>
+										</ul>
+									</div>
+									<div class="col-1-2 a42-bgcolor-c2dark">
+										<h4 class="a42-font-geomed a42-margin-b0">
+											Troubles DYS
+											<svg class="a42-icon-title a42-color-c6" aria-hidden="true" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 150 150" width="100"><path d="M62.12,116.42l-5.49-2.36a75,75,0,0,1-9.38-4.53,19.82,19.82,0,0,1-5.74-4.81A8.76,8.76,0,0,1,40,96.24a4.2,4.2,0,0,1,4-3,15.39,15.39,0,0,1,6.23,1.13c3,1.13,6,2.37,9,3.56a41.53,41.53,0,0,0,6.89,2.3c.82.17,1.65.25,2.49.37-.07-.89-.15-1.67-.18-2.45-.19-5.66,2.85-10.75,9.31-11.93,1.12-.2,2.27-.24,3.42-.35a.75.75,0,0,0-.06-.17,64.29,64.29,0,0,1-5.1-13.38c-1.58-5.66-2.75-11.42-3.9-17.18-1.46-7.3-2.82-14.62-4.72-21.82a56.84,56.84,0,0,0-2.65-8.52c-1.17-2.66-2.5-5.25-3.69-7.91-.95-2.1-1.82-4.23-2.69-6.35a5.08,5.08,0,0,1,2-5.73,6,6,0,0,1,4.44-1,4.77,4.77,0,0,1,2.72,1.7,22.13,22.13,0,0,1,3.56,5.6,95.26,95.26,0,0,1,5.54,15.56A149.63,149.63,0,0,1,80,41.87c1.19,7,2.53,13.89,4.3,20.73A99.27,99.27,0,0,0,88,73.27a43.76,43.76,0,0,1,2.74,9.56c.29,2.06.39,4.14.56,6.22a1,1,0,0,1-.19.57,14.24,14.24,0,0,1-9.64,6.62c-.67.14-1.36.24-2,.36,0,.35,0,.71,0,1.06a25.54,25.54,0,0,1-.58,6.74,8.14,8.14,0,0,1-1.2,2.8,2.91,2.91,0,0,1-2.69,1.33,58.68,58.68,0,0,1-16.51-3.2l-5.68-1.93-.46-.14-.1.13a19.45,19.45,0,0,0,1.5,1.38,16.93,16.93,0,0,0,5.06,2.4c2.91.94,5.86,1.78,8.76,2.74,1.43.48,2.81,1.13,4.2,1.73a1,1,0,0,1,.46.52,10.19,10.19,0,0,1,0,6.74,21.79,21.79,0,0,1-2.55,5.18.69.69,0,0,0-.07.69,32.21,32.21,0,0,1,1.87,7.53A15.85,15.85,0,0,1,70,141.57a13.08,13.08,0,0,1-5.83,5.63,23.94,23.94,0,0,1-7.73,2.33,49.32,49.32,0,0,1-13.08,0,45.44,45.44,0,0,1-8.47-2,73.7,73.7,0,0,1-15.14-6.68,70.7,70.7,0,0,1-11.73-8.39,19.68,19.68,0,0,1-4.31-5.25A6.58,6.58,0,0,1,3,122.18c.45-1.65.83-1.92,2.52-2.1a10.51,10.51,0,0,1,7,1.87A35.91,35.91,0,0,1,17.33,126c1.57,1.47,3.1,3,4.79,4.33a38.83,38.83,0,0,0,7.72,4.38A56,56,0,0,0,42.76,139a32.38,32.38,0,0,0,12.58.22,21,21,0,0,0,5.75-2,.49.49,0,0,0,.31-.61c-.46-2.75-1-5.49-1.34-8.25a20.21,20.21,0,0,1,.28-8.22A11.49,11.49,0,0,1,62.12,116.42Z"></path><path d="M136.37,89.32q-.14,1.56-.28,3.13a101.63,101.63,0,0,1-1.45,10.11,93,93,0,0,1-3,11.72c-2.65,8-6.27,15.43-11.74,21.89A38.24,38.24,0,0,1,104,147.64a36.26,36.26,0,0,1-9.83,2.14,60.63,60.63,0,0,1-9.55.06,27.85,27.85,0,0,1-9.34-2,10.38,10.38,0,0,1-1.86-1.07,4.7,4.7,0,0,1-1.9-5.71c.57-1.74.26-1.36,1.86-1.85a16.69,16.69,0,0,1,6.36-.53c2.39.21,4.77.53,7.15.83a27.41,27.41,0,0,0,23.06-7.42,38.39,38.39,0,0,0,8.39-11.81,74.24,74.24,0,0,0,5.65-17.5,114.2,114.2,0,0,0,1.89-13c.23-2.68.36-5.37.53-8.05a.89.89,0,0,1,.35-.7,8.07,8.07,0,0,1,5.58-1.8c.44,0,.88,0,1.37.07,0-.37-.09-.71-.12-1.07-.14-1.94-.34-3.88-.4-5.82a74.75,74.75,0,0,1,2.2-18.69c.29-1.29.59-2.58.91-3.86.08-.32,0-.44-.29-.55a9.11,9.11,0,0,0-3-.5c-1.29-.07-2.59-.12-3.88-.23a4.35,4.35,0,0,1-1.34-.38,2.09,2.09,0,0,1-1.36-1.94c-.25-4.46-.51-8.92-.83-13.38s-.62-8.7-1.08-13A56.33,56.33,0,0,0,121.5,6.35c-.28-.78-.63-1.53-.92-2.31a.55.55,0,0,1,0-.47A13.69,13.69,0,0,1,123.45,1c2.48-1.63,4.72-1.25,6.51,1.12a17.59,17.59,0,0,1,2.56,5.3,54.34,54.34,0,0,1,2,8.75,106.25,106.25,0,0,1,1.17,12.89c.08,2.76,0,5.52.05,8.28a.54.54,0,0,0,.26.4c1,.46,2.06.91,3.11,1.34,1.26.52,2.58.92,3.8,1.52,3.31,1.64,4.5,4.39,4.35,7.79a32.78,32.78,0,0,1-1.81,8.09,65.49,65.49,0,0,0-2.06,7.92,38.29,38.29,0,0,0-.47,6.64c0,2.55.08,5.11.07,7.66a22.58,22.58,0,0,1-.56,5.54,6.25,6.25,0,0,1-5.57,5l-.33.06Z"></path><path d="M50,57.32a32.29,32.29,0,0,1-9.66-1.43,14.1,14.1,0,0,1-4.44-2.16.55.55,0,0,1-.24-.59,10.05,10.05,0,0,1,3.71-6.62,13.77,13.77,0,0,1,12.83-2.87,7.88,7.88,0,0,1,5.94,7.75,16.6,16.6,0,0,1-.53,4.38.68.68,0,0,1-.49.53,19.17,19.17,0,0,1-6.13,1ZM45.6,50.77c.42,0,.83,0,1.24,0,1.14,0,2.28.13,3.42.12a2.48,2.48,0,0,0,1-.42.3.3,0,0,0,0-.54A5.42,5.42,0,0,0,50,49.11,4.55,4.55,0,0,0,45.6,50.77Z"></path><path d="M99.75,57.07a27.13,27.13,0,0,1-6.86-.61A9.82,9.82,0,0,1,89.42,55a1.66,1.66,0,0,1-.71-1.84,10.28,10.28,0,0,1,5-7.27A14,14,0,0,1,105.11,44a7.36,7.36,0,0,1,5.75,6.15,12.11,12.11,0,0,1-.31,5.16.53.53,0,0,1-.35.28c-1.38.33-2.75.74-4.15.94-2.08.3-4.19.46-6.29.68Zm-.56-6.3c.1.05.13.07.15.08,1.43,0,2.86,0,4.29,0,.1,0,.26-.18.27-.28a1.41,1.41,0,0,0-1.65-1.61,4.24,4.24,0,0,0-2.57,1.19A5.3,5.3,0,0,0,99.19,50.77Z"></path><path d="M102.54,107.85a2.81,2.81,0,0,0,.76,2.08,2.85,2.85,0,0,1-.46,4A12.33,12.33,0,0,1,99,115.8a34.76,34.76,0,0,1-8.45,1.49,32.66,32.66,0,0,1-7.14-.26,13.12,13.12,0,0,1-4.48-1.39A4,4,0,0,1,76.71,113a2.73,2.73,0,0,1,1.17-3,7.92,7.92,0,0,1,3.68-1.27c1.94-.22,3.9-.43,5.85-.46,3.63-.06,7.26,0,10.88,0A15.93,15.93,0,0,0,102.54,107.85Z"></path></svg>
+										</h4>
+										<p class="a42-font-geobook">Troubles neurologiques durables qui affectent certaines fonctions cognitives.</p>
+										<ul class="a42-text-small">
+											<li><strong><a href="./dys/index.html" target="_blank">Dyslexie</a></strong> et <strong>dysorthographie</strong></li>
+											<li><strong>Troubles déficitaires d’attention</strong> avec ou sans hyperactivité</li>
+											<li><strong>Dyspraxie</strong> de type dyspraxie visuo-spatiale</li>
+											<li><strong>Dysphasie</strong> dans le cadre de troubles associés</li>
+											<li><strong>Dyscalculie</strong></li>
+											<li><strong>Troubles mnésiques</strong> (mémoire)</li>
+										</ul>
+										<p class="a42-margin-t05">En savoir plus&nbsp;: <a href="https://fr.slides.access42.net/flupa2018/" class="a42-font-geomed">fr.slides.access42.net/flupa2018/</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					
+					<section class="slide a42-page-full a42-bgcolor-c1" id="D31">
+						<div class="inside a42-align-center center">
+							<div class="a42-block a42-block-super">
+								<h4 class="a42-title-shock">
+									<span class="a42-item-block">Troubles DYS en France&nbsp;:</span>
+									<strong class="a42-item-block">6 <span class="a42-text-reinitcase">à</span> 8 %</strong>
+									<span class="sr"> </span>
+									<span class="a42-text-super">de la population serait DYS</span>
+								</h4>
+								<p>Source&nbsp;: Fédération Française des DYS<br /><a href="https://www.ffdys.com/troubles-dys" class="a42-font-geomed">www.ffdys.com/troubles-dys</a></p>
+							</div>
+						</div>
+					</section>
+
+					
+					<section class="slide a42-page-full"  tabindex="0" id="D32" data-breadcrumb="14">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-bgcolor-c2 a42-align-center">
+								<div class="a42-block ">
+									<h3>Technologies d’assistance</h3>
+									<ul class="a42-list-reset">
+										<li>Plage braille</li>
+										<li>Clavier monomanuel</li>
+										<li><span lang="en">Head-stick</span></li>
+										<li><span lang="en">Eye tracker</span></li>
+										<li>Lecteur d’écran</li>
+										<li>Clavier visuel</li>
+										<li>Contacteur au souffle</li>
+										<li><span lang="en">Trackball</span></li>
+										<li>Contrôle par la pensée</li>
+										<li>etc.</li>
+									</ul>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center" id="D33a">
+								<div class="a42-block">
+									<img src="img_slide/at_ordi.png" alt="plage braille, clavier monomanuel, headstick, eye tracker, lecteur d’écran, contacteur à souffle, casque neuronal, licorne, clavier virtuel" />
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-page-border a42-border-c7 a42-bgcolor-c9" tabindex="0" id="D34" data-breadcrumb="15" style="opacity: 1;">
+						<div class="inside a42-align-center center">
+							<div class="a42-block">
+								<h2 class="a42-title-chapter">Les personnes handicapées <br>et le numérique</h2>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-page-border a42-border-c8" tabindex="0" id="D35" data-breadcrumb="16">
+						<div class="inside a42-align-center">
+							<div class="a42-block a42-block-limit">
+								<h3 class="a42-title-statement">Utilisation du numérique en France</h3>
+								<ul class="a42-list-reset a42-text-great">
+									<li>Plus de <strong>88% des Français utilisent Internet</strong><span class="sr">.</span></li>
+									<li><strong>77% se servent d’un smartphone</strong>, plus utilisé pour surfer sur Internet qu’un ordinateur, notamment par les jeunes<span class="sr">.</span></li>
+									<li><strong>62%</strong> des personnes interrogées ont fait un <strong>achat sur Internet</strong> au cours de l’année<span class="sr">.</span></li>
+									<li><strong>60%</strong> sont inscrites sur les <strong>réseaux sociaux</strong><span class="sr">.</span></li>
+									<li><strong>68%</strong> pensent qu’avoir accès à Internet est une <strong>condition nécessaire pour se sentir intégré dans la société</strong><span class="sr">.</span></li>
+									<li>Le numérique simplifie les démarches avec l’administration mais la complexité des démarches est un frein à l’utilisation de l’e-administration.</li>
+								</ul>
+								<p>Source&nbsp;: <a href="https://www.credoc.fr/publications/barometre-du-numerique-2019">Baromètre du numérique 2019&nbsp;</a></p>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c4a " tabindex="0" id="D36" data-breadcrumb="17" style="opacity: 1;">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-bgcolor-c9 a42-align-center">
+								<div class="a42-block">
+									<h3>Le numérique&nbsp;: une promesse d’émancipation et d’autonomie</h3>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c7">
+								<div class="a42-block a42-block-maxi">
+									<h4 class="a42-text-super-xxl">Indépendance et autonomie renforcées</h4>
+									<p class="a42-text-great-xxl">Accomplir au quotidien des tâches jusqu’alors impossibles <strong>en toute autonomie, sans dépendre de l’aide d’une tierce personne</strong>.</p>
+									<p class="a42-text-small">Lire un document, remplir un formulaire, se renseigner, prendre un rendez-vous, apprendre, sociabiliser, communiquer, etc.</p>
+									<h4 class="a42-text-super-xxl a42-border-t a42-border-c4a">Témoignages</h4>
+									<ul>
+										<li class="a42-text-great-xxl">«&nbsp;En 2015, Sylvie fêtait sa <a href="https://access42.net/declarer-impots-en-ligne-devient-possible">première déclaration d’impôts en ligne</a> en toute autonomie 🎉.&nbsp;»</li>
+										<li class="a42-text-great-xxl"><a href="https://www.sophie-drouvroy.com/vis-ma-vie-de-sourde/roger-voice-a-change-ma-vie/"><span lang="en">Roger Voice</span> a changé ma vie&nbsp;! 💚</a>&nbsp;: Sophie décrit son <q>«&nbsp;sentiment de liberté […] enivrant&nbsp;»</q>.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c7"  tabindex="0" id="D37" data-breadcrumb="18">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-align-center ">
+								<div class="a42-block center">
+									<h3>Les personnes handicapées et l’emploi en 2023</h3>
+									<p>Une situation d’insécurité professionnelle permanente.</p>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center a42-bgcolor-c9">
+								<div class="a42-block">
+									<ul class="a42-text-great">
+										<li>Taux de chômage <strong>2 fois plus important</strong> que celui du reste de la population&nbsp;: 18% contre 10% (<a title="source : Handicaps et emploi – Rapport thématique 2019-2020." href="https://www.igas.gouv.fr/spip.php?article785">source</a>).</li>
+										<li><strong>Risques plus importants de licenciement ou de sous-emploi</strong>.</li>
+										<li><strong>Le handicap est le premier motif de discrimination en France</strong>, cf. <a href="https://www.defenseurdesdroits.fr/rapport-de-lobservatoire-du-defenseur-des-droits-2019-281">rapport du Défenseur des droits 2019</a>.</li>
+										<li>Rapport du Défenseur des droits de 2021&nbsp;: <a href="https://www.defenseurdesdroits.fr/rapport-parallele-du-defenseur-des-droits-dans-le-cadre-de-lexamen-du-rapport-initial-de-la-france">Rapport parallèle du Défenseur des droits dans le cadre de l’examen du rapport initial de la France sur la mise en œuvre de la Convention des Nations Unies relative aux droits des personnes handicapées</a>.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</section>				
+
+					<section class="slide a42-page-full a42-bgcolor-c7"  tabindex="0" id="D39" data-breadcrumb="19">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-align-center a42-bgcolor-c5">
+								<div class="a42-block center">
+									<h3>Crise sanitaire et accessibilité</h3>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center a42-bgcolor-c0">
+								<div class="a42-block">
+									<ul class="a42-text-great">
+										<li><strong>Isolement des personnes handicapées</strong> ne pouvant se rendre sur leur lieu de travail.</li>
+										<li><strong>Nouveaux outils numériques pas toujours accessibles</strong>, et impossibilité d’avoir une aide physique des collègues puisque tout le monde est confiné.</li>
+									</ul>
+									<p>Pour aller plus loin&nbsp;:</p>
+									<ul>
+										<li><a href="https://access42.net/visioconferences-et-accessibilite-que-peut-on-esperer">Visioconférence et accessibilité&nbsp;: que peut-on espérer ?</a>&nbsp;: comparatif du niveau d’accessibilité des outils de visioconférence ;</li>
+										<li><a href="https://www.paris-web.fr/2020/conferences/communiquer-a-distance-de-maniere-accessible.php">Communiquer à distance de manière accessible</a>&nbsp;: conférence d’Access42 (Sylvie Duchateau) à Paris Web 2020.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</section>
+
+
+					<section class="slide a42-page-full a42-bgcolor-c7"  tabindex="0" id="D40" data-breadcrumb="20">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-align-center a42-bgcolor-c3">
+								<div class="a42-block center">
+									<h3>Bénéfices de l’Accesssibilité numérique</h3>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center a42-bgcolor-c0">
+								<div class="a42-block">
+									<p style="font-size: 1.9rem; text-align: left">l’accessibilité peut :</p>
+									<ul class="a42-text-great">
+										<li><strong>Porter l’innovation :</strong> des fonctionnalités pour l’accessibilité intégrées dans des produits et services résolvent des problèmes inattendus.</li>
+										<li><strong>Augmenter les parts de marché :</strong> le marché global des personnes ayant un ou plusieurs handicaps est de plus d’un milliard de personnes, avec un pouvoir d’achat de plus de dix mille milliards d’Euros. L’accessibilité numérique augmente souvent l’expérience de tous les utilisateurs.</li>
+										<li><strong>Minimiser le risque légal :</strong> de nombreux pays ont mis en place des lois exigeant l’accessibilité numérique, et la question légale de l’accessibilité devient de plus en plus prégnante.</li>
+										<li><strong>Source d’économies induites et d’une maintenance et un support réduit</strong> </li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-page-border " tabindex="0" id="D41" data-breadcrumb="21" style="opacity: 1;">
+						<div class="inside a42-align-center">
+							<div class="a42-block">
+								<svg aria-hidden="true" class="a42-picto" xmlns="https://www.w3.org/2000/svg" width="125" height="125" viewBox="0 0 125 125">
+									<path
+										d="M75.2,101.2a3.2,3.2,0,0,0,1.9-.5,4.4,4.4,0,0,0,2.2-6S70.7,75.1,69.2,67.9c-.6-2.4-.9-9.1-1.1-12.2a2.4,2.4,0,0,1,1.6-2.4l19.1-5.7A4.7,4.7,0,0,0,91.9,42a4.5,4.5,0,0,0-5.6-3.1s-17.7,5.7-24.1,5.7S38.4,39,38.4,39a4.8,4.8,0,0,0-5.8,2.8,4.6,4.6,0,0,0,3.2,5.8l19.1,5.7a2.2,2.2,0,0,1,1.5,2.4c-.1,3.1-.4,9.8-1.1,12.2-1.5,7.2-10.1,26.8-10.1,26.8a4.6,4.6,0,0,0,2.2,6,3.4,3.4,0,0,0,1.9.5,4.1,4.1,0,0,0,4-2.6l9.2-18.7,8.7,18.8A4.4,4.4,0,0,0,75.2,101.2Z" />
+									<circle cx="62.5" cy="31.4" r="8.7" />
+									<path
+										d="M125,62.5A62.5,62.5,0,1,0,62.5,125,62.5,62.5,0,0,0,125,62.5ZM5.1,62.5a57.4,57.4,0,1,1,57.4,57.4A57.5,57.5,0,0,1,5.1,62.5Z" />
+								</svg>
+								<h3>Prendre l’accessibilité numérique non comme une contrainte, mais comme une opportunité.</h3>
+								
+								
+									<ul>
+										<li><strong>C’est un droit fondamental, un point c’est tout.</strong></li>
+										<li><strong>Mettre l’utilisateur au centre des préoccupations.</strong></li>
+										<li><strong>Homogénéïser les pratiques redactionnelles vers plus de claireté.</strong></li>
+										<li><strong>Cela porte l’innovation.</strong></li>
+									</ul>
+									
+								
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-page-border a42-border-c7 a42-bgcolor-c5" tabindex="0" id="D42" data-breadcrumb="23" style="opacity: 1;">
+						<div class="inside a42-align-center center">
+							<div class="a42-block">
+								<h2 class="a42-title-chapter">Les normes et références numériques adressant le handicap</h2>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c4 " tabindex="0" id="D24" data-breadcrumb="24" style="opacity: 1;">
+						<div class="inside a42-align-center">
+							<div class="a42-block">
+								<h3 class="center">Pour mettre en œuvre l’accessibilité numérique, <strong>deux textes de référence</strong></h3>
+								<div class="a42-cols">
+									<div class="col-1-2 a42-bgcolor-c4a">
+										<h4 class="a42-color-c5">
+											<strong class="a42-font-geomed a42-text-great">WCAG</strong><span aria-hidden="true"> 🌎</span><br>
+											<span class="a42-text-tiny"><span lang="en"><strong>W</strong>eb <strong>C</strong>ontent <strong>A</strong>ccessibility <strong>G</strong>uidelines</span> (Règles pour l’accessibilité des contenus Web)</span>
+										</h4>
+										<ul class="a42-text-small">
+											<li><strong>Spécification internationale, émise par le W3C</strong></li>
+											<li>Rédigée en anglais, traduite en français</li>
+											<li>Norme ISO</li>
+											<li>Version actuelle&nbsp;: <a href="https://www.w3.org/TR/WCAG22/" class="a42-font-geomed">WCAG 2.2</a>, publiée en <strong>octobre 2023</strong>, et incluant basse vision, troubles cognitifs et difficultés d’apprentissage</li>
+										</ul>
+									</div>
+									<div class="col-1-2 a42-bgcolor-c4a">
+										<h4 class="a42-color-c5">
+											<strong class="a42-font-geomed a42-text-great">RGAA</strong><span aria-hidden="true">&nbsp;🇫🇷</span><br>
+											
+											<span class="a42-text-tiny"><strong>R</strong>éférentiel <strong>G</strong>énéral d’<strong>A</strong>mélioration de l’<strong>A</strong>ccessibilité</span>
+										</h4>
+										<ul class="a42-text-small">
+											<li><strong>La référence légale française depuis 2009</strong></li>
+											<li>Permet d’évaluer la conformité à WCAG</li>
+											<li>Héritier d’AccessiWeb</li>
+											<li>Publié le 16 septembre 2019 - Mis à jour le 18 avril 2023</li>
+											<li>Version actuelle&nbsp;: <a href="https://accessibilite.numerique.gouv.fr/" class="a42-font-geomed">accessibilite.numerique.gouv.fr</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-page-border " tabindex="0" id="D43" data-breadcrumb="25" style="opacity: 1;">
+						<div class="inside a42-align-center">
+							<div class="a42-block">
+								<svg aria-hidden="true" class="a42-picto" xmlns="https://www.w3.org/2000/svg" width="125" height="125" viewBox="0 0 125 125">
+									<path
+										d="M75.2,101.2a3.2,3.2,0,0,0,1.9-.5,4.4,4.4,0,0,0,2.2-6S70.7,75.1,69.2,67.9c-.6-2.4-.9-9.1-1.1-12.2a2.4,2.4,0,0,1,1.6-2.4l19.1-5.7A4.7,4.7,0,0,0,91.9,42a4.5,4.5,0,0,0-5.6-3.1s-17.7,5.7-24.1,5.7S38.4,39,38.4,39a4.8,4.8,0,0,0-5.8,2.8,4.6,4.6,0,0,0,3.2,5.8l19.1,5.7a2.2,2.2,0,0,1,1.5,2.4c-.1,3.1-.4,9.8-1.1,12.2-1.5,7.2-10.1,26.8-10.1,26.8a4.6,4.6,0,0,0,2.2,6,3.4,3.4,0,0,0,1.9.5,4.1,4.1,0,0,0,4-2.6l9.2-18.7,8.7,18.8A4.4,4.4,0,0,0,75.2,101.2Z" />
+									<circle cx="62.5" cy="31.4" r="8.7" />
+									<path
+										d="M125,62.5A62.5,62.5,0,1,0,62.5,125,62.5,62.5,0,0,0,125,62.5ZM5.1,62.5a57.4,57.4,0,1,1,57.4,57.4A57.5,57.5,0,0,1,5.1,62.5Z" />
+								</svg>
+								<h3>Principes et recommandations d’accessibilité</h3>
+								<p>Selon les WCAG, le contenu web accessible doit suivre quatre principes&nbsp;: il doit être <strong>perceptible</strong>, <strong>utilisable</strong>, <strong>compréhensible</strong> et <strong>robuste</strong>. Treize recommandations relèvent de ces quatre principes. Ce sont, pour résumer, des objectifs généraux en terme d’accessibilité. Pour pouvoir appliquer concrètement ces recommandations, elles sont donc accompagnées de critères de succès, qui, eux, sont testables et opérationnels.</p>
+								
+								
+									
+									
+								
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-page-border a42-border-c7 a42-bgcolor-c9" tabindex="0" id="D44" data-breadcrumb="26" style="opacity: 1;">
+						<div class="inside a42-align-center center">
+							<div class="a42-block">
+								<h2 class="a42-title-chapter">Exemples d’erreurs d’accessibilité courantes</h2>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-page-border a42-border-c1 a42-bgcolor-c7" tabindex="0" id="D27" data-breadcrumb="27" style="opacity: 1;">
+						<div class="inside a42-align-center center">
+							<div class="a42-block">
+								<h3 class="a42-subtitle"><span class="a42-fancy-under"><span>Textes en image</span></span></h3>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c5" tabindex="0" id="D45" data-breadcrumb="28" style="opacity: 1;">
+						<div class="a42-page-half-horizontal">
+							<div class="a42-page-half-horizontal_col a42-bgcolor-c5 a42-align-center">
+								<div class="a42-block center">
+									<h4 class="a42-font-geomed a42-text-h3">Alternative présente ? Oui. <span class="a42-item-block">Alternative pertinente ? Non&nbsp;! <span aria-label="visage effrayé" role="img">😱</span></span></h4>
+								</div>
+							</div>
+							<div class="a42-page-half-horizontal_col a42-align-center a42-bgcolor-c0">
+								<div class="a42-block center">
+									<div class="a42-margin-b15"><a href="https://assistance.marcel.cab/hc/fr/articles/205496122-Comment-contacter-Marcel-"><img src="img_slide/service-client-marcel.png" alt="Contacter le service client Marcel" /></a></div>
+									<audio controls="controls" class="a42-margin-b05">
+										<source src="audios/contact-telephone.mp3" type="audio/mp3" />
+										<p>Un synthèse vocale lit&nbsp;: « Il est possible de commander par téléphone et de se renseigner sur les service Marcel auprès de notre service client, ouvert du lundi au vendredi de 9h30 à 17h30. Graphique 08_a__jour.png »</p>
+									</audio>
+									<div class="toggle-gp-article toggle-gp a42-toggle-box a42-text-tiny">
+										<button class="a42-btn a42-btn-toggle" aria-expanded="false" aria-controls="alt-audio-infos-img">Consulter l’alternative du fichier audio</button>
+										<div id="alt-audio-infos-img" class="content-to-toggle is-hidden a42-text-small a42-text-reset">
+											<p>Une synthèse vocale lit&nbsp;: «&nbsp;Il est possible de commander par téléphone et de se renseigner sur les service Marcel auprès de notre service client, ouvert du lundi au vendredi de 9h30 à 17h30. Graphique 08_a__jour.png&nbsp;»</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c6" tabindex="0" id="D46" data-breadcrumb="29" style="opacity: 1;">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c6">
+								<div class="a42-block center">
+									<h4 class="a42-font-geomed a42-text-unlimit a42-text-h3">À qui les textes en images posent-ils problème ?<span class="sr"> (1)</span></h4>
+									<div class="a42-margin-t15"><img src="img_slide/service-client-marcel.png" alt="" /></div>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c7">
+								<div class="a42-block">
+									<h5>1. Personnes malvoyantes, dyslexiques ou présentant un trouble cognitif</h5>
+									<h6 class="a42-color-c9">Leurs besoins</h6>
+									<p>Augmenter la taille du texte, changer de police de caractères, modifier les contrastes, etc., pour pouvoir lire malgré leurs déficiences.</p>
+									<h6 class="a42-color-c5">Ce qui pose problème</h6>
+									<p>Impossibilité de lire et donc d’accéder à l’information car les textes en images ne s’adaptent pas à leurs préférences.<p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c6" tabindex="0" id="D49" data-breadcrumb="30" style="opacity: 1;">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c6">
+								<div class="a42-block center">
+									<h4 class="a42-font-geomed a42-text-h3">À qui les textes en images posent-ils problème ?<span class="sr"> (2)</span></h4>
+									<div class="a42-margin-t15"><img src="img_slide/service-client-marcel.png" alt="" /></div>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c7">
+								<div class="a42-block">
+									<h5>2. Personnes utilisant un lecteur d’écran&nbsp;: personnes aveugles, très malvoyantes ou ayant des difficultés de lecture</h5>
+									<h6 class="a42-color-c9">Leurs besoins</h6>
+									<p>Des alternatives pertinentes aux images porteuses d’information, restituées par les lecteurs d’écran.</p>
+									<h6 class="a42-color-c5">Ce qui pose problème</h6>
+									<p>Impossibilité d’accéder à l’information lorsque l’alternative n’est pas ou mal renseignée (par ex.&nbsp;: impossibilité de contacter le service client).</p>
+									<div class="a42-text-tiny a42-margin-t1 a42-border-t a42-border-c4a">
+										<p>En savoir plus&nbsp;:</p>
+										<p><a href="https://disic.github.io/guide-impacts_utilisateurs/images.html">Guide «&nbsp;Défauts d’accessibilité&nbsp;: Impacts sur les utilisateurs&nbsp;», Chapitre Images</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c7" tabindex="0" id="D50" data-breadcrumb="31" style="opacity: 1;">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c9">
+								<div class="a42-block center">
+									<h4 class="a42-font-geomed a42-text-h3">Solutions <span aria-label="marteau et clé anglaise" role="img">🛠️</span></h4>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c7">
+								<div class="a42-block">
+									<ul class="a42-list-block a42-text-great">
+										<li>Remplacer les textes en images par du <strong>texte stylé avec HTML/CSS</strong>.</li>
+										<li>Ou&nbsp;: Permettre de remplacer les textes en images par du texte stylé avec HTML/CSS à l’aide d’un <strong>mécanisme de remplacement</strong>.</li>
+									</ul>
+									<p><strong>Attention</strong>&nbsp;: le RGAA autorise l’utilisation de textes en images uniquement lorsque la police de caractères utilisée pour le texte présent dans l’image n’est <strong>pas reproductible en CSS</strong> (logo, police fantaisiste…).</p>
+									<p class="a42-text-tiny a42-border-t a42-border-c4">Référence&nbsp;: <a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#1.8">critère 1.8</a> du RGAA 4.</p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c7" tabindex="0" id="D51" data-breadcrumb="32" style="opacity: 1;">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c9">
+								<div class="a42-block center">
+									<h4 class="a42-font-geomed a42-text-h3">Exemple de mécanisme de remplacement&nbsp;: AccessConfig</h4>
+									<p class="a42-text-great"><a href="https://accessconfig.a11y.fr/" class="a42-font-geomed">accessconfig.a11y.fr</a></p>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c7">
+								<div class="a42-block center">
+									<img src="img_slide/accessconfig-img_txt.png" alt="Capture d’écran d’AccessConfig" class="a42-asset-free a42-asset-shrink-h" />
+									<div class="toggle-gp-article toggle-gp a42-toggle-box a42-text-tiny">
+										<button class="a42-btn a42-btn-toggle" aria-expanded="false" aria-controls="alt-img-accessconfig">Consulter l’alternative de l’image</button>
+										<div id="alt-img-accessconfig" class="content-to-toggle is-hidden a42-text-small a42-text-reset">
+											<p>Capture d’écran d’AccessConfig, un petit outil basé sur JavaScript, développé par Access42. AccessConfig permet de remplacer une image contenant du texte par son alternative textuelle. Ainsi, les personnes qui ont besoin d’adapter l’apparence de ce texte peuvent le faire, par exemple en agrandissant la taille des caractères, en modifiant les couleurs, etc.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					
+					<section class="slide a42-page-full a42-page-border a42-border-c1 a42-bgcolor-c7" tabindex="0" id="D52" data-breadcrumb="33" style="opacity: 1;">
+						<div class="inside a42-align-center center">
+							<div class="a42-block">
+								<h3 class="a42-subtitle"><span class="a42-fancy-under"><span>Formulaires</span></span></h3>
+							</div>
+						</div>
+					</section>
+
+					
+					<section class="slide a42-page-full a42-bgcolor-c7" tabindex="0" id="D53" data-breadcrumb="34" style="opacity: 1;">
+						<div class="inside a42-align-center center">
+							<div class="a42-block">
+								<h4 class="a42-text-h3">Formulaire à choix multiple</h4>
+								<form class="a42-form a42-form-background a42-form-bad-gpt">
+									<p class="a42-form_legend">Avez-vous un passeport&nbsp;?</p>
+									<p>
+										<input type="radio" id="yes" />
+										<label for="yes">Oui</label>
+									</p>
+									<p>
+										<input type="radio" id="no" />
+										<label for="no">Non</label>
+									</p>
+									<p>
+										<button type="submit" title="Continuer vers l’étape suivante">Continuer</button>
+									</p>
+								</form>
+								<p><span role="img" aria-label="visage interrogateur">🤔</span> <strong>Problème&nbsp;:</strong> un lecteur d’écran va restituer «&nbsp;Oui&nbsp;» et «&nbsp;Non&nbsp;», mais pas la question correspondante. Ceci parce que la question n’est pas reliée techniquement aux champs.</p>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c7" tabindex="0" id="D54" data-breadcrumb="35" style="opacity: 1;">
+						<div class="inside a42-align-center center">
+							<div class="a42-block">
+								<h4 class="a42-text-h3">Formulaire à choix multiple accessible</h4>
+								<form class="a42-form a42-form-background">
+									<fieldset>
+										<legend>Avez-vous un passeport&nbsp;?</legend>
+										<p>
+											<input type="radio" id="yes2" name="test1B" />
+											<label for="yes2">Oui</label>
+										</p>
+										<p>
+											<input type="radio" id="no2" name="test1B"/>
+											<label for="no2">Non</label>
+										</p>
+										<p>
+											<button type="submit" title="Continuer vers l’étape suivante">Continuer</button>
+										</p>
+									</fieldset>
+								</form>
+								<p><span role="img" aria-label="visage souriant avec des coeurs dans les yeux">😍</span> <strong>Solution&nbsp;:</strong> réunir les champs visuellement et techniquement à l’aide des éléments <code>fieldset</code> et <code>legend</code> pour que la question soit bien restituée par les lecteurs d’écran.</p>
+							</div>
+						</div>
+					</section>
+
+					
+					<section class="slide a42-page-full a42-bgcolor-c7" tabindex="0" id="D55" data-breadcrumb="36" style="opacity: 1;">
+						<div class="inside a42-align-center center">
+							<div class="a42-block">
+								<h4 class="a42-text-h3">Champs aux étiquettes similaires</h4>
+								<form class="a42-form a42-form-background a42-form-bad-gpt">
+									<p class="a42-form_legend">Passager nº1</p>
+									<p>
+										<label for="passenger1-firstname">Prénom</label>
+										<input type="text" id="passenger1-firstname" />
+									</p>
+									<p class="a42-form_legend a42-margin-t1">Passager nº2</p>
+									<p>
+										<label for="passenger2-firstname">Prénom</label>
+										<input type="text" id="passenger2-firstname" />
+									</p>
+									<p class="a42-form-submit">
+										<button type="submit" title="Réserver le billet d’avion">Réserver</button>
+									</p>
+								</form>
+								<p><span role="img" aria-label="visage interrogateur">🤔</span> <strong>Problème&nbsp;:</strong> il y a une ambiguïté entre les deux champs prénom lorsque l’utilisateur n’a pas une vision globale de la page</p>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c7" tabindex="0" id="D56" data-breadcrumb="37" style="opacity: 1;">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c7">
+								<div class="a42-block center">
+									<h4 class="a42-text-h3">Regrouper les champs aux étiquettes similaires</h4>
+									<form class="a42-form a42-form-background a42-form-bad-gpt">
+										<fieldset>
+											<legend>Passager nº1</legend>
+											<p>
+												<label for="passenger1-firstname2">Prénom</label>
+												<input type="text" id="passenger1-firstname2" />
+											</p>
+										</fieldset>
+										<fieldset>
+											<legend>Passager nº2</legend>
+											<p>
+												<label for="passenger2-firstname2">Prénom</label>
+												<input type="text" id="passenger2-firstname2" />
+											</p>
+										</fieldset>
+										<p class="a42-form-submit">
+											<button type="submit" title="Réserver le billet d’avion">Réserver</button>
+										</p>
+									</form>
+									<p><span role="img" aria-label="visage souriant avec des coeurs dans les yeux">😍</span> <strong>Solution&nbsp;:</strong> distinguer chacun des champs à l’aide des éléments appropriés, <code>fieldset</code> et <code>legend</code>, permet de lever l’ambiguïté sur la fonction de chacun des champs pour un utilisateur qui n’a pas accès la mise en forme.</p>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c2">
+								<div class="a42-block">
+									<h5 class="a42-text-reinit">En savoir plus&nbsp;:</h5>
+									<ul>
+										<li><a href="https://disic.github.io/guide-impacts_utilisateurs/formulaires.html">Formulaires – Guide «&nbsp;Défauts d’accessibilité&nbsp;: Impacts sur les utilisateurs&nbsp;»</a></li>
+										<li>Références RGAA 4&nbsp;:
+											<ul class="a42-list-inline-i a42-list-inline a42-list-inline-sep">
+												<li><a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#11.1">critère 11.1</a></li>
+												<li><a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#11.2">critère 11.2</a></li>
+												<li><a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#11.5">critère 11.5</a></li>
+												<li><a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#11.6">critère 11.6</a></li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c7" tabindex="0" id="D57" data-breadcrumb="38" style="opacity: 1;">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c5">
+								<div class="a42-block center">
+									<h3>Autre difficulté dans les formulaires</h3>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c7">
+								<div class="a42-block">
+									<h4 class="a42-text-h3">Captcha image</h4>
+									<p class="a42-text-great">Exemple réel&nbsp;: identification par captcha image pour récupérer les résultats du brevet des collèges</p>
+									<div class="a42-margin-b15"><img src="img_slide/publication-des-resultats-cyclades.png" alt="" /></div>
+									<audio controls="controls" class="a42-margin-b05">
+										<source src="audios/captcha.mp3" type="audio/mp3" />
+										<ul>
+											<li>Graphique&nbsp;: image de vérification.</li>
+											<li>Lien&nbsp;: générer un nouveau code de contrôle.</li>
+											<li>Saisir le code de contrôle&nbsp;: édition avec auto complétion.</li>
+											<li>Bouton «&nbsp;valider&nbsp;». Bouton «&nbsp;quitter&nbsp;».</li>
+										</ul>
+									</audio>
+									<div class="toggle-gp-article toggle-gp a42-toggle-box a42-text-tiny">
+										<button class="a42-btn a42-btn-toggle" aria-expanded="false" aria-controls="alt-audio-captcha">Consulter l’alternative du fichier audio</button>
+										<div id="alt-audio-captcha" class="content-to-toggle is-hidden a42-text-small a42-block-left">
+											<p class="a42-list-block a42-list-shrink">Graphique&nbsp;: image de vérification. Lien&nbsp;: générer un nouveau code de contrôle. Saisir le code de contrôle&nbsp;: édition avec auto complétion. Bouton «&nbsp;valider&nbsp;». Bouton «&nbsp;quitter&nbsp;».</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c6" tabindex="0" id="D58" data-breadcrumb="39" style="opacity: 1;">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c6">
+								<div class="a42-block center">
+									<h4 class="a42-font-geomed a42-text-unlimit a42-text-h3">À qui les captchas images posent-ils problème&nbsp;?</h4>
+									<div class="a42-margin-b15"><img src="img_slide/publication-des-resultats-cyclades.png" alt="" /></div>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c7">
+								<div class="a42-block">
+									<h5>Personnes aveugles ou très malvoyantes</h5>
+									<p>Elles n’accèdent pas au contenu du test, et ne peuvent jamais remplir le code de sécurité.</p>
+									<h5>Personnes ayant des difficultés de décodage de l’écriture (dyslexie par exemple) ou malvoyantes</h5>
+									<p>Impossibilité de lire des caractères qui ont subi une distorsion, et donc de retranscrire le captcha.</p>
+									<div class="a42-border-t a42-border-c4">
+										<p>En savoir plus&nbsp;:</p>
+										<ul>
+											<li><a href="https://disic.github.io/guide-impacts_utilisateurs/images.html#captcha">Captcha – Guide «&nbsp;Défauts d’accessibilité&nbsp;: Impacts sur les utilisateurs&nbsp;»</a></li>
+											<li><a href="https://www.w3.org/TR/turingtest/" lang="en" hreflang="en">Inaccessibility of Captcha (W3C)</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c7" tabindex="0" id="D59" data-breadcrumb="40" style="opacity: 1;">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c9">
+								<div class="a42-block center">
+									<h4 class="a42-font-geomed a42-text-h3">Solutions <span aria-label="marteau et clé anglaise" role="img">🛠️</span></h4>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c7">
+								<div class="a42-block">
+									<p class="a42-text-great"><strong>Proposer une solution alternative</strong>, par exemple&nbsp;:</p>
+									<ul class="a42-list-reset a42-text-great">
+										<li>Alternative audio (mais elle doit être audible&nbsp;!)</li>
+										<li>Envoi d’un code par email ou par SMS</li>
+									</ul>
+									
+									<p class="a42-text-great">Tout le monde doit pouvoir réaliser le test, quelles que soient ses déficiences et ses préférences.</p>
+									<p class="a42-text-tiny a42-border-t a42-border-c4">Référence&nbsp;: <a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#1.4">critère 1.4</a> et <a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#1.5">critère 1.5</a> du RGAA 4.</p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c7" tabindex="0" id="D60" data-breadcrumb="41" style="opacity: 1;">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c5">
+								<div class="a42-block center">
+									<h3>Autres difficultés dans les formulaires<span class="sr"> (1)</span></h3>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c7">
+								<div class="a42-block">
+									<h4 class="a42-text-h3">Erreurs de saisie signalées uniquement par la couleur</h4>
+									<img src="img_slide/couleur_form-nok.jpg" alt="Les champs obligatoires sont indiqués en rouge." />
+									<ol class="a42-margin-t15">
+										<li><strong>L’indication par la couleur est difficile ou impossible à percevoir</strong> pour les personnes malvoyantes, daltoniennes, et/ou utilisant un lecteur d’écran, s’il n’y a pas d’alternative.</li>
+										<li>Il leur est impossible de savoir où se situe l’erreur, de la corriger et de soumettre le formulaire.</li>
+									</ol>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					
+
+					<section class="slide a42-page-full a42-page-border a42-border-c7 a42-bgcolor-c3" tabindex="0" id="D61" data-breadcrumb="50" style="opacity: 1;">
+						<div class="inside a42-align-center center">
+							<div class="a42-block">
+								<h2 class="a42-title-chapter">Règles d’accessibilité indispensables</h2>
+							</div>
+						</div>
+					</section>
+
+					
+					<section class="slide a42-page-full a42-page-border a42-border-c7 a42-bgcolor-c1" tabindex="0" id="D62" data-breadcrumb="51">
+						<div class="inside a42-align-center center">
+							<div class="a42-block">
+								<h2 class="a42-title-chapter">Rôle des équipes éditoriales</h2>
+							</div>
+						</div>
+					</section>
+
+
+					<section class="slide a42-page-full a42-bgcolor-c2dark" tabindex="0" id="D63" data-breadcrumb="41" style="opacity: 1;">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c2dark">
+								<div class="a42-block center">
+									<h3>L’accessibilité n'est pas qu’une question très complexe et technique.</h3>
+									<h4>c’est d’abord de l’humain et les équipes éditoriales ont un rôle majeur à jouer.</h4>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center a42-bgcolor-c2dark">
+								<div class="a42-block a42-block-right">
+									<figure role="group" class="a42-img">
+										<div><img src="img_slide/front.jpg"  class="a42-img" alt="iceberg technique" style="width: 100%; height: auto ;" width="512" height="528"></div>
+										<div class="toggle-gp-article toggle-gp a42-toggle-box a42-text-tiny">
+											<button class="a42-btn a42-btn-toggle a42-bgcolor-c5" aria-expanded="false" aria-controls="alt-audio-ice">Consulter l’alternative de l’image</button>
+											<div id="alt-audio-ice" class="content-to-toggle is-hidden a42-text-small">
+												<p>Image d’un iceberg qui figure la complexité technique du developpement web côté client, l’accessibilité (WCAG) est tout en bas de celui-ci parmi les choses les plus complexes à maîtriser.</p>
+											</div>
+										</div>
+									</figure>
+									
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full " tabindex="0" id="D64" style="opacity: 1;"data-breadcrumb="6">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-bgcolor-c9 a42-align-center-y">
+								<div class="a42-block">
+									<h3>Mettre de l’humain dans la technique</h3>
+									
+									<p>Un site web évolue quotidiennement. L’accessibilité ne saurait être maintenue sans la vigilance des personnes qui y contribuent, autant quand elles rédigent des contenus à l’aide d’un CMS (Ksup, WordPress, Drupal, etc.) que lorsqu’elles mettent en ligne des documents bureautiques.</p>
+									<p>En effet, les contributeurs et contributrices jouent un rôle central&nbsp;: elles sont les garantes de la qualité éditoriale, élément déterminant de son succès. Or, anticiper l’accessibilité des contenus éditoriaux nécessite de connaître les besoins spécifiques des personnes en situation de handicap.</p>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center center">
+								<div class="a42-block">
+									<img src="img_slide/redacteur-web.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</section>
+
+					
+					<section class="slide a42-page-full a42-page-border a42-border-c7 a42-bgcolor-c2" tabindex="0" id="D65" data-breadcrumb="52">
+						<div class="inside a42-align-center center">
+							<div class="a42-block">
+								<h2 class="a42-title-chapter">Les images</h2>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c6" tabindex="0" id="D66" data-breadcrumb="53" style="opacity: 1;">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c5">
+								<div class="a42-block center">
+									<h3 class="a42-font-geomed a42-text-h3">Caractériser le type d’image que l’on va ajouter</h3>
+									
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c7">
+								<div class="a42-block">
+									<ul>
+										<li>Images de décoration</li>
+										<li>Images porteuses d’information</li>
+										<li>Images liens</li>
+										<li>Images complexes</li>
+										<li>Textes en images</li>
+										<li>Images légendées</li>
+									</ul>
+									<p>En savoir plus&nbsp;:</p>
+									<p><a href="https://disic.github.io/guide-impacts_utilisateurs/images.html">Guide «&nbsp;Défauts d’accessibilité&nbsp;: Impacts sur les utilisateurs&nbsp;», Chapitre Images</a></p>
+									<p><a href="https://jakearchibald.com/2021/great-alt-text/">«&nbsp;Writing great alt text: Emotion matters&nbsp;» (en anglais)</a></p>
+									
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c5 " tabindex="0" id="D67" data-breadcrumb="58" style="opacity: 1;">
+						<div class="inside a42-align-center center">
+							<div class="a42-block">
+								<h3>Quel texte alternatif derrière cette image&nbsp;?</h3>
+								<figure role="group" class="a42-img">
+									<div><img src="img_slide/jake-029abc16.jpg"  alt="Jack regarde effrontément caché derrière une plante" style="aspect-ratio: 1 / 1; width: 30%; height: auto;" width="512" height="528"></div>
+									<div class="toggle-gp-article toggle-gp a42-toggle-box a42-text-tiny">
+										<button class="a42-btn a42-btn-toggle a42-bgcolor-c2" aria-expanded="false" aria-controls="alt-audio-jack">Consulter l’alternative de l’image</button>
+										<div id="alt-audio-jack" class="content-to-toggle is-hidden a42-text-small">
+											<p>Jack regarde effrontément caché derrière une plante</p>
+											<p><strong>En savoir plus&nbsp;:</strong></p>
+											<p><a href="https://jakearchibald.com/2021/great-alt-text/" lang="en-US">"Writing great alt text: Emotion matters" <span lang="fr">(en anglais)</span></a></p>
+										</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+					</section>
+				
+					<section class="slide a42-page-full a42-bgcolor-c6" tabindex="0" id="D68" data-breadcrumb="54" style="opacity: 1;">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c2">
+								<div class="a42-block center">
+									<h3 class="a42-font-geomed a42-text-h3">Prévoir une alternative aux images complexes et aux tableaux</h3>
+									<svg aria-hidden="true" class="a42-picto" height="121" viewBox="0 0 150 121" width="150" xmlns="http://www.w3.org/2000/svg"><path d="m145.9 120.7h-141.8a4.1 4.1 0 0 1 -4.1-4.1v-112.2a4.1 4.1 0 0 1 4.1-4.1h141.8a4.1 4.1 0 0 1 4.1 4.1v112.2a4.1 4.1 0 0 1 -4.1 4.1zm-137.6-8.3h133.4v-103.8h-133.4z"></path><path d="m135.9 63.8-29.5-35.7-34.9 51.8-30.5-16.6-26.9 30.2v12.6h121.8z"></path><path d="m34 51a17.6 17.6 0 1 1 17.6-17.5 17.6 17.6 0 0 1 -17.6 17.5zm0-26.7a9.3 9.3 0 0 0 0 18.6 9.3 9.3 0 0 0 0-18.6z"></path></svg>
+									<ul class="a42-margin-t2 reference-rgaa-inline">
+										<li>Références RGAA&nbsp;:</li>
+										<li><a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#1.6">1.6&nbsp;</a></li>
+										<li><a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#1.7">1.7&nbsp;</a></li>
+										<li><a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#5.1">5.1&nbsp;</a></li>
+										<li><a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#10.14">10.14&nbsp;</a></li>
+										<li><a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#10.15">10.15&nbsp;</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c7">
+								<div class="a42-block">
+									<h3 class="a42-text-super-xxl">Besoins utilisateurs</h3>
+									<p class="a42-text-great-xxl"><strong>Un univers visuel trop riche</strong> est un obstacle pour les personnes dyspraxiques visuo-spatiales.</p>
+									<h4 class="a42-text-super-xxl a42-border-t a42-border-c6dark">Solutions</h4>
+									<ul>
+										<li>Prévoir une <strong><a href="https://disic.github.io/guide-concepteur/1-images.html#descriptiondetaillee">description détaillée</a></strong> pour chaque image complexe (infographie, plan…).</li>
+										<li>Prévoir un <strong><a href="https://disic.github.io/guide-concepteur/2-tableaux.html#tableauxcomplexes">résumé</a></strong> pour chaque tableau complexe.</li>
+										<li>Prévoir une <strong><a href="https://disic.github.io/guide-concepteur/7-presentation.html#alternatives-forme-taille-position">alternative</a></strong> à l’information donnée uniquement par la forme, la taille ou la position.</li>
+									</ul>
+									<h4 class="a42-text-super-xxl a42-border-t a42-border-c6dark">Déficiences principalement impactées</h4>
+									<ul class="a42-list-inline a42-list-inline-sep">
+										<li>Dyspraxie</li>
+										<li>troubles de l’attention</li>
+									</ul>
+									<p class="a42-text-tiny">En savoir plus&nbsp;: <a href="https://www.france-assos-sante.org/2018/03/07/la-dyspraxie-un-trouble-meconnu-un-handicap-invisible-de-la-vie-quotidienne/" class="a42-font-geomed">La Dyspraxie&nbsp;: un trouble méconnu, un handicap invisible de la vie quotidienne</a></p>
+									
+								</div>
+							</div>
+						</div>
+					</section>					
+
+					
+					<section class="slide a42-page-full a42-page-border a42-border-c7 a42-bgcolor-c3" tabindex="0" id="D69" data-breadcrumb="56">
+						<div class="inside a42-align-center center">
+							<div class="a42-block">
+								<h2 class="a42-title-chapter">Rédiger sans se contenter d’informations de position ou de couleur</h2>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full " tabindex="0" id="D57" data-breadcrumb="57" style="opacity: 1;" id="D70">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-bgcolor-c0 a42-align-center">
+								<div class="a42-block">
+									<h3><span class="a42-item-block">Respecter les <strong>rapports de contraste</strong></span><span class="sr"> </span> du RGAA</h3>
+									<p>Éléments devant être suffisamment contrastés&nbsp;:</p>
+									<ul>
+										<li>les textes <strong>HTML</strong> ;</li>
+										<li>les textes présents dans les <strong>images</strong>&nbsp;;</li>
+										<li>les textes incrustés dans les <strong>vidéos</strong>&nbsp;;</li>
+										<li>et, dans WCAG&nbsp;2.1, les <strong>composants d’interface non textuels porteurs d’information</strong> (un bouton d’action actif contenant une icône par exemple)&nbsp;: <a href="https://www.w3.org/TR/WCAG21/#non-text-contrast" class="a42-font-geomed" lang="en"  hreflang="en">Success Criterion 1.4.11 Non-text Contrast</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-bgcolor-c4a a42-align-center">
+								<div class="a42-block">
+									<p class="a42-text-great">Les rapports de contraste attendus entre la couleur du texte et la couleur de son arrière-plan varient en fonction de <strong>la taille de texte</strong>, de <strong>sa graisse</strong> et du <strong>niveau d’accessibilité visé</strong>.</p>
+									<p class="a42-border-t a42-border-c4a">En savoir plus&nbsp;: <a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#3" class="a42-font-geomed">accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#3</a></p>
+								</div>
+							</div>
+						</div>
+						<ul class="reference-rgaa">
+							<li>Références RGAA&nbsp;:</li>
+							<li><a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#3.3">3.3&nbsp;</a>, <a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#3.4">3.4&nbsp;</a></li>
+						</ul>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c6 " tabindex="0" id="D71" data-breadcrumb="58" style="opacity: 1;">
+						<div class="inside a42-align-center center">
+							<div class="a42-block">
+								<h3>Un réflexe à acquérir&nbsp;: <b lang="en" hreflang="en">Colour Contrast Analyser</strong></h3>
+								<figure role="group" class="a42-img">
+									<div><img src="img_slide/cca.png" lang="en" alt="Colour Contrast Analyser" width="512" height="528"></div>
+									<figcaption>
+										<p><span lang="en">Colour Contrast Analyser</span> est une petite appli gratuite pour MacOS et Windows, qui permet de vérifier que le rapport de contraste entre deux couleurs est conforme.</p>
+										<p><a href="https://developer.paciellogroup.com/color-contrast-checker/" class="a42-text-super a42-font-geomed" lang="en" hreflang="en">Color-contrast-checker on Mac and PC</a></p>
+									</figcaption>
+								</figure>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c5 " tabindex="0" id="D72" data-breadcrumb="58" style="opacity: 1;">
+						<div class="inside a42-align-center center">
+							<div class="a42-block">
+								<h3>Un autre bon réflexe à acquérir&nbsp;: <b lang="en">Chromatic Vision Simulator</strong></h3>
+								<figure role="group" class="a42-img">
+									<div><img src="img_slide/cvsimulator.jpg" lang="en" alt="Chromatic Vision Simulator : l’image d’un feedback d’un quizz où l’information n’est donnée que par la couleur"></div>
+									<figcaption>
+										<p><span lang="en">Chromatic Vision Simulator</span> est une petite appli gratuite pour Android et IOS, qui permet de simuler les trois types principaux de daltonisme.</p>
+										<p><a href="https://play.google.com/store/apps/details?id=asada0.android.cvsimulator&hl=fr&gl=US&pli=1" class="a42-text-super a42-font-geomed">Chromatic Vision Simulator sur <span lang="en">Google Play Store</span></a></p>
+										<p><a href="https://apps.apple.com/us/app/chromatic-vision-simulator/id389310222"  lang="en"  hreflang="en" class="a42-text-super a42-font-geomed">Chromatic Vision Simulator on IOS</a></p>
+									</figcaption>
+								</figure>
+							</div>
+						</div>
+					</section>
+
+
+					
+					<section class="slide a42-page-full a42-page-border a42-border-c7 a42-bgcolor-c5" tabindex="0" id="D73" data-breadcrumb="59">
+						<div class="inside a42-align-center center">
+							<div class="a42-block">
+								<h2 class="a42-title-chapter">Structurer ses contenus</h2>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c2 " tabindex="0" id="D74" data-breadcrumb="60" style="opacity: 1;">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-bgcolor-c5 a42-align-center">
+								<div class="a42-block a42-block-left">
+									<h3>Utiliser à bon escient les listes, les titres, les citations et les paragraphes</h3>
+									<h4 class="a42-font-geomed"><span class="a42-text-great">Besoins utilisateurs</span></h4>
+									<p>Les technologies d’assistance caractérisent l’item en cours de consultation (&nbsp;titre de niveaux 1-5, listes ordonnée ou non, liens, images, etc.&nbsp;).</p>
+									<p>Il est essentiel pour les utilisateurs de celles-ci de&nbsp;:</p>
+									<ul>
+										<li>pouvoir naviguer de titre en titre ou de lien en lien,</li>
+										<li>pouvoir reconstruire mentalement la structure du document facilement.</li>
+									</ul>
+								</div>
+							</div>
+						
+							<div class="a42-page-half-vertical_col a42-align-center a42-bgcolor-c2">
+							<div class="a42-block a42-block-left">
+								<h4>Ce qu’il faut éviter&nbsp;: <strong>des détournements de balises à des fins esthétiques</strong>.</h4>
+								<p class="a42-text-great">Par exemple, mettre des paragraphes courts en gras à des fins de titres, structurer tout son code en <code>div</code>, etc.</p>
+								<p class="a42-margin-t2 a42-color-c6 a42-font-geomed a42-text-small">À noter&nbsp;:</p>
+								<ul>
+									<li>on peut avoir plusieurs titres <code>h1</code> dans une page&nbsp;; mais cela se produit dans des cas rares.</li>
+								</ul>
+								<h4 class="a42-text-super-xxl a42-border-t a42-border-c6dark">Déficiences principalement impactées</h4>
+								<ul>
+									<li><strong class="a42-item-block">Personnes handicapées cognitives</strong><span class="sr">&nbsp;: </span>mieux appréhender le contenu et son articulation logique</li>
+									<li><strong class="a42-item-block">Personnes handicapées moteur</strong><span class="sr">&nbsp;: </span>naviguer plus vite grâce à des extensions navigateurs.</li>
+								</ul>
+								
+								<p><strong>Référence RGAA&nbsp;:</strong> <a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#9.1">9.1&nbsp;</a></p>
+							</div>
+						</div>
+					
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c2 " tabindex="0" id="D75" data-breadcrumb="60" style="opacity: 1;">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-bgcolor-c7 a42-align-center">
+								<div class="a42-block a42-block-left">
+									<h3>Respecter la hierarchie des titres</h3>
+									<h4 class="a42-font-geomed"><span class="a42-text-great">Besoins utilisateurs</span></h4>
+									<p><strong class="a42-item-block a42-text-great">Personnes aveugles et grands malvoyants</strong><span class="sr">&nbsp;: </span></p>
+									<ul>
+										<li>pouvoir naviguer de titre en titre,</li>
+										<li>pouvoir retrouver facilement de l’information dans le contenu.</li>
+									</ul>
+									<h4 class="a42-text-super-xxl a42-border-t a42-border-c6dark">Déficiences principalement impactées</h4>
+									<ul>
+										<li><strong class="a42-item-block a42-text-great">Personnes handicapées cognitives</strong>&nbsp;: mieux appréhender le contenu et son articulation logique</li>
+										<li><strong class="a42-item-block a42-text-great">Personnes handicapées moteur</strong>&nbsp;: naviguer plus vite grâce à des extensions navigateurs.</li>
+									</ul>
+								</div>
+							</div>
+						
+							<div class="a42-page-half-vertical_col a42-align-center a42-bgcolor-c2">
+								<div class="a42-block a42-block-right">
+									<h4>Ce qu’il faut éviter&nbsp;: <strong>une hiérarchie de titres incomplète ou brisée</strong></h4>
+									<p class="a42-text-great">Par exemple, <strong>un titre <code>h3</code> ne peut pas suivre un titre <code>h1</code></strong>&nbsp;: il faut forcément qu’il suive un titre <code>h2</code>, etc.</p>
+									<p class="a42-margin-t2 a42-color-c6 a42-font-geomed a42-text-small">À noter&nbsp;:</p>
+									<ul>
+										<li>on peut avoir plusieurs <code>h1</code> dans une page&nbsp;;</li>
+										<li>il n’est pas obligatoire que la hiérarchie de titres d’une page commence par un <code>h1</code>.</li>
+									</ul>
+									<p><strong>Référence RGAA&nbsp;:</strong> <a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#9.1">9.1&nbsp;</a></lp>
+								</div>
+							</div>
+						</div>
+					</section>
+					
+
+					<section class="slide a42-page-full a42-bgcolor-c7 " tabindex="0" id="D76" data-breadcrumb="61" style="opacity: 1;">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-bgcolor-c7 a42-align-center">
+								<div class="a42-block a42-block-left">
+									<h3 class="a42-font-geomed">Comment vérifier la hiérarchie des titres sur le Web&nbsp;?</h3>
+									<ul class="a42-text-great">
+										<li><strong lang="en">HeadingsMap</strong> pour <a href="https://addons.mozilla.org/en-US/firefox/addon/headingsmap/" lang="en" hreflang="en">Firefox</a> et pour <a href="https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi" lang="en" hreflang="en">Chrome</a>&nbsp;;</li>
+							
+									</ul>
+									
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center a42-bgcolor-c5">
+								<div class="a42-block a42-block-left">
+									<img src="img_slide/headingMap.png" alt="Hiérarchie de titres correcte de la présentation actuelle">
+								</div>
+							</div>
+						</div>
+					</section>
+
+					
+					<section class="slide a42-page-full a42-page-border a42-border-c7 a42-bgcolor-c4" tabindex="0" id="D77" data-breadcrumb="62">
+						<div class="inside a42-align-center center">
+							<div class="a42-block">
+								<h2 class="a42-title-chapter">Orienter les utilisateurs</h2>
+							</div>
+						</div>
+					</section>
+
+					
+					<section class="slide a42-page-full" id="D78">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-bgcolor-c4 a42-align-center">
+								<div class="a42-block center">
+									<h3 class="a42-subtitle">Prévoir un fil d’Ariane</h3>
+									<svg aria-hidden="true" class="a42-picto" xmlns="https://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150"><path d="M150,143.7c-1.7-12.6-3.3-25.1-5-37.7s-3.4-26.5-5-39.7a6.5,6.5,0,0,0-5.3-5.5,92.3,92.3,0,0,1-12.3-3.9C115.5,54.4,109,52,104.9,52a21.6,21.6,0,0,0-6.7,1.4c3.5-8.2,6.1-16.7,6.1-24.2a29.3,29.3,0,0,0-58.5,0c-.1,7.6,2.6,16,6.1,24.2A22.9,22.9,0,0,0,45,52c-4,0-10.5,2.4-17.4,4.9a93.6,93.6,0,0,1-12.4,3.9A6.5,6.5,0,0,0,10,66.3C8.4,79.5,6.7,92.8,4.9,106L.1,143.7a4.9,4.9,0,0,0,1.6,4.6,5.5,5.5,0,0,0,4.7,1.6,126,126,0,0,0,15.7-4.3c6.7-2.1,14.4-4.4,17.8-4.4s9.4,2,15.4,4S69.9,150,75,150s12.6-2.5,19.8-4.8,12.2-4.1,15.4-4.1,11,2.4,17.8,4.5a139.6,139.6,0,0,0,15.7,4.2,5.5,5.5,0,0,0,4.6-1.5A5.3,5.3,0,0,0,150,143.7ZM75,7.6A21.7,21.7,0,0,1,96.8,29.1v.2c0,16.3-15.2,39.9-21.8,49.4-6.7-9.5-21.8-33.1-21.8-49.4A21.7,21.7,0,0,1,74.9,7.6ZM19.8,138.4c-4.2,1.3-8.6,2.6-11.9,3.4l4.5-34.9C14.1,94,15.7,81,17.4,68a110.6,110.6,0,0,0,12.7-4.1c3.6-1.3,7.7-2.8,10.9-3.6l-4.7,73.6A154.5,154.5,0,0,0,19.8,138.4Zm24-4.4,4.8-73.8c2.4.7,5.3,1.8,8,2.8A182.5,182.5,0,0,0,71.3,86.3v55.8A127.2,127.2,0,0,1,57.6,138a128.5,128.5,0,0,0-13.8-4Zm48.6,4a126.8,126.8,0,0,1-13.7,4V86.3A182.5,182.5,0,0,0,93.4,63c2.7-1,5.6-2.1,8-2.8l4.8,73.8a128.5,128.5,0,0,0-13.8,4Zm37.8.4a134.1,134.1,0,0,0-16.5-4.5L109,60.3c3.1.9,7.3,2.3,10.8,3.6A118.9,118.9,0,0,0,132.6,68c1.7,13,3.3,26,5,39l4.5,34.8C138.7,141,134.4,139.7,130.2,138.4Z"/><path d="M90,29.2a15,15,0,1,0-15,15A15,15,0,0,0,90,29.2Zm-22.6,0a7.6,7.6,0,1,1,7.7,7.6H75A7.7,7.7,0,0,1,67.4,29.2Z"/></svg>
+									<ul class="a42-margin-t2">
+										<li>Référence RGAA&nbsp;: </li>
+										<li><a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#12.8">12.8 </a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c4a">
+								<div class="a42-block a42-block-maxi">
+									<h4 class="a42-text-super-xxl">Besoins utilisateurs</h4>
+									<p class="a42-text-great-xxl"><strong>Mieux se repérer dans le site</strong>, en particulier en cas d’arborescence très profonde.</p>
+									<p class="a42-text-great-xxl">Donner du contexte à la page en cours de consultation.</p>
+									<h4 class="a42-text-super-xxl a42-border-t1 a42-border-c7">Déficiences principalement impactées</h4>
+									<ul class="a42-list-inline a42-list-inline-sep">
+										<li>Dyspraxie</li>
+										<li>troubles de l’attention</li>
+										<li>troubles de la mémoire</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					
+					<section class="slide a42-page-full a42-bgcolor-c2" id="D79">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-bgcolor-c2dark a42-align-center">
+								<div class="a42-block center">
+									<h3 class="a42-subtitle">Indiquer la page en cours de consultation</h3>
+									<svg aria-hidden="true" class="a42-picto" xmlns="https://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150"><path d="M150,143.7c-1.7-12.6-3.3-25.1-5-37.7s-3.4-26.5-5-39.7a6.5,6.5,0,0,0-5.3-5.5,92.3,92.3,0,0,1-12.3-3.9C115.5,54.4,109,52,104.9,52a21.6,21.6,0,0,0-6.7,1.4c3.5-8.2,6.1-16.7,6.1-24.2a29.3,29.3,0,0,0-58.5,0c-.1,7.6,2.6,16,6.1,24.2A22.9,22.9,0,0,0,45,52c-4,0-10.5,2.4-17.4,4.9a93.6,93.6,0,0,1-12.4,3.9A6.5,6.5,0,0,0,10,66.3C8.4,79.5,6.7,92.8,4.9,106L.1,143.7a4.9,4.9,0,0,0,1.6,4.6,5.5,5.5,0,0,0,4.7,1.6,126,126,0,0,0,15.7-4.3c6.7-2.1,14.4-4.4,17.8-4.4s9.4,2,15.4,4S69.9,150,75,150s12.6-2.5,19.8-4.8,12.2-4.1,15.4-4.1,11,2.4,17.8,4.5a139.6,139.6,0,0,0,15.7,4.2,5.5,5.5,0,0,0,4.6-1.5A5.3,5.3,0,0,0,150,143.7ZM75,7.6A21.7,21.7,0,0,1,96.8,29.1v.2c0,16.3-15.2,39.9-21.8,49.4-6.7-9.5-21.8-33.1-21.8-49.4A21.7,21.7,0,0,1,74.9,7.6ZM19.8,138.4c-4.2,1.3-8.6,2.6-11.9,3.4l4.5-34.9C14.1,94,15.7,81,17.4,68a110.6,110.6,0,0,0,12.7-4.1c3.6-1.3,7.7-2.8,10.9-3.6l-4.7,73.6A154.5,154.5,0,0,0,19.8,138.4Zm24-4.4,4.8-73.8c2.4.7,5.3,1.8,8,2.8A182.5,182.5,0,0,0,71.3,86.3v55.8A127.2,127.2,0,0,1,57.6,138a128.5,128.5,0,0,0-13.8-4Zm48.6,4a126.8,126.8,0,0,1-13.7,4V86.3A182.5,182.5,0,0,0,93.4,63c2.7-1,5.6-2.1,8-2.8l4.8,73.8a128.5,128.5,0,0,0-13.8,4Zm37.8.4a134.1,134.1,0,0,0-16.5-4.5L109,60.3c3.1.9,7.3,2.3,10.8,3.6A118.9,118.9,0,0,0,132.6,68c1.7,13,3.3,26,5,39l4.5,34.8C138.7,141,134.4,139.7,130.2,138.4Z"/><path d="M90,29.2a15,15,0,1,0-15,15A15,15,0,0,0,90,29.2Zm-22.6,0a7.6,7.6,0,1,1,7.7,7.6H75A7.7,7.7,0,0,1,67.4,29.2Z"/></svg>
+									<ul class="a42-margin-t2">
+										<li>Référence RGAA&nbsp;: </li>
+										<li><a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#12.2">12.2</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c2">
+								<div class="a42-block a42-block-maxi">
+									<h4 class="a42-text-super-xxl">Besoins utilisateurs</h4>
+									<p class="a42-text-great-xxl"><strong>Mieux se repérer dans le site</strong>, en particulier en cas d’arborescence très profonde ou d’une collection de pages (catalogue produits par exemple).</p>
+									<h4 class="a42-text-super-xxl a42-border-t1 a42-border-c8">Déficiences principalement impactées</h4>
+									<ul class="a42-list-inline a42-list-inline-sep">
+										<li>Dyspraxie</li>
+										<li>troubles de l’attention</li>
+										<li>troubles de la mémoire</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c7 " tabindex="0" id="D80" data-breadcrumb="63" style="opacity: 1;">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-bgcolor-c2 a42-align-center-y">
+								<div class="a42-block a42-block-left">
+
+									<h3 class="a42-font-geomed"><span class="a42-text-great"><code lang="en">Outline</code></span></h3>
+									<ul>
+										<li>
+											<strong class="a42-item-block a42-text-great">ne pas le supprimer</strong> 
+											avec les propriétés CSS <code lang="en">outline</code>, <code lang="en">outline-color</code>, <code lang="en">outline-width</code>ou <code lang="en">outline-style</code>&nbsp;;</li>
+										<li>
+											<strong class="a42-item-block a42-text-great">ne pas le dégrader</strong> 
+											avec la propriété CSS <code lang="en">outline-color</code>.
+										</li>
+									</ul>
+									<p class="a42-text-great">Mais vous pouvez le <strong>renforcer</strong>&nbsp;!</p>
+									<p class="a42-margin-t2 a42-color-c6 a42-font-geomed a42-text-small">À noter&nbsp;:</p>
+									<p class="a42-text-tiny">La pseudo-classe <a href="https://www.w3.org/TR/selectors-4/#the-focus-visible-pseudo"><code>:focus-visible</code></a> fait apparaître l’<code lang="en">outline</code> à la tabulation uniquement, et pas au clic. </p>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center a42-bgcolor-c7" tabindex="0" id="D60a" data-breadcrumb="60a" style="opacity: 1;">
+								<div class="a42-block a42-block-left">
+									<h4 class="a42-font-geomed"><span class="a42-text-great">Besoins utilisateurs</span></h4>
+									<ul class="a42-text-great">
+										<li>
+											<strong class="a42-item-block">Personnes handicapées moteur</strong> 
+											<span class="a42-text-small">qui naviguent exclusivement au clavier. Besoin de voir où se trouve le focus dans la page.</span>
+										</li>
+										<li><strong class="a42-item-block">Personnes ayant des troubles de l’attention ou de la mémoire</strong> 
+											<span class="a42-text-small">Besoin de retrouver rapidement où elles en étaient.</span></li>
+									</ul>
+									<p class="a42-bgcolor-c7">
+										Référence RGAA&nbsp;: critère <a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#10.7">10.7&nbsp;</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c4a " tabindex="0" id="D81" data-breadcrumb="64" style="opacity: 1;">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-bgcolor-c4a a42-align-center">
+								<div class="a42-block">
+									<h3 class="a42-font-geomed">Indiquer le poids, le format et si besoin la langue de chaque fichier téléchargeable</h3>
+									<p class="a42-margin-b2">Ces informations permettent à l’utilisateur de connaître les caractéristiques du fichier et d’évaluer si oui ou non il va le télécharger.</p>
+									<ul class="a42-text-tiny a42-list-inline">
+										<li>Référence RGAA&nbsp;:</li>
+										<li><a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#13.6">13.6&nbsp;</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center a42-bgcolor-c7">
+								<div class="a42-block">
+									<h4 class="a42-font-geomed">Besoins utilisateurs</h4>
+									<ul>
+										<li>
+											<span class="a42-item-block a42-text-important"><strong>Personnes aveugles et grands malvoyants</strong>&nbsp;:</span> 
+											<span class="a42-text-small">certains formats bureautiques sont plus ou moins compatibles avec les technologies d’assistance.</span>
+										</li>
+										<li>
+											<span class="a42-item-block a42-text-important"><strong>Personnes handicapées mentales</strong>&nbsp;:</span> 
+											<span class="a42-text-small">l’indication de poids renseigne l’utilisateur sur le temps à attendre avant de pouvoir consulter le fichier.</span>
+										</li>
+										<li>
+											<span class="a42-item-block a42-text-important"><strong>Personnes handicapées moteur</strong>&nbsp;:</span> 
+											<span class="a42-text-small">elles peuvent rencontrer des difficultés pour passer facilement du navigateur au lecteur de fichier et inversement.</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					
+					
+					<section class="slide a42-page-full a42-page-border a42-border-c7 a42-bgcolor-c1" tabindex="0" id="D82" data-breadcrumb="65">
+						<div class="inside a42-align-center center">
+							<div class="a42-block">
+								<h2 class="a42-title-chapter">Penser sa rédaction pour le plus grand nombre</h2>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c4 " tabindex="0" id="D83" data-breadcrumb="66" style="opacity: 1;">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-bgcolor-c4 a42-align-center">
+								<div class="a42-block center">
+									<h3 class="a42-subtitle">Expliquer les abréviations</h3>
+									<svg aria-hidden="true" class="a42-picto" height="150" viewBox="0 0 58 150" width="58" xmlns="https://www.w3.org/2000/svg"><path d="m26.7 0a8.2 8.2 0 0 0 -4.2 1 7.8 7.8 0 0 0 -2.7 2.4 5.8 5.8 0 0 0 -.9 3 1.9 1.9 0 0 0 .6 1.3 2 2 0 0 0 1.4.6c1 0 1.6-.6 2-1.8a6.6 6.6 0 0 1 1.3-2.4 3.3 3.3 0 0 1 2.5-.9 3.6 3.6 0 0 1 2.3.8 2.9 2.9 0 0 1 .9 2.1 2.7 2.7 0 0 1 -.3 1.2l-.7.9-1.4 1.3-1.8 1.7a8.6 8.6 0 0 0 -1 1.6 5.4 5.4 0 0 0 -.4 2.2 2.5 2.5 0 0 0 .5 1.6 2.2 2.2 0 0 0 1.4.5 1.7 1.7 0 0 0 1.8-1.6 8.4 8.4 0 0 0 .2-1l.3-.6.4-.7.9-.8a31.5 31.5 0 0 0 2.5-2.4 7.6 7.6 0 0 0 1.3-1.7 5.1 5.1 0 0 0 .5-2.2 5.9 5.9 0 0 0 -.9-3.1 7.1 7.1 0 0 0 -2.6-2.2 9.3 9.3 0 0 0 -3.9-.8zm17.8 6.2a6.5 6.5 0 0 0 -2.9.7 5.5 5.5 0 0 0 -1.9 1.8 3.5 3.5 0 0 0 -.7 2.1 2.1 2.1 0 0 0 .5 1.2 1.8 1.8 0 0 0 1.2.5 2.1 2.1 0 0 0 1.1-.4 2.1 2.1 0 0 0 .6-1 5.8 5.8 0 0 1 .8-1.4c.2-.3.6-.4 1.3-.4a1.6 1.6 0 0 1 1.2.4 1.3 1.3 0 0 1 .4 1 1.3 1.3 0 0 1 -.1.6l-.4.5-.9.8-1.2 1.1a7.5 7.5 0 0 0 -.7 1.2 4.1 4.1 0 0 0 -.3 1.6 1.5 1.5 0 0 0 .5 1.3 1.6 1.6 0 0 0 1.1.5 1.5 1.5 0 0 0 1.1-.4 1.2 1.2 0 0 0 .5-1 3.9 3.9 0 0 0 .2-.6v-.3l.2-.4.5-.5 1.7-1.5a3.4 3.4 0 0 0 .9-1.2 3.3 3.3 0 0 0 .4-1.7 3.6 3.6 0 0 0 -.6-2.3 4 4 0 0 0 -1.8-1.6 6 6 0 0 0 -2.7-.6zm-35.8 5.7a6.5 6.5 0 0 0 -2.9.6 5.9 5.9 0 0 0 -2 1.8 4.2 4.2 0 0 0 -.6 2.1 1.8 1.8 0 0 0 .5 1.2 1.7 1.7 0 0 0 1.2.5 1.5 1.5 0 0 0 1.1-.4 1.7 1.7 0 0 0 .6-1 3.5 3.5 0 0 1 .8-1.5 1.8 1.8 0 0 1 1.3-.4 2.1 2.1 0 0 1 1.2.4 1.3 1.3 0 0 1 .4 1 1.3 1.3 0 0 1 -.1.6l-.4.5-.9.8-1.2 1.1a8.3 8.3 0 0 0 -.8 1.2 4.1 4.1 0 0 0 -.2 1.6 1.7 1.7 0 0 0 .4 1.3 1.8 1.8 0 0 0 1.2.5 1.5 1.5 0 0 0 1.1-.4 1.6 1.6 0 0 0 .5-1c.1-.3.1-.5.2-.6a.4.4 0 0 1 .1-.3c0-.1.1-.2.2-.3s.3-.3.5-.5l1.7-1.6a2.7 2.7 0 0 0 .9-1.2 3.1 3.1 0 0 0 .4-1.7 3.6 3.6 0 0 0 -.7-2.2 4.6 4.6 0 0 0 -1.8-1.6 7.6 7.6 0 0 0 -2.7-.5zm17.6 6.6a2.3 2.3 0 0 0 -1.6.6 2.1 2.1 0 0 0 -.7 1.6 1.9 1.9 0 0 0 .7 1.7 2.5 2.5 0 0 0 1.6.6 2.3 2.3 0 0 0 1.6-.6 1.9 1.9 0 0 0 .7-1.7 2.2 2.2 0 0 0 -2.3-2.2zm18 .6a2.5 2.5 0 0 0 -1.7.6 2.6 2.6 0 0 0 -.7 1.7 2.2 2.2 0 0 0 .7 1.6 2.5 2.5 0 0 0 1.7.6 2 2 0 0 0 1.5-.6 1.9 1.9 0 0 0 .7-1.6 2.5 2.5 0 0 0 -.6-1.7 2.5 2.5 0 0 0 -1.6-.6zm-35.9 5.6a2 2 0 0 0 -1.6.7 1.9 1.9 0 0 0 -.7 1.6 2.6 2.6 0 0 0 .7 1.7 2.4 2.4 0 0 0 1.6.5 2.3 2.3 0 0 0 1.6-.6 1.9 1.9 0 0 0 .7-1.6 1.9 1.9 0 0 0 -.7-1.6 1.9 1.9 0 0 0 -1.6-.7zm32.2 1.5a16.9 16.9 0 0 0 -3.8.4 3.9 3.9 0 0 0 -3.2 3.5 10 10 0 1 0 2.9 7.1 10.6 10.6 0 0 0 -.4-3.1 3.6 3.6 0 0 0 2.3.2 9 9 0 0 1 11 6.9 5.4 5.4 0 0 1 -1.7 5.1c-1.6 1.5-4.8 3-10.7 3h-20.5a13.9 13.9 0 0 0 -11 5.1c-2.4 3.1-3.5 7-4.1 11.3-1.3 8.4-.5 18.6-.5 28-.1 5.3 7.9 5.3 7.9 0 0-9.8-.7-19.9.3-26.9.6-3.5 1.5-6.1 2.6-7.6a6.8 6.8 0 0 1 1.2-1.2v86.4a5.6 5.6 0 0 0 5.6 5.6 5.7 5.7 0 0 0 5.7-5.6v-46.1a1.9 1.9 0 0 1 1.8-1.9h1a2 2 0 0 1 1.9 1.9v46.1a5.6 5.6 0 0 0 11.2 0v-87.4c5.6-.5 10-2.2 13-5a13.5 13.5 0 0 0 4-12.1 16.6 16.6 0 0 0 -12.9-13.3 14.7 14.7 0 0 0 -3.6-.4z"></path></svg>
+									<ul class="a42-margin-t2 reference-rgaa-inline">
+										<li>Références RGAA&nbsp;:</li>
+										<li><a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#9.4">9.4&nbsp;</a></li>
+										<li><a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#9.5">9.5&nbsp;</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c4a" tabindex="0" id="D84a" data-breadcrumb="67" style="opacity: 1;">
+								<div class="a42-block a42-block-maxi">
+									<h4 class="a42-text-super-xxl">Problématique utilisateurs</h4>
+									<p class="a42-text-great-xxl"><strong>Manque de clarté et problème de mémorisation</strong> des abréviations et acronymes, même courts.</p>
+									<h5 class="a42-text-super-xxl a42-border-t1 a42-border-c7">Solution</h5>
+									<p class="a42-item-block a42-text-great-xxl a42-margin-b05">Indiquer immédiatement après l’abréviation <strong>sa signification entre parenthèses</strong>, lors de sa première occurrence.</p>
+									<p class="a42-text-tiny">Exemple&nbsp;: TVA (Taxe sur la valeur ajoutée).</p>
+									<h5 class="a42-text-super-xxl a42-border-t1 a42-border-c7">Déficiences principalement impactées</h5>
+									<ul class="a42-list-inline a42-list-inline-sep">
+										<li>Dyslexie</li>
+										<li>troubles de l’attention</li>
+										<li>troubles de la mémoire</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c2 " tabindex="0" id="D85" data-breadcrumb="68" style="opacity: 1;">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-bgcolor-c2dark a42-align-center">
+								<div class="a42-block center">
+									<h3 class="a42-subtitle">Définir les termes inhabituels</h3>
+									<svg aria-hidden="true" class="a42-picto" height="122" viewBox="0 0 150 122" width="150" xmlns="https://www.w3.org/2000/svg"><path d="m148.7 24.2c-.1-.1-2-2.5-4.6-5.1s-5.4-4.9-5.5-5l-3.9-3.2v-10.6l-6.3.2a120.8 120.8 0 0 0 -27.6 4.4 126.4 126.4 0 0 0 -25.8 11.4 126.4 126.4 0 0 0 -25.8-11.4 120.8 120.8 0 0 0 -27.6-4.4l-6.3-.2v10.6l-3.9 3.2c-.1.1-2.9 2.5-5.5 5s-4.5 5-4.6 5.1l-1.3 1.7v81.4l19.3 1.7c.1 0 11.8 1.3 29.9 7.5l2.6 1a73.4 73.4 0 0 0 23.2 4.2 73.4 73.4 0 0 0 23.2-4.2l2.6-1c18.1-6.2 29.8-7.5 29.8-7.5l19.4-1.7v-81.4zm-70.6-2.6a120.4 120.4 0 0 1 24.4-10.8 112.6 112.6 0 0 1 26.1-4.2v79.6s-13.6 1.1-35.2 8.6a145.5 145.5 0 0 0 -15.3 6.3zm-56.7-15a111.5 111.5 0 0 1 26 4.2 119.6 119.6 0 0 1 24.5 10.8v79.5a145.5 145.5 0 0 0 -15.3-6.3c-21.7-7.5-35.2-8.6-35.2-8.6zm36.9 106.8c-2.4-1-4.7-1.9-7.1-2.7-19-6.5-31.2-7.7-31.3-7.8l-13.8-1.2v-73.7s1.8-2.2 4.1-4.6 5.1-4.6 5.1-4.6v73l5.6.5c.1 0 13.2 1.2 33.7 8.3a143.3 143.3 0 0 1 14.1 5.7c-4.5 2.8-8.2 5.4-10.4 7.1zm16.7 3.4a78.4 78.4 0 0 1 -10.4-.5s5.1-3.5 10.4-6.6c5.3 3.1 10.4 6.6 10.4 6.6a78.4 78.4 0 0 1 -10.4.5zm68.9-15.1-13.8 1.2c-.1.1-12.3 1.3-31.3 7.8l-7.1 2.7c-2.2-1.7-5.9-4.3-10.4-7.1a143.3 143.3 0 0 1 14.1-5.7c20.5-7.1 33.6-8.3 33.7-8.3l5.6-.5v-73s2.7 2.3 5.1 4.6 4.1 4.6 4.1 4.6z"></path></svg>
+									<ul class="a42-margin-t2 reference-rgaa-inline">
+										<li>Références RGAA&nbsp;:</li>
+										<li><a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#13.9">13.9&nbsp;</a></li>
+										<li><a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#13.10">13.10&nbsp;</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c2" tabindex="0" id="D86a" data-breadcrumb="69" style="opacity: 1;">
+								<div class="a42-block a42-block-maxi">
+									<h4 class="a42-text-super-xxl">Besoins utilisateurs</h4>
+									<p class="a42-text-great-xxl"><strong>Comprendre les textes complexes</strong>, en particulier en cas de vocabulaire spécifique à un domaine d’expertise donné.</p>
+									<h5 class="a42-text-super-xxl a42-border-t1 a42-border-c8">Solutions</h5>
+									<ul class="a42-text-great-xxl">
+										<li><strong>Créer un glossaire</strong>, s’il y a beaucoup de mots complexes.</li>
+										<li>S’il y en a peu, on peut les définir dans la page.</li>
+										
+									</ul>
+									<h4 class="a42-text-super-xxl a42-border-t1 a42-border-c8">Déficiences principalement impactées</h4>
+									<ul class="a42-list-inline a42-list-inline-sep">
+										<li>Dyslexie et dysorthographie</li>
+										<li>dyspraxie</li>
+										<li>troubles de la mémoire</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c2 " tabindex="0" id="D87" data-breadcrumb="70" style="opacity: 1;">
+						<div class="a42-page-half-horizontal">
+							<div class="a42-page-half-horizontal_col a42-align-center a42-bgcolor-c2">
+								<div class="a42-block a42-block-left">
+									<h3 class="a42-font-geomed">Testez votre cours en utilisant uniquement la touche tabulation de votre clavier</h3>
+									<ul class="a42-text-great">
+										<li><kbd>Tab</kbd> ou <kbd>Shift + Tab</kbd> pour revenir en arrière.</li>
+										<li>L’ordre de tabulation doit être <strong>cohérent</strong>, y compris en RTL (<span lang="en">right to left</span>).</li>
+										<li>Repérez et supprimez les éventuels <strong>pièges au clavier</strong>.</li>
+									</ul>
+									<p class="a42-text-small"><strong>À noter&nbsp;:</strong> il se peut que vous ayez besoin d’activer certaines options de votre navigateur et/ou de votre OS pour pouvoir parcourir les pages en tabulant.</p>
+								</div>
+							</div>
+							<div class="a42-page-half-horizontal_col a42-align-center a42-bgcolor-c7">
+								<div class="a42-block center">
+									<h4>Besoins utilisateurs</h4>
+									<ul class="a42-text-great">
+										<li><strong>Personnes aveugles</strong> et <strong>déficientes visuelles</strong></li>
+										<li><strong>Personnes handicapées moteur</strong></li>
+									</ul>
+								</div>
+								<ul class="reference-rgaa a42-bgcolor-c7">
+									<li>Références RGAA&nbsp;:</li>
+									<li><a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#12">Thématique 12</a>, </li>
+									<li><a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#12.9">Critère 12.9&nbsp;: Pièges au clavier</a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+
+					
+					
+
+					
+					<section class="slide a42-page-full a42-page-border a42-border-c7 a42-bgcolor-c3" tabindex="0" id="D88" data-breadcrumb="71">
+						<div class="inside a42-align-center center">
+							<div class="a42-block">
+								<h2 class="a42-title-chapter">Multimédia</h2>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full " tabindex="0" id="D72" data-breadcrumb="72" style="opacity: 1;">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-bgcolor-c0 a42-align-center">
+								<div class="a42-block center">
+									<h3 class="a42-subtitle">Donner le contrôle sur les contenus en mouvement</h3>
+									<figure role="group">
+										<div><img src="img_slide/motion-sickness.jpg" alt=""></div>
+										<figcaption class="a42-text-micro">
+											Illustration de <a href="https://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity" hreflang="en" lang="en">Sue Lockwood</a>
+										</figcaption>
+									</figure>
+									<ul class="a42-margin-t2 reference-rgaa-inline">
+										<li>Référence RGAA&nbsp;:</li>
+										<li><a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#13.17">13.17&nbsp;</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c7" tabindex="0" id="D89a" data-breadcrumb="73" style="opacity: 1;">
+								<div class="a42-block a42-block-maxi">
+									<h4 class="a42-text-super-xxl">Problématiques utilisateurs</h4>
+									<p class="a42-text-great-xxl">Les contenus en mouvement <span class="a42-color-c2">(animations, carrousels, parallaxe, GIF, vidéos…)</span> peuvent provoquer des <strong>étour&shy;dis&shy;sements</strong>, des <strong>vertiges</strong> et de la <strong>confusion cognitive</strong>.</p>
+									<h5 class="a42-text-super-xxl a42-border-t1 a42-border-c4">Solutions</h5>
+									<ul>
+										<li class="a42-text-great-xxl">Permettre d’<strong>arrêter</strong> et de <strong>redémarrer</strong> le contenu en mou&shy;ve&shy;ment.</li>
+										<li>Ou permettre d’afficher tout le contenu <strong>sans le mou&shy;ve&shy;ment</strong>.</li>
+										<li>Ou permettre de <strong>masquer</strong> le contenu en mouvement et de le <strong>réafficher</strong>,</li>
+										<li>Idéalement <strong>avant</strong> que toutes les animations ne se lancent.</li>
+									</ul>
+									
+									<h4 class="a42-text-super-xxl a42-border-t1 a42-border-c4">Déficiences principalement impactées</h4>
+									<ul class="a42-list-inline a42-list-inline-sep">
+										<li>Troubles de l’attention</li>
+										<li>troubles du système vestibulaire</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c9 " tabindex="0" id="D90" data-breadcrumb="74" style="opacity: 1;">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-bgcolor-c9dark a42-align-center">
+								<div class="a42-block center">
+									<h3 class="a42-subtitle">Laisser le temps nécessaire à l’accomplissement d’une tâche</h3>
+									
+									<svg aria-hidden="true" class="a42-picto" height="150" viewBox="0 0 100 150" width="100" xmlns="https://www.w3.org/2000/svg"><path d="m.9 15.7a13.9 13.9 0 0 1 11.9-13.6l2.9-.3c19.1-2.4 49.5-2.4 68.6 0l2.9.3a13.9 13.9 0 0 1 11.9 13.6c0 23.1-7.1 33.9-23.9 46-7.9 5.9-10 8.6-10 13.5s2.1 7.6 9.9 13.5c16.9 12.2 24 22.9 24 45.8a13.7 13.7 0 0 1 -11.9 13.5h-.3c-20.5 2.5-53.3 2.5-73.8 0h-.3a13.7 13.7 0 0 1 -11.9-13.5c0-22.9 7.1-33.6 24-45.8l.4-.4c7.7-6 9.5-8.4 9.5-13.3s-2.1-7.7-10-13.5c-16.8-12.2-23.9-22.9-23.9-45.8zm41.7 59.3c0 10.1-6.7 14.9-13.2 19.9-9.8 7.1-20.8 15.5-20.8 39.6a6.2 6.2 0 0 0 5.2 5.9h.3c19.8 2.5 52 2.5 71.8 0h.3a6.1 6.1 0 0 0 5.2-5.9c0-24.1-11-32.5-20.8-39.6-6.5-4.8-13.2-9.8-13.2-19.7s6.7-14.9 13.2-19.7c9.8-7.1 20.8-15.4 20.8-39.8a6.2 6.2 0 0 0 -5.2-5.9l-2.9-.3c-18.4-2.3-48.2-2.3-66.6 0l-2.9.3a6.1 6.1 0 0 0 -5.2 5.9c0 24.1 11 32.5 20.8 39.5 6.5 4.8 13.2 9.9 13.2 19.8zm38.5-41.2a2 2 0 0 1 1.7 2.8 15 15 0 0 1 -.7 1.7c-3.5 7.2-7.6 9.7-14.5 14.7-11 8.2-15.3 13.6-15 23.8a2.5 2.5 0 0 1 -2.5 2.5 2.6 2.6 0 0 1 -2.6-2.5c.3-10.2-4-15.6-15-23.8-6.9-5-11-7.5-14.5-14.7a15 15 0 0 1 -.7-1.7 2 2 0 0 1 1.7-2.8l7.3-1.1c13.1-2 34.4-2 47.5 0z"></path></svg>
+									<ul class="a42-margin-t2 reference-rgaa-inline">
+										<li>Références RGAA&nbsp;:</li>
+										<li><a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#13.1">13.1&nbsp;</a></li>
+										<li><a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#13.4">13.4 </a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c9" tabindex="0" id="D91a" data-breadcrumb="57a" style="opacity: 1;">
+								<div class="a42-block a42-block-maxi">
+									<h4 class="a42-text-super-xxl">Problématique utilisateurs</h4>
+									<p class="a42-text-great-xxl"><strong>Les limites de temps sont souvent trop courtes</strong> pour que les personnes DYS puissent mener à bien une tâche.</p>
+									<h5 class="a42-text-super-xxl a42-border-t a42-border-c8">Solutions</h5>
+									<ul>
+										<li><strong class="a42-text-great-xxl">Ne pas imposer de limite de temps,</strong> sauf si elle est absolument nécessaire (enchères, jeu concours, réservation de billet de voyage, etc.).</li>
+										<li><strong class="a42-text-great-xxl">Prévenir que le temps est presque écoulé</strong> et rallonger celui-ci si nécessaire.</li>
+									</ul>
+									<h4 class="a42-text-super-xxl a42-border-t a42-border-c8">Déficiences principalement impactées</h4>
+									<ul class="a42-list-inline a42-list-inline-sep">
+										<li>Dyslexie et dysorthographie</li>
+										<li>dyspraxie</li>
+										<li>troubles de l’attention</li>
+										<li>troubles de la mémoire</li>
+										<li>dyscalculie</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</section>
+
+
+					
+					<section class="slide a42-page-full a42-page-border a42-border-c7 a42-bgcolor-c8" tabindex="0" id="D92" data-breadcrumb="75">
+						<div class="inside a42-align-center center">
+							<div class="a42-block">
+								<h2 class="a42-title-chapter">Documents bureautiques Ms Word et Pdf</h2>
+							</div>
+						</div>
+					</section>
+
+					
+					<section class="slide a42-page-full a42-page-border a42-border-c1 a42-bgcolor-c7" tabindex="0" id="D93" data-breadcrumb="42" style="opacity: 1;">
+						<div class="inside a42-align-center center">
+							<div class="a42-block">
+								<h3 class="a42-subtitle"><span class="a42-fancy-under"><span>Documents bureautiques en téléchargement</span></span></h3>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c6" tabindex="0" id="D94" data-breadcrumb="43" style="opacity: 1;">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c6">
+								<div class="a42-block center">
+									<div class="a42-margin-b15"><svg class="a42-picto" aria-hidden="true" height="150" viewBox="0 0 117.4 150" width="117.4" xmlns="https://www.w3.org/2000/svg"><path d="m71.5 68.1c-3.1-3.5-6.2-7.4-9-10.9l-3.8-4.7h-.1a50 50 0 0 0 3-11.9c.5-7.7-.3-12.6-2.7-15.1a5.8 5.8 0 0 0 -6.1-1.6c-1.6.6-3.7 2-5 5.8-1.8 5.6-.9 15.5 4.3 23.7a178.4 178.4 0 0 1 -9.1 19.6c-6.8 2.4-12.3 5.6-16.2 9.4s-7.1 9.9-5.6 13.5a5.8 5.8 0 0 0 5.6 3.6 11 11 0 0 0 5.7-1.9c4.8-3.2 11.1-13.7 14.5-19.8a102.6 102.6 0 0 1 17.4-3.4l4.6-.3c6.2 6.5 11.2 9.9 15.8 10.7a13.3 13.3 0 0 0 2.8.3c3.7 0 6.8-1.5 8.3-4a5.8 5.8 0 0 0 -.1-6.1c-2.5-4.5-10.3-6.9-21.7-6.9zm-42.2 24.6a4.8 4.8 0 0 1 -2.5.9h-.3c-.1-.6.3-3.1 4.4-7.1a31.4 31.4 0 0 1 7.2-5c-3.6 5.8-6.9 9.9-8.8 11.2zm24.1-61.3c.4-1.3.9-1.9 1.3-2 .3.3 1.6 2.4 1 10.7a27.4 27.4 0 0 1 -1 5.4c-2-5-2.5-10.5-1.3-14.1zm10.4 37.2a93.1 93.1 0 0 0 -13.1 2.2c2-4.1 3.9-8.2 5.5-12.1l1.7 2.2c1.9 2.4 4 5.1 6.3 7.7zm27 9.3c.1.1.1.2 0 .2s-1.3 1.1-3.2 1.1h-1.7c-2.4-.5-5.3-2.1-8.6-5.1 9.1.3 12.7 2.5 13.5 3.8z"/><path d="m83.9 0h-75.5a8.4 8.4 0 0 0 -8.4 8.4v133.2a8.5 8.5 0 0 0 8.4 8.4h100.6a8.5 8.5 0 0 0 8.4-8.4v-108.1zm0 11.9 21.6 21.6h-21.6zm25.1 129.7h-100.6v-133.2h67.1v25.1a8.3 8.3 0 0 0 8.3 8.4h25.2z"/><path d="m44.8 107.3a5.1 5.1 0 0 0 -2.4-1.3 13.3 13.3 0 0 0 -3.9-.4h-5.6a3.3 3.3 0 0 0 -2.4.7 3.2 3.2 0 0 0 -.8 2.3v16.6a3.4 3.4 0 0 0 .7 2.2 2.2 2.2 0 0 0 1.9.8 2.2 2.2 0 0 0 1.9-.8 3.1 3.1 0 0 0 .7-2.2v-5.7h3.6c2.7 0 4.9-.6 6.3-1.8a6.6 6.6 0 0 0 2.1-5.3 6.8 6.8 0 0 0 -.5-2.9 5 5 0 0 0 -1.6-2.2zm-3.6 6.9a2.5 2.5 0 0 1 -1.3.9 9 9 0 0 1 -2.5.3h-2.5v-5.7h2.5c2.3 0 3.2.4 3.6.8a2.7 2.7 0 0 1 .7 2 2.9 2.9 0 0 1 -.5 1.7z"/><path d="m65.5 107.6a7.7 7.7 0 0 0 -3.1-1.6 15.1 15.1 0 0 0 -3.9-.4h-5.6a3.3 3.3 0 0 0 -2.4.7 3.2 3.2 0 0 0 -.7 2.3v15.8a5 5 0 0 0 .2 1.8 1.6 1.6 0 0 0 .9 1.2 3.9 3.9 0 0 0 2 .5h5.7l2.7-.2 2.3-.7a9.9 9.9 0 0 0 2-1.3 8.8 8.8 0 0 0 1.9-2.4 9.8 9.8 0 0 0 1.1-3 19.8 19.8 0 0 0 .4-3.6c0-4.1-1.2-7.1-3.5-9.1zm-3.8 15.1-1 .5a2.7 2.7 0 0 1 -1.2.3h-4.5v-13.7h2.4a14.9 14.9 0 0 1 3.3.4 4.2 4.2 0 0 1 2.1 1.9 8.9 8.9 0 0 1 .9 4.5c0 2.9-.7 4.9-2 6.1z"/><path d="m85.2 105.6h-10.3a3.8 3.8 0 0 0 -1.6.3 1.8 1.8 0 0 0 -1.1 1 4.3 4.3 0 0 0 -.3 1.7v16.6a2.9 2.9 0 0 0 .7 2.2 2.2 2.2 0 0 0 1.9.8 2.2 2.2 0 0 0 1.8-.8 2.9 2.9 0 0 0 .7-2.2v-6.7h6.8a2.9 2.9 0 0 0 1.7-.5 1.8 1.8 0 0 0 .7-1.5 1.8 1.8 0 0 0 -.6-1.5 2.4 2.4 0 0 0 -1.8-.6h-6.8v-4.7h8.2a2.4 2.4 0 0 0 1.8-.5 2.2 2.2 0 0 0 .7-1.6 2.1 2.1 0 0 0 -.7-1.5 2.4 2.4 0 0 0 -1.8-.5z"/></svg></div>
+									<h4 class="a42-font-geomed a42-text-h3">Des documents souvent inaccessibles</h4>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c7">
+								<div class="a42-block">
+									<p class="a42-text-great"><strong>Beaucoup de documents bureautiques en téléchargement sont inaccessibles</strong>.</p>
+									<p class="a42-text-great">C’est le cas notamment des documents imprimés, signés puis scannés&nbsp;: c’est comme si on recevait une lettre manuscrite, et non un document numérique.</p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c7" tabindex="0" id="D95" data-breadcrumb="44" style="opacity: 1;">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-bgcolor-c5 a42-align-center">
+								<div class="a42-block center">
+									<h4 class="a42-font-geomed a42-text-h3">Ça donne quoi, un PDF inaccessible ?</h4>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center a42-bgcolor-c7">
+								<div class="a42-block center">
+									<div class="a42-margin-b15"><svg class="a42-picto" aria-hidden="true" height="150" viewBox="0 0 117.4 150" width="117.4" xmlns="https://www.w3.org/2000/svg"><path d="m71.5 68.1c-3.1-3.5-6.2-7.4-9-10.9l-3.8-4.7h-.1a50 50 0 0 0 3-11.9c.5-7.7-.3-12.6-2.7-15.1a5.8 5.8 0 0 0 -6.1-1.6c-1.6.6-3.7 2-5 5.8-1.8 5.6-.9 15.5 4.3 23.7a178.4 178.4 0 0 1 -9.1 19.6c-6.8 2.4-12.3 5.6-16.2 9.4s-7.1 9.9-5.6 13.5a5.8 5.8 0 0 0 5.6 3.6 11 11 0 0 0 5.7-1.9c4.8-3.2 11.1-13.7 14.5-19.8a102.6 102.6 0 0 1 17.4-3.4l4.6-.3c6.2 6.5 11.2 9.9 15.8 10.7a13.3 13.3 0 0 0 2.8.3c3.7 0 6.8-1.5 8.3-4a5.8 5.8 0 0 0 -.1-6.1c-2.5-4.5-10.3-6.9-21.7-6.9zm-42.2 24.6a4.8 4.8 0 0 1 -2.5.9h-.3c-.1-.6.3-3.1 4.4-7.1a31.4 31.4 0 0 1 7.2-5c-3.6 5.8-6.9 9.9-8.8 11.2zm24.1-61.3c.4-1.3.9-1.9 1.3-2 .3.3 1.6 2.4 1 10.7a27.4 27.4 0 0 1 -1 5.4c-2-5-2.5-10.5-1.3-14.1zm10.4 37.2a93.1 93.1 0 0 0 -13.1 2.2c2-4.1 3.9-8.2 5.5-12.1l1.7 2.2c1.9 2.4 4 5.1 6.3 7.7zm27 9.3c.1.1.1.2 0 .2s-1.3 1.1-3.2 1.1h-1.7c-2.4-.5-5.3-2.1-8.6-5.1 9.1.3 12.7 2.5 13.5 3.8z"/><path d="m83.9 0h-75.5a8.4 8.4 0 0 0 -8.4 8.4v133.2a8.5 8.5 0 0 0 8.4 8.4h100.6a8.5 8.5 0 0 0 8.4-8.4v-108.1zm0 11.9 21.6 21.6h-21.6zm25.1 129.7h-100.6v-133.2h67.1v25.1a8.3 8.3 0 0 0 8.3 8.4h25.2z"/><path d="m44.8 107.3a5.1 5.1 0 0 0 -2.4-1.3 13.3 13.3 0 0 0 -3.9-.4h-5.6a3.3 3.3 0 0 0 -2.4.7 3.2 3.2 0 0 0 -.8 2.3v16.6a3.4 3.4 0 0 0 .7 2.2 2.2 2.2 0 0 0 1.9.8 2.2 2.2 0 0 0 1.9-.8 3.1 3.1 0 0 0 .7-2.2v-5.7h3.6c2.7 0 4.9-.6 6.3-1.8a6.6 6.6 0 0 0 2.1-5.3 6.8 6.8 0 0 0 -.5-2.9 5 5 0 0 0 -1.6-2.2zm-3.6 6.9a2.5 2.5 0 0 1 -1.3.9 9 9 0 0 1 -2.5.3h-2.5v-5.7h2.5c2.3 0 3.2.4 3.6.8a2.7 2.7 0 0 1 .7 2 2.9 2.9 0 0 1 -.5 1.7z"/><path d="m65.5 107.6a7.7 7.7 0 0 0 -3.1-1.6 15.1 15.1 0 0 0 -3.9-.4h-5.6a3.3 3.3 0 0 0 -2.4.7 3.2 3.2 0 0 0 -.7 2.3v15.8a5 5 0 0 0 .2 1.8 1.6 1.6 0 0 0 .9 1.2 3.9 3.9 0 0 0 2 .5h5.7l2.7-.2 2.3-.7a9.9 9.9 0 0 0 2-1.3 8.8 8.8 0 0 0 1.9-2.4 9.8 9.8 0 0 0 1.1-3 19.8 19.8 0 0 0 .4-3.6c0-4.1-1.2-7.1-3.5-9.1zm-3.8 15.1-1 .5a2.7 2.7 0 0 1 -1.2.3h-4.5v-13.7h2.4a14.9 14.9 0 0 1 3.3.4 4.2 4.2 0 0 1 2.1 1.9 8.9 8.9 0 0 1 .9 4.5c0 2.9-.7 4.9-2 6.1z"/><path d="m85.2 105.6h-10.3a3.8 3.8 0 0 0 -1.6.3 1.8 1.8 0 0 0 -1.1 1 4.3 4.3 0 0 0 -.3 1.7v16.6a2.9 2.9 0 0 0 .7 2.2 2.2 2.2 0 0 0 1.9.8 2.2 2.2 0 0 0 1.8-.8 2.9 2.9 0 0 0 .7-2.2v-6.7h6.8a2.9 2.9 0 0 0 1.7-.5 1.8 1.8 0 0 0 .7-1.5 1.8 1.8 0 0 0 -.6-1.5 2.4 2.4 0 0 0 -1.8-.6h-6.8v-4.7h8.2a2.4 2.4 0 0 0 1.8-.5 2.2 2.2 0 0 0 .7-1.6 2.1 2.1 0 0 0 -.7-1.5 2.4 2.4 0 0 0 -1.8-.5z"/></svg></div>
+									<audio controls="controls" class="a42-margin-b05">
+										<source src="audios/pdf-image.mp3" type="audio/mp3" />
+										<p>La synthèse vocale d’un lecteur d’écran dit&nbsp;: « <q>Ce document semble vide. Il s’agit peut-être d’un document mal structuré ou d’une image numérisée nécessitant la reconnaissance optique des caractères</q> ».</p>
+									</audio>
+									<div class="toggle-gp-article toggle-gp a42-toggle-box a42-text-tiny">
+										<button class="a42-btn a42-btn-toggle" aria-expanded="false" aria-controls="alt-audio-pdf-inaccess">Consulter l’alternative du fichier audio</button>
+										<div id="alt-audio-pdf-inaccess" class="content-to-toggle is-hidden a42-text-small a42-text-reset">
+											<p>La synthèse vocale d’un lecteur d’écran dit&nbsp;: « <q>Ce document semble vide. Il s’'agit peut-être d’un document mal structuré ou d’une image numérisée nécessitant la reconnaissance optique des caractères</q> ».</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c6" tabindex="0" id="D96" data-breadcrumb="45" style="opacity: 1;">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c6">
+								<div class="a42-block center">
+									<h4 class="a42-font-geomed a42-text-unlimit a42-text-h3">À qui les PDF inaccessibles posent-ils problème ?<span class="sr"> (1)</span></h4>
+									<div class="a42-margin-t15"><svg class="a42-picto" aria-hidden="true" height="150" viewBox="0 0 117.4 150" width="117.4" xmlns="https://www.w3.org/2000/svg"><path d="m71.5 68.1c-3.1-3.5-6.2-7.4-9-10.9l-3.8-4.7h-.1a50 50 0 0 0 3-11.9c.5-7.7-.3-12.6-2.7-15.1a5.8 5.8 0 0 0 -6.1-1.6c-1.6.6-3.7 2-5 5.8-1.8 5.6-.9 15.5 4.3 23.7a178.4 178.4 0 0 1 -9.1 19.6c-6.8 2.4-12.3 5.6-16.2 9.4s-7.1 9.9-5.6 13.5a5.8 5.8 0 0 0 5.6 3.6 11 11 0 0 0 5.7-1.9c4.8-3.2 11.1-13.7 14.5-19.8a102.6 102.6 0 0 1 17.4-3.4l4.6-.3c6.2 6.5 11.2 9.9 15.8 10.7a13.3 13.3 0 0 0 2.8.3c3.7 0 6.8-1.5 8.3-4a5.8 5.8 0 0 0 -.1-6.1c-2.5-4.5-10.3-6.9-21.7-6.9zm-42.2 24.6a4.8 4.8 0 0 1 -2.5.9h-.3c-.1-.6.3-3.1 4.4-7.1a31.4 31.4 0 0 1 7.2-5c-3.6 5.8-6.9 9.9-8.8 11.2zm24.1-61.3c.4-1.3.9-1.9 1.3-2 .3.3 1.6 2.4 1 10.7a27.4 27.4 0 0 1 -1 5.4c-2-5-2.5-10.5-1.3-14.1zm10.4 37.2a93.1 93.1 0 0 0 -13.1 2.2c2-4.1 3.9-8.2 5.5-12.1l1.7 2.2c1.9 2.4 4 5.1 6.3 7.7zm27 9.3c.1.1.1.2 0 .2s-1.3 1.1-3.2 1.1h-1.7c-2.4-.5-5.3-2.1-8.6-5.1 9.1.3 12.7 2.5 13.5 3.8z"/><path d="m83.9 0h-75.5a8.4 8.4 0 0 0 -8.4 8.4v133.2a8.5 8.5 0 0 0 8.4 8.4h100.6a8.5 8.5 0 0 0 8.4-8.4v-108.1zm0 11.9 21.6 21.6h-21.6zm25.1 129.7h-100.6v-133.2h67.1v25.1a8.3 8.3 0 0 0 8.3 8.4h25.2z"/><path d="m44.8 107.3a5.1 5.1 0 0 0 -2.4-1.3 13.3 13.3 0 0 0 -3.9-.4h-5.6a3.3 3.3 0 0 0 -2.4.7 3.2 3.2 0 0 0 -.8 2.3v16.6a3.4 3.4 0 0 0 .7 2.2 2.2 2.2 0 0 0 1.9.8 2.2 2.2 0 0 0 1.9-.8 3.1 3.1 0 0 0 .7-2.2v-5.7h3.6c2.7 0 4.9-.6 6.3-1.8a6.6 6.6 0 0 0 2.1-5.3 6.8 6.8 0 0 0 -.5-2.9 5 5 0 0 0 -1.6-2.2zm-3.6 6.9a2.5 2.5 0 0 1 -1.3.9 9 9 0 0 1 -2.5.3h-2.5v-5.7h2.5c2.3 0 3.2.4 3.6.8a2.7 2.7 0 0 1 .7 2 2.9 2.9 0 0 1 -.5 1.7z"/><path d="m65.5 107.6a7.7 7.7 0 0 0 -3.1-1.6 15.1 15.1 0 0 0 -3.9-.4h-5.6a3.3 3.3 0 0 0 -2.4.7 3.2 3.2 0 0 0 -.7 2.3v15.8a5 5 0 0 0 .2 1.8 1.6 1.6 0 0 0 .9 1.2 3.9 3.9 0 0 0 2 .5h5.7l2.7-.2 2.3-.7a9.9 9.9 0 0 0 2-1.3 8.8 8.8 0 0 0 1.9-2.4 9.8 9.8 0 0 0 1.1-3 19.8 19.8 0 0 0 .4-3.6c0-4.1-1.2-7.1-3.5-9.1zm-3.8 15.1-1 .5a2.7 2.7 0 0 1 -1.2.3h-4.5v-13.7h2.4a14.9 14.9 0 0 1 3.3.4 4.2 4.2 0 0 1 2.1 1.9 8.9 8.9 0 0 1 .9 4.5c0 2.9-.7 4.9-2 6.1z"/><path d="m85.2 105.6h-10.3a3.8 3.8 0 0 0 -1.6.3 1.8 1.8 0 0 0 -1.1 1 4.3 4.3 0 0 0 -.3 1.7v16.6a2.9 2.9 0 0 0 .7 2.2 2.2 2.2 0 0 0 1.9.8 2.2 2.2 0 0 0 1.8-.8 2.9 2.9 0 0 0 .7-2.2v-6.7h6.8a2.9 2.9 0 0 0 1.7-.5 1.8 1.8 0 0 0 .7-1.5 1.8 1.8 0 0 0 -.6-1.5 2.4 2.4 0 0 0 -1.8-.6h-6.8v-4.7h8.2a2.4 2.4 0 0 0 1.8-.5 2.2 2.2 0 0 0 .7-1.6 2.1 2.1 0 0 0 -.7-1.5 2.4 2.4 0 0 0 -1.8-.5z"/></svg></div>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c7">
+								<div class="a42-block">
+									<h5>1. Personnes malvoyantes, dyslexiques ou présentant un trouble cognitif</h5>
+									<h6 class="a42-color-c9">Leurs besoins</h6>
+									<p><strong>Adapter la présentation</strong> des contenus à l’écran pour pouvoir lire (augmenter la taille du texte, changer de police de caractères, modifier les contrastes, etc.)</p>
+									<h6 class="a42-color-c5">Ce qui pose problème</h6>
+									<p>Impossibilité de personnaliser le texte = <strong>impossibilité de lire</strong>.</p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c6" tabindex="0" id="D97" data-breadcrumb="46" style="opacity: 1;">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c6">
+								<div class="a42-block center">
+									<h4 class="a42-font-geomed a42-text-unlimit a42-text-h3">À qui les PDF inaccessibles posent-ils problème ?<span class="sr"> (2)</span></h4>
+									<div class="a42-margin-t15"><svg class="a42-picto" aria-hidden="true" height="150" viewBox="0 0 117.4 150" width="117.4" xmlns="https://www.w3.org/2000/svg"><path d="m71.5 68.1c-3.1-3.5-6.2-7.4-9-10.9l-3.8-4.7h-.1a50 50 0 0 0 3-11.9c.5-7.7-.3-12.6-2.7-15.1a5.8 5.8 0 0 0 -6.1-1.6c-1.6.6-3.7 2-5 5.8-1.8 5.6-.9 15.5 4.3 23.7a178.4 178.4 0 0 1 -9.1 19.6c-6.8 2.4-12.3 5.6-16.2 9.4s-7.1 9.9-5.6 13.5a5.8 5.8 0 0 0 5.6 3.6 11 11 0 0 0 5.7-1.9c4.8-3.2 11.1-13.7 14.5-19.8a102.6 102.6 0 0 1 17.4-3.4l4.6-.3c6.2 6.5 11.2 9.9 15.8 10.7a13.3 13.3 0 0 0 2.8.3c3.7 0 6.8-1.5 8.3-4a5.8 5.8 0 0 0 -.1-6.1c-2.5-4.5-10.3-6.9-21.7-6.9zm-42.2 24.6a4.8 4.8 0 0 1 -2.5.9h-.3c-.1-.6.3-3.1 4.4-7.1a31.4 31.4 0 0 1 7.2-5c-3.6 5.8-6.9 9.9-8.8 11.2zm24.1-61.3c.4-1.3.9-1.9 1.3-2 .3.3 1.6 2.4 1 10.7a27.4 27.4 0 0 1 -1 5.4c-2-5-2.5-10.5-1.3-14.1zm10.4 37.2a93.1 93.1 0 0 0 -13.1 2.2c2-4.1 3.9-8.2 5.5-12.1l1.7 2.2c1.9 2.4 4 5.1 6.3 7.7zm27 9.3c.1.1.1.2 0 .2s-1.3 1.1-3.2 1.1h-1.7c-2.4-.5-5.3-2.1-8.6-5.1 9.1.3 12.7 2.5 13.5 3.8z"/><path d="m83.9 0h-75.5a8.4 8.4 0 0 0 -8.4 8.4v133.2a8.5 8.5 0 0 0 8.4 8.4h100.6a8.5 8.5 0 0 0 8.4-8.4v-108.1zm0 11.9 21.6 21.6h-21.6zm25.1 129.7h-100.6v-133.2h67.1v25.1a8.3 8.3 0 0 0 8.3 8.4h25.2z"/><path d="m44.8 107.3a5.1 5.1 0 0 0 -2.4-1.3 13.3 13.3 0 0 0 -3.9-.4h-5.6a3.3 3.3 0 0 0 -2.4.7 3.2 3.2 0 0 0 -.8 2.3v16.6a3.4 3.4 0 0 0 .7 2.2 2.2 2.2 0 0 0 1.9.8 2.2 2.2 0 0 0 1.9-.8 3.1 3.1 0 0 0 .7-2.2v-5.7h3.6c2.7 0 4.9-.6 6.3-1.8a6.6 6.6 0 0 0 2.1-5.3 6.8 6.8 0 0 0 -.5-2.9 5 5 0 0 0 -1.6-2.2zm-3.6 6.9a2.5 2.5 0 0 1 -1.3.9 9 9 0 0 1 -2.5.3h-2.5v-5.7h2.5c2.3 0 3.2.4 3.6.8a2.7 2.7 0 0 1 .7 2 2.9 2.9 0 0 1 -.5 1.7z"/><path d="m65.5 107.6a7.7 7.7 0 0 0 -3.1-1.6 15.1 15.1 0 0 0 -3.9-.4h-5.6a3.3 3.3 0 0 0 -2.4.7 3.2 3.2 0 0 0 -.7 2.3v15.8a5 5 0 0 0 .2 1.8 1.6 1.6 0 0 0 .9 1.2 3.9 3.9 0 0 0 2 .5h5.7l2.7-.2 2.3-.7a9.9 9.9 0 0 0 2-1.3 8.8 8.8 0 0 0 1.9-2.4 9.8 9.8 0 0 0 1.1-3 19.8 19.8 0 0 0 .4-3.6c0-4.1-1.2-7.1-3.5-9.1zm-3.8 15.1-1 .5a2.7 2.7 0 0 1 -1.2.3h-4.5v-13.7h2.4a14.9 14.9 0 0 1 3.3.4 4.2 4.2 0 0 1 2.1 1.9 8.9 8.9 0 0 1 .9 4.5c0 2.9-.7 4.9-2 6.1z"/><path d="m85.2 105.6h-10.3a3.8 3.8 0 0 0 -1.6.3 1.8 1.8 0 0 0 -1.1 1 4.3 4.3 0 0 0 -.3 1.7v16.6a2.9 2.9 0 0 0 .7 2.2 2.2 2.2 0 0 0 1.9.8 2.2 2.2 0 0 0 1.8-.8 2.9 2.9 0 0 0 .7-2.2v-6.7h6.8a2.9 2.9 0 0 0 1.7-.5 1.8 1.8 0 0 0 .7-1.5 1.8 1.8 0 0 0 -.6-1.5 2.4 2.4 0 0 0 -1.8-.6h-6.8v-4.7h8.2a2.4 2.4 0 0 0 1.8-.5 2.2 2.2 0 0 0 .7-1.6 2.1 2.1 0 0 0 -.7-1.5 2.4 2.4 0 0 0 -1.8-.5z"/></svg></div>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c7">
+								<div class="a42-block">
+									<h5>2. Personnes utilisant un lecteur d’écran&nbsp;: personnes aveugles, très malvoyantes ou ayant des difficultés de lecture</h5>
+									<h6 class="a42-color-c9">Leurs besoins</h6>
+									<p><strong>Accéder à l’information</strong> avec un lecteur d’écran.</p>
+									<h6 class="a42-color-c5">Ce qui pose problème</h6>
+									<p>Le contenu est restitué comme une image sans alternative&nbsp;: <strong>accès à l’information impossible</strong>.</p>
+									<p>Recours éventuel à un logiciel de numérisation, ou à une tierce personne pour lire le document… ≠ autonomie.</p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c7" tabindex="0" id="D98" data-breadcrumb="47" style="opacity: 1;">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-bgcolor-c9 a42-align-center-y">
+								<div class="a42-block center">
+									<h4 class="a42-font-geomed a42-text-h3">Solutions <span aria-label="marteau et clé anglaise" role="img">🛠️</span></h4>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c7">
+								<div class="a42-block">
+									<p class="a42-text-great"><strong>Fournir une version accessible en plus</strong> du document téléchargeable inaccessible, par exemple&nbsp;:</p>
+									<ul class="a42-text-great">
+										<li>au <strong>format HTML</strong> ;</li>
+										<li>au <strong>format Word structuré</strong> avec des titres, listes, etc.</li>
+									</ul>
+									<p class="a42-text-tiny a42-border-t a42-border-c4">Référence&nbsp;: <a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#13.3">critère 13.3</a> et <a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#13.4">critère 13.4</a> du RGAA 4.</p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c7" tabindex="0" id="D99" data-breadcrumb="48" style="opacity: 1;">
+						<div class="a42-page-half-vertical">
+							<div class="a42-page-half-vertical_col a42-bgcolor-c9 a42-align-center-y">
+								<div class="a42-block center">
+									<h5 class="a42-font-geomed a42-text-h3">Vérificateur d’accessibilité dans Word</h5>
+								</div>
+							</div>
+							<div class="a42-page-half-vertical_col a42-align-center-y a42-bgcolor-c7">
+								<div class="a42-block center">
+									<img src="img_slide/word-verif-access.png" alt="L’outil remonte des alertes sur la structure du document et l’ordre de lecture." />
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide a42-page-full a42-bgcolor-c4a" tabindex="0" id="D100" data-breadcrumb="49" style="opacity: 1;">
+						<div class="inside a42-align-center center">
+							<div class="a42-block">
+								<h3 class="a42-text-unlimit">
+									<span class="a42-item-block">Pour en savoir plus&nbsp;:</span>
+									<strong class="a42-item-block a42-text-super a42-font-geomed">Guide sur les lecteurs d’écran</strong>
+								</h3>
+								<p class="a42-text-mega a42-font-geomed"><a href="https://disic.github.io/guide-lecteurs_ecran/lecteur-ecran.html">Guide sur les lecteurs d’écran sur le site de la <abb title="Direction interministérielle du numérique et du système d'information et de communication de l'État">DINSIC</abb></a></p>
+							</div>
+						</div>
+					</section>
+
+
+					
+
+					
+
+					
+
+					
+
+				-->
+
+					
+
+					
+
+					
+
+					
+
+					<!-- //////////////////
+						Fin
+					////////////////// -->
+					<section class="slide a42-page-full a42-bgcolor-c4a a42-couv a42-couv-end" tabindex="0" id="D101" data-breadcrumb="75" style="opacity: 1;">
+						<div class="inside a42-align-center center" style="background-image: url(img_slide/Image1.gif);">
+							<div class="a42-block">
+								<h2 class="a42-title-statement a42-color-c5">
+									<strong>Thank you </strong> 
+									<span class="a42-item-block">for your attention</span>
+								</h2>
+								<p class="a42-text-mega a42-color-c5">Questions?</p>
+								<div class="a42-sep">
+									<svg aria-hidden="true" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 54.83 32.15"><defs><style>.cls-1{fill:none;stroke:#890b0b;stroke-miterlimit:10;stroke-width:1.6px;}</style></defs><title>etoiles</title><path class="cls-1" d="M0,23.31a8.84,8.84,0,0,0,8.84-8.84,8.84,8.84,0,0,0,8.84,8.84,8.84,8.84,0,0,0-8.84,8.84A8.84,8.84,0,0,0,0,23.31Z"></path><path class="cls-1" d="M37.14,8.84A8.84,8.84,0,0,0,46,0a8.84,8.84,0,0,0,8.84,8.84A8.84,8.84,0,0,0,46,17.68,8.84,8.84,0,0,0,37.14,8.84Z"></path></svg>
+								</div>
+
+								<!-- Facultatif -->
+								
+							</div>
+						</div>
+					</section>
+
+					
+				</main>
+
+			</div><!-- #wrapper -->
+
+			<footer id="footer" role="contentinfo">
+				<div id="owner-info" class="owner-info a42-modal a42-edito" role="dialog" tabindex="-1" style="display:none" data-close="Close Owner information">
+					<div role="document" tabindex="0">
+						<p>Christian Cousquer All rights reserved</p>
+					</div>
+				</div>
+			</footer>
+			
+			
+			<div id="help-info" class="help-info a42-modal a42-edito" role="dialog" tabindex="-1" style="display:none" data-close="Fermer l’aide">
+				<div role="document" tabindex="0">
+					<div class="a42-cols">
+						<div class="col-1-2">
+							<h2>Navigation</h2>
+							<p>To move from one page to another, use the "Next" and "Previous" buttons.</p>
+							<p>On mobile devices, you can change pages by swiping the screen:</p>
+							<ul>
+								<li>from right to left, to go to the next page ;</li>
+								<li>left to right, to return to the previous page.</li>
+							</ul>
+							<h3>Screen-reader navigation on mobile devices</h3>
+							<p>If you're using a screen reader on a mobile device, these actions are different depending on your software:</p>
+							<ul>
+								<li>on Android with TalkBack: the action is performed with two fingers on the screen (the two fingers must be spaced far enough apart) ;</li>
+								<li>on iPhone with VoiceOver: double-tap and hold for a few seconds, then swipe left or right.</li>
+								<li>If these actions are not effective, you need to return to the top of the page to reach the "Next" and "Previous" buttons.</li>
+							</ul>
+
+
+
+
+							<h3>Keyboard navigation</h3>
+							<table class="a42-table-fixed">
+								<caption class="sr">Keyboard navigation</caption>
+								<thead>
+									<tr>
+										<th scope="col">Key</th>
+										<th scope="col">Action</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="a42-table_cell-alpha"><kbd>CTRL + Space</kbd></td>
+										<td>Next page with the latest version of NVDA or JAWS 18</td>
+									</tr>
+									<tr>
+										<td class="a42-table_cell-alpha"><kbd>Space</kbd> or <kbd>Right Arrow</kbd></td>
+										<td>Next page in all other cases</td>
+									</tr>
+									<tr>
+										<td class="a42-table_cell-alpha"><kbd>SHIFT + CTRL + Space</kbd></td>
+										<td>Previous page with latest version of NVDA or JAWS 18</td>
+									</tr>
+									<tr>
+										<td class="a42-table_cell-alpha"><kbd>Shift + Space</kbd> ou <kbd>Left Arrow</kbd></td>
+										<td>Previous page in other cases</td>
+									</tr>
+									<tr>
+										<td class="a42-table_cell-alpha"><kbd>Start</kbd></td>
+										<td>First page</td>
+									</tr>
+									<tr>
+										<td class="a42-table_cell-alpha"><kbd>End</kbd></td>
+										<td>Last page</td>
+									</tr>
+									<tr>
+										<td class="a42-table_cell-alpha"><kbd>ALT + 0 (zero)</kbd></td>
+										<td>Contents</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+
+						<div class="col-1-2">
+							<h2>Accessibility options</h2>
+							<p>AccessReader offers several accessibility options that can be configured in the "Configuration" pane.</p>
+							<h3>Dyslexia</h3>
+							<p>For greater reading comfort, check the "Adapted font" and "Adapted line spacing" options.</p>
+							<h3>Contrast</h3>
+							<p><span lang="en">AccessReader</span> propose trois niveaux de contraste&nbsp;:</p>
+							<ul>
+								<li>default ;</li>
+								<li>inverted&nbsp;;</li>
+								<li>enhanced.</li>
+							</ul>
+							<h3>Vocalization</h3>
+							<p>In the "Accessibility" section, you can select different sound options.</p>
+							<p>You can choose which actions will trigger a beep (each beep is different depending on the action):</p>
+							<ul>
+								<li>Page: beeps when you reach a new page</li>
+								<li>Start: beeps when you reach the first page</li>
+								<li>End: beeps when you reach the last page</li>
+							</ul>
+							<p>You can also select additional elements to be vocalized:</p>
+							<ul>
+								<li>Number: vocalizes the page number when displayed</li>
+								<li>Title: vocalizes the page title when displayed</li>
+							</ul>
+						</div>
+					</div>
+					
+					
+
+					<div class="clear a42-margin-t2">
+						<div class="col-1-2">
+							<h2>Title structure</h2>
+							<p>The first level 1 title (<code>h1</code>) encountered on the page contains the title of the presentation medium. This level 1 title remains the same throughout the presentation medium.</p>
+							<p>Next, each major section of the presentation medium is titled with a level 2 heading (<code>h2</code>).</p>
+							<p>Within a main section, sub-sections can be titled with level 3 headings (<code>h3</code>) or even lower.</p>
+							<p>This title structure may seem inconsistent when vocalized: in fact, we sometimes go from an <code>h1</code> to an <code>h3</code>, or even to a lower-level title. Nevertheless, it remains consistent throughout the document, and perfectly valid in terms of the HTML 5 standard.</p>
+							<p>Furthermore, when you're in a sub-section, a clickable breadcrumb trail appears after the document header, allowing you to return to the start of the main section concerned if required.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="nav-wrapper" class="tool-bar footer-nav clearfix navbar-invisible" tabindex="0">
+				<div id="wrappernav">
+				</div>
+			</div>
+			<div id="setting" class="tool-block tool-block-settings" role="dialog" tabindex="-1" style="display:none"></div>
+	
+		</div><!-- #screen -->
+
+		<div id="Caudio"></div>
+		<div id="Dcourante" aria-live="polite" aria-atomic="true" aria-hidden="true"></div>
+		<!--<div id="download-file" 
+		data-name="Support de présentation de la formation"
+		data-url="https://access42.net"
+		data-filename="nom-de-mon-fichier"
+		data-type="zip"
+		data-weight="181 ko"
+		data-lang="">
+		</div>-->
+
+		<script src="js/slide.js"></script>
+		<script src="js/afontgarde.js"></script>
+		<script>
+			AFontGarde( 'FontAwesome', {
+				glyphs: '\uF101\uF101\uF101\uF101',
+				success: function() { console.log( 'success' ); },
+				error: function() { console.log( 'timeout error' ); },
+				timeout: 10000
+			});
+		</script>
+		<script type="text/javascript" src="js/AccessTooltip.js"></script>
+		<script type="text/javascript" src="js/Toggle.js"></script>
+		<script type="text/javascript">
+			AccessTooltip({
+				objs: 'a, button, input, textarea, select,abbr,img',
+				tooltipClassName: 'access-tooltip',
+				toolTipBetween: 2,
+				toolTipUp: true,
+				mouse: true,
+				tempDelay: 1000,
+				useAriaDP: false,
+				useEscClose: true
+			});
+		</script>
+		<!-- <script src="js/cookiechoices.js"></script> -->
+		<script src="js/AccessNote.js" type="text/javascript"></script>
+		<script>AccessNote();</script>
+	</body>
+</html>
