@@ -2522,3 +2522,11 @@ td:before {
 }
 
 }
+
+#summary-container button#toc {
+	display: flex;
+}
+
+#summary-container button.btn .small-only {
+min-width: 320px;
+}
