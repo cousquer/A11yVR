@@ -5762,4 +5762,10 @@ p.index {
 strong, li strong {
 	font-weight: bold !important;
 }
+#summary-container button.btn {
+	display: flex;
+}
 
+#summary-container button.btn .small-only {
+min-width: 300px;
+}
