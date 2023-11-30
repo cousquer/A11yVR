@@ -5762,10 +5762,10 @@ p.index {
 strong, li strong {
 	font-weight: bold !important;
 }
-#summary-container button.btn {
+#summary-container button#toc {
 	display: flex;
 }
 
 #summary-container button.btn .small-only {
-min-width: 300px;
+min-width: 320px;
 }
